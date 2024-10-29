@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et" {
+ coords 2139.22 58.568 1672.646
+}
+SCR_ChimeraCharacter : "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et" {
+ coords 2049.449 38.608 1606.367
+}
+SCR_ChimeraCharacter : "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et" {
+ coords 2065.858 26.327 1628.461
+}
+SCR_ChimeraCharacter : "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et" {
+ coords 2067.402 23.758 1628.208
+}

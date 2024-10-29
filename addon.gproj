@@ -1,0 +1,8 @@
+GameProject {
+ ID "QuickTVTTushino"
+ GUID "62B90B8AD9F20EA2"
+ TITLE "QuickTVT_Tushino"
+ Dependencies {
+  "58D0FB3206B6F859" "60FB0A9FCE42D595"
+ }
+}

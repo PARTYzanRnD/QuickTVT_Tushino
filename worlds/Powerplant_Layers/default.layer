@@ -1,0 +1,78 @@
+SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62B910EEC00E28D8}" {
+  }
+ }
+ coords 5803.576 12.828 9788.861
+ m_aUnitPrefabSlots {
+  "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG_P.et" "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic_P.et"
+ }
+ m_bSnapToTerrain 0
+}
+GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+ coords 5833.235 7.885 9886.932
+ angleY 160.519
+ {
+  DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+   coords -0.574 -0.014 0.003
+   angleX -89.98
+   angleY 19.481
+   angleZ 146.449
+   scale 10
+  }
+ }
+}
+SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62B910EECFF58F2A}" {
+  }
+ }
+ coords 5907.952 9.881 9877.909
+ angleY -155.537
+ m_aUnitPrefabSlots {
+  "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+ }
+}
+GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+ coords 5808.208 13.638 9787.651
+}
+GenericEntity : "{B85D81962A3F85BA}Prefabs/Props/Fabric/Flags/Flag_1_2_Everon_01.et" {
+ coords 5823.069 20.93 9791.276
+ angleY 143.805
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 5909.661 10.405 9874.689
+  angleY 24.941
+ }
+ {
+  coords 5904.89 10.106 9876.972
+  angleY 37.85
+ }
+ {
+  coords 5907.121 10.081 9875.562
+  angleY 24.941
+ }
+ {
+  coords 5912.04 10.317 9873.486
+  angleY 24.941
+ }
+ {
+  coords 5899.546 9.889 9879.237
+  angleY 24.941
+ }
+ {
+  coords 5901.219 10.408 9875.7
+  angleY 24.941
+ }
+ {
+  coords 5914.448 10.306 9872.388
+  angleY 24.941
+ }
+}

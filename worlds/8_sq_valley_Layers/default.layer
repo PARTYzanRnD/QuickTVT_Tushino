@@ -1,0 +1,274 @@
+SCR_MapEntity MapEntity_Arland1 : "{66FBC1063149819B}Prefabs/World/Game/Arland/MapEntity_Arland.et" {
+ coords 756.704 31.761 2364.131
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 111.676 1 127.135
+ Formations {
+  AIFormationDefinition "{60FCFC15ACE2B7DB}" {
+   Name "LineTight"
+   Offsets {
+    0 0 0 1 0 0 -1 0 0 2 0 0 -2 0 0 3 0 0 -3 0 0 4 0 0 -4 0 0 5 0 0 -5 0 0
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 113.126 1 124.397
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ components {
+  SCR_RandomTimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bRandomStartingDaytime 1
+   m_bRandomStartingDaytimeRange 1
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 0
+  }
+ }
+ coords 1986.776 51.675 3027.745
+ m_iFreezeTime 5000
+ m_iPreviewTime 10000
+ m_iBriefingTime 10000
+ m_iGameTime 360000
+ m_iDebriefingTime 6000
+}
+SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{62BA7E4B403CD3B0}" {
+  }
+ }
+ coords 2205.212 41.798 1695.901
+ angleY -110
+ m_aUnitPrefabSlots {
+  "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
+ }
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "Описание миссии"
+  m_sTextData "Захват лагеря сопротивления"
+  m_aVisibleForFactions {
+   "" "FIA" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ LEGEND {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "Легенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Фриз зона красных - Красная зона"\
+  "Фриз зона синих - Синяя зона"
+  m_aVisibleForFactions {
+   "" "FIA" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ BLU_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0 0.502 0.125 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.502 0.125 1
+    m_aVisibleForFactions {
+     "" "FIA" "USSR" "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 2204.686 40.897 1691.795
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -5.444 -2.107 -3.578
+   }
+   ShapePoint "{610507978CE183E4}" {
+    Position -2.962 1.617 17.5
+   }
+   ShapePoint "{610507978C1F4543}" {
+    Position 4.718 2.892 14.339
+   }
+   ShapePoint "{610507978DBA93EB}" {
+    Position 3.814 0.494 -4.418
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    UpdatePeriod 0.1
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 3
+    }
+   }
+  }
+ }
+ RED_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 1 0 0 0
+    m_aVisibleForFactions {
+     "" "FIA" "USSR" "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 1966.836 0.724 1679.709
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -3.698 -0.8 -13.223
+   }
+   ShapePoint "{610507919C4841C7}" {
+    Position 6.956 1.601 -18.475
+   }
+   ShapePoint "{610507919EA9AA3F}" {
+    Position 15.526 1.074 10.91
+   }
+   ShapePoint "{610507919ED8B896}" {
+    Position 1.188 -0.456 11.283
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    UpdatePeriod 0.1
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 3
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions {
+    "" "FIA" "USSR"
+   }
+  }
+ }
+ coords 1842.608 60.384 1676.965
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 267.264 -30.656 -105.197
+  }
+  ShapePoint "{611E9BC13CDB1D46}" {
+   Position 195.531 -38.575 -116.362
+  }
+  ShapePoint "{611E9BC13E08A7B6}" {
+   Position 151.317 -56.01 -62.017
+  }
+  ShapePoint "{611E9BC13AA8D03B}" {
+   Position 112.469 -60.36 -24.509
+  }
+  ShapePoint "{611E9BC13B59FFC9}" {
+   Position 128.885 -60.205 35.692
+  }
+  ShapePoint "{611E9BC0C1F7BA76}" {
+   Position 183.452 -51.841 42.128
+  }
+  ShapePoint "{611E9BC0C31136DB}" {
+   Position 321.505 -27.378 40.672
+  }
+  ShapePoint "{611E9BC0C9120DDF}" {
+   Position 350.41 -18.514 62.876
+  }
+  ShapePoint "{611E9BC0D4FFCD97}" {
+   Position 371.293 -13.536 50.582
+  }
+  ShapePoint "{611E9BC0D60108CA}" {
+   Position 369.919 -21.498 -15.529
+  }
+  ShapePoint "{611E9BC0D22EF98A}" {
+   Position 310.085 -24.193 -105.133
+  }
+ }
+}
+PS_ManualMarker ObjectiveMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2075.254 5.969 1630.514
+ m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "Icon_Seize"
+ m_fWorldSize 50
+ m_sDescription "Objective"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "FIA" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 20
+}
+SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{62BA7E4B5B9B569F}" {
+  }
+ }
+ coords 1971.008 2.015 1678.521
+ angleY 110
+ m_aUnitPrefabSlots {
+  "{DCA8F0347083D90E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_SL_P.et" "{0D7AF7EC9908AF81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_LMG_P.et" "{7D34858BEEBA0C31}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_P.et" "{38C945FFB7C0FDED}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Medic_P.et"
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "FIA" "USSR"
+   }
+  }
+ }
+ coords 2052.139 5.862 1611.806
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 10.509 0.351 10.164
+  }
+  ShapePoint "{6105079149720B44}" {
+   Position 19.385 -0.743 7.59
+  }
+  ShapePoint "{610507965D07098B}" {
+   Position 30.167 1.255 12.12
+  }
+  ShapePoint "{6105079660565CE4}" {
+   Position 34.95 1.428 20.752
+  }
+  ShapePoint "{6105079662CB8A85}" {
+   Position 27.043 1.65 30.882
+  }
+  ShapePoint "{6105079662772D7E}" {
+   Position 15.33 0.209 29.006
+  }
+  ShapePoint "{61050796634B3BD8}" {
+   Position 8.533 0.672 18.233
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 30
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 60
+   m_iPowerBalance 1
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Отбить лагерь"
+   m_sTextData ""
+   m_sFactionKey "FIA"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить лагерь боевиков"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

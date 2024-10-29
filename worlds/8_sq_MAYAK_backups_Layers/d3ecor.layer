@@ -1,0 +1,136 @@
+$grp GenericEntity : "{06473ABB81176587}Prefabs/Props/Forest/WoodPile/WoodPile_02_end_B.et" {
+ {
+  coords 2068.293 6.595 1621.994
+  angleX -10.812
+  angleY -35.432
+  angleZ 7.602
+ }
+ {
+  coords 2071.116 6.285 1623.898
+  angleX 8.543
+  angleY 145.312
+  angleZ -4.803
+ }
+}
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 2139.122 35.657 1668.006
+ angleY -138.815
+}
+$grp GenericEntity : "{21412366D258AC4C}Prefabs/Props/Forest/WoodPile/WoodPile_02_B.et" {
+ {
+  coords 2070.263 6.387 1623.229
+  angleX 8.611
+  angleY 146.14
+  angleZ -4.68
+ }
+ {
+  coords 2069.242 6.497 1622.563
+  angleX -8.117
+  angleY -33.922
+  angleZ 5.424
+ }
+}
+$grp StaticModelEntity : "{48A04E0A139BB167}Prefabs/Structures/Military/Camps/TentSmallFIA_01/TentSmallFIA_01.et" {
+ {
+  coords 2067.128 5.438 1634.887
+  angleX -0.777
+  angleY 146.809
+  angleZ 3.712
+ }
+ {
+  coords 2066.055 5.425 1631.759
+  angleX 4.988
+  angleY 125.878
+  angleZ -0.8
+ }
+ {
+  coords 2064.917 5.824 1626.912
+  angleX -3.796
+  angleY 57.936
+  angleZ -6.034
+ }
+ {
+  coords 2073.157 5.854 1635.473
+  angleX 0.058
+  angleY 179.07
+  angleZ 3.576
+ }
+ {
+  coords 2064.154 5.524 1629.503
+  angleX 4.156
+  angleY 122.997
+  angleZ -4.745
+ }
+}
+$grp GenericEntity : "{6105032F794BA64B}Prefabs/Props/Civilian/LogChopping_01.et" {
+ {
+  coords 2070.617 5.887 1627.779
+  angleX -4.23
+  angleY -18.099
+  angleZ -1.436
+  scale 0.852
+ }
+ {
+  coords 2067.441 5.665 1629.294
+  angleX -0.732
+  angleY 36.689
+  angleZ -4.998
+  scale 1.051
+ }
+ {
+  coords 2068.198 5.818 1627.639
+  angleX 0.698
+  angleY 87.904
+  angleZ -5.384
+  scale 0.929
+ }
+}
+GenericEntity : "{6D03FD4F8C33DCA2}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Supplies_FIA_01.et" {
+ coords 2077.651 6.259 1636.08
+ angleX -5.162
+ angleY -154.106
+ angleZ 2.451
+}
+GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+ coords 2073.106 6.055 1626.39
+ angleX -3.577
+ angleY -0.04
+ angleZ -0.891
+}
+GenericEntity : "{97FF4DA84258FBAF}Prefabs/Props/Civilian/TableSink_01.et" {
+ coords 2072.499 5.876 1629.476
+ angleX -1.723
+ angleY 34.061
+ angleZ -2.244
+}
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 2008.757 5.025 1623.717
+ angleX -2.461
+ angleY -84.956
+ angleZ -2.425
+}
+GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+ coords 2073.596 5.94 1628.594
+ angleX -0.893
+ angleY 0.042
+ angleZ -2.684
+}
+GenericEntity : "{BD65F1D86388640D}Prefabs/Props/Civilian/FireExtinguisher_01.et" {
+ coords 2072.153 5.908 1628.694
+ angleX -0.762
+ angleY -92.813
+ angleZ 2.724
+}
+GenericEntity : "{D63716E01EF9AC74}Prefabs/Props/Forest/ForestBench_01/ForestBench_01.et" {
+ coords 2074.204 5.968 1628.633
+ angleX -0.893
+ angleY 0.042
+ angleZ -2.684
+}
+StaticModelEntity : "{D893F80654E5DFEE}Prefabs/Compositions/Misc/SubCompositions/ShelterStorage_Cluttered_USSR_01.et" {
+ coords 2082.924 6.307 1632.279
+ angleY -136.937
+}
+GenericEntity : "{F85FC719F392E7A5}Prefabs/Rocks/Granite/Granite_Boulder_02_Fucus.et" {
+ coords 2008.361 -0.261 1629.804
+}

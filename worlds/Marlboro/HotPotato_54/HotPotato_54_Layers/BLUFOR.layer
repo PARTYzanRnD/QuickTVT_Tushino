@@ -1,0 +1,949 @@
+$grp SCR_AIGroup : "{41F0D95175F5D179}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam_p.et" {
+ USSR_G_001_0 {
+  components {
+   PS_GroupCallsignAssigner "{611D41B111792DF5}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+   PS_GroupLateLinkerComponent "{611D419EF6B9CC5C}" {
+   }
+  }
+  coords 5173.996 18.702 4040.798
+  m_aUnitPrefabSlots {
+  }
+  {
+   SCR_ChimeraCharacter : "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Детктив"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+      WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+     }
+     BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+      Slots {
+       LoadoutSlotInfo Hat {
+        Prefab "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et"
+       }
+       LoadoutSlotInfo Jacket {
+        Prefab "{52AB6EC3FE535303}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et"
+       }
+       LoadoutSlotInfo ArmoredVest {
+       }
+       LoadoutSlotInfo Pants {
+        Prefab "{E65D5C9848AC18E9}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et"
+       }
+       LoadoutSlotInfo Boots {
+        Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+       }
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et"
+        PrefabsToSpawn {
+         "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+        }
+       }
+       ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et"
+       }
+      }
+     }
+    }
+    coords -0.078 -0.304 0.461
+    angleY 151.394
+   }
+  }
+ }
+ USSR_G_002_0 {
+  components {
+   PS_GroupCallsignAssigner "{611D41B11319ADF7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+   PS_GroupLateLinkerComponent "{611D419EFB490518}" {
+   }
+  }
+  coords 5176.921 18.398 4037.63
+  m_aUnitPrefabSlots {
+  }
+  {
+   $grp SCR_ChimeraCharacter : "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" {
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Сержант Волков"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank SERGEANT
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{637C5D826FE183DE}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V3.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+         Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{65B7093231FBF67E}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_LightBrown.et"
+        }
+        LoadoutSlotInfo Boots {
+         Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_LightBrown.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V3.et"
+        }
+       }
+      }
+     }
+     coords 0.045 0 -1.566
+     angleY -114.046
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Санитар"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CORPORAL
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{3C2C345310D0CD01}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_Flora.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{07624457729126C3}Prefabs/Characters/Uniforms/Jacket_M88_Flora_rolledup.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{79015191C0E77E48}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_02.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_Flora_rolledup.et"
+        }
+        ItemsInitConfigurationItem "{611D41BFFDD03227}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_02.et"
+         PrefabsToSpawn {
+          "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et"
+         }
+        }
+       }
+      }
+     }
+     coords -0.326 -3.571 -31.404
+     angleY -117.046
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Санитар"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CORPORAL
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{3C2C345310D0CD01}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_Flora.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{A51A7FB179F6D9A0}Prefabs/Characters/Uniforms/Jacket_M88_Flora.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{0C37C8742F78CDA9}Prefabs/Characters/Uniforms/Pants_M88_Flora.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_M88_Flora.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_Flora.et"
+        }
+        ItemsInitConfigurationItem "{611D41BFA0AAD736}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+         PrefabsToSpawn {
+          "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et"
+         }
+        }
+       }
+      }
+     }
+     coords -2.155 -3.69 -26.929
+     angleY -78.814
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Ефрейтор ДПС"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+       }
+      }
+     }
+     coords 7.78 -3.797 -12.401
+     angleY -7.818
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Постовой"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+       }
+      }
+     }
+     coords 2.863 -3.797 -1.302
+     angleY 96.633
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Постовой"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+       }
+      }
+     }
+     coords 7.153 0 -12.535
+     angleY -11.873
+    }
+   }
+  }
+ }
+ USSR_G_010_0 {
+  components {
+   PS_GroupCallsignAssigner "{611D41B114921A64}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+   PS_GroupLateLinkerComponent "{611D419EFF7E19E7}" {
+   }
+  }
+  coords 5173.547 18.398 4036.793
+  m_aUnitPrefabSlots {
+  }
+  {
+   $grp SCR_ChimeraCharacter : "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" {
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Капитан Ларин"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CAPTAIN
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{880A80C1FD1AE546}Prefabs/Weapons/Handguns/APS/Handgun_APS.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab ""
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+        }
+        LoadoutSlotInfo Boots {
+         Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+        }
+       }
+      }
+     }
+     coords -0.411 0 1.479
+     angleY 60.49
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Лейтенант Дукалис"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank LIEUTENANT
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B9687B8829272E14}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_brown.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{6A3F994EFFE22995}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+         Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+        }
+        LoadoutSlotInfo Boots {
+         Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+        }
+       }
+      }
+     }
+     coords 0.13 0 -0.607
+     angleY 66.045
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Сержант Плахов"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank SERGEANT
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{6A3F994EFFE22995}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+         Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+         Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+        }
+       }
+      }
+     }
+     coords 0.704 0 -2.244
+     angleY 66.045
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Ефрейтор"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CORPORAL
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+         Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+        }
+       }
+      }
+     }
+     coords 6.721 0 -2.053
+     angleY 71.788
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Постовой"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+         Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+        }
+       }
+      }
+     }
+     coords 7.204 0 -4.263
+     angleY 66.045
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Курсант"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+       }
+      }
+     }
+     coords 5.495 0 4.716
+     angleY -118.799
+    }
+   }
+  }
+ }
+ USSR_G_011_0 {
+  components {
+   PS_GroupCallsignAssigner "{611D41B11636005F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+   PS_GroupLateLinkerComponent "{611D419EE33EF55C}" {
+   }
+  }
+  coords 5181.84 14.906 4034.207
+  m_aUnitPrefabSlots {
+  }
+  {
+   $grp SCR_ChimeraCharacter : "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" {
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Сержант Рогов"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank SERGEANT
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{50F8B1F928F93ABD}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+        }
+        LoadoutSlotInfo Boots {
+         Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige.et"
+        }
+       }
+      }
+     }
+     coords -5.609 3.492 4.992
+     angleY -110.152
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Ефрейтор"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CORPORAL
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+         Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+        }
+       }
+      }
+     }
+     coords -0.528 -0.305 -2.677
+     angleY 31.55
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Ефрейтор"
+      }
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CORPORAL
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+       }
+      }
+     }
+     coords -10.214 -0.51 -4.416
+     angleY -109.589
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Милиционер"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+        }
+       }
+      }
+     }
+     coords -10.842 -0.509 -1.94
+     angleY -109.589
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Постовой"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{6A3F994EFFE22995}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+        }
+       }
+      }
+     }
+     coords -5.343 -0.305 -5.23
+     angleY -18.395
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Милиционер"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+       WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{B0F4EAC29E9058EA}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_grey.et"
+        }
+        LoadoutSlotInfo ArmoredVest {
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+        }
+        LoadoutSlotInfo Boots {
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+         PrefabsToSpawn {
+          "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_grey.et"
+        }
+       }
+      }
+     }
+     coords 5.545 -0.305 0.984
+     angleY -174.83
+    }
+   }
+  }
+ }
+}

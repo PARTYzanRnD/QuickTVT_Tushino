@@ -1,0 +1,35 @@
+$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6292FA5AEF9AF2B9}" {
+   }
+  }
+  coords 4539.3 13.983 10305.543
+  angleY -2.756
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6292FA5AEF9AF2B9}" {
+   }
+  }
+  coords 4519.827 16.871 10306.95
+  angleY 16.559
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6292FA5AEF9AF2B9}" {
+   }
+  }
+  coords 4505.165 19.379 10311.783
+  angleY 30.788
+ }
+}

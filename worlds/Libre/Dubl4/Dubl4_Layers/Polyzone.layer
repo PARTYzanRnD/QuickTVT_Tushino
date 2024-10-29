@@ -1,0 +1,157 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  coords 2554.814 27.293 3030.333
+  Points {
+   ShapePoint "{611494E3B6CB976C}" {
+    Position -1.211 5.316 -22.762
+   }
+   ShapePoint "{611494E3B75079D4}" {
+    Position -12.533 4.396 -23.32
+   }
+   ShapePoint "{611494E3B7C328D4}" {
+    Position -13.11 -1.859 -0.8
+   }
+  }
+ }
+ {
+  coords 2538.614 145.141 2258.269
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -0.411 -1.696 -3.01
+   }
+   ShapePoint "{611494E3A9636C39}" {
+    Position 0.015 -1.293 17.252
+   }
+   ShapePoint "{611494E3A9C0D015}" {
+    Position -12.81 -1.208 15.624
+   }
+   ShapePoint "{611494E3AA57EF8D}" {
+    Position -12.529 -1.581 -4.569
+   }
+  }
+ }
+ {
+  coords 3196.018 12.946 2747.544
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -1.144 0.105 -3.89
+   }
+   ShapePoint "{611494EC07E7A4FB}" {
+    Position 2.93 -0.128 4.977
+   }
+   ShapePoint "{611494EC08BD4E17}" {
+    Position -12.784 -1.369 11.823
+   }
+   ShapePoint "{611494EC0917BFCC}" {
+    Position -17.517 -1.294 3.223
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ coords 2520.183 2.939 3229.594
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 21.032 14.222 -156.842
+  }
+  ShapePoint "{611494E3C3DC88E3}" {
+   Position 26.541 9.863 -111.966
+  }
+  ShapePoint "{611494E3C468CEE9}" {
+   Position 83.52 11.257 -88.849
+  }
+  ShapePoint "{611494E3C614F2E6}" {
+   Position 362.331 10.252 70.393
+  }
+  ShapePoint "{611494E3C7261424}" {
+   Position 563.89 1.146 -216.76
+  }
+  ShapePoint "{611494E3C7BBC9A1}" {
+   Position 684.359 -7.906 -166.193
+  }
+  ShapePoint "{611494E3CA41024A}" {
+   Position 884.528 -10.581 -163.323
+  }
+  ShapePoint "{611494E3CA81E60D}" {
+   Position 958.646 -5.383 -333.562
+  }
+  ShapePoint "{611494E3CD11F471}" {
+   Position 731.512 22.234 -574.703
+  }
+  ShapePoint "{611494E3CD49F48E}" {
+   Position 691.459 32.072 -709.795
+  }
+  ShapePoint "{611494E3CE3961CF}" {
+   Position 694.21 13.225 -992.934
+  }
+  ShapePoint "{611494E3F25DD3C3}" {
+   Position 270.07 69.905 -1517.411
+  }
+  ShapePoint "{611494E3F4513B45}" {
+   Position -209.858 64.596 -1272.912
+  }
+  ShapePoint "{611494E3FEA586C7}" {
+   Position -334.974 64.756 -735.999
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "FIA" "USSR" ""
+   }
+  }
+ }
+ coords 3138.743 11.819 2778.657
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.061 -0.194 0.688
+  }
+  ShapePoint "{6114D4161A956A21}" {
+   Position -7.294 -0.207 7.762
+  }
+  ShapePoint "{6114D4161C6B8673}" {
+   Position -11.581 -0.194 2.975
+  }
+  ShapePoint "{6114D4161DA3FDAF}" {
+   Position -15.152 -0.163 6.742
+  }
+  ShapePoint "{6114D4161FBD812A}" {
+   Position -21.797 -0.194 -0.833
+  }
+  ShapePoint "{6114D41601C6D42D}" {
+   Position -18.064 -0.215 -3.331
+  }
+  ShapePoint "{6114D416022758F7}" {
+   Position -19.828 -0.249 -5.124
+  }
+  ShapePoint "{6114D416034DB60E}" {
+   Position -21.931 -0.144 -7.738
+  }
+  ShapePoint "{6114D41604136C4B}" {
+   Position -14.45 -0.194 -14.672
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   m_fCaptureTime 60
+   m_bEasyTake 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Защита почты"
+   m_sTextData ""
+   m_sFactionKey "FIA"
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захват почты"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

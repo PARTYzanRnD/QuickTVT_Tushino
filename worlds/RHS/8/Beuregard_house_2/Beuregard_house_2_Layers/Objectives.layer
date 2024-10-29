@@ -1,0 +1,95 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 3112.834 16.145 2732.983
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.21 -0.145 -0.313
+  }
+  ShapePoint "{61050798E671FB5D}" {
+   Position -0.301 -0.145 0.856
+  }
+  ShapePoint "{61050798EC74BB1C}" {
+   Position -1.681 -0.145 1.961
+  }
+  ShapePoint "{61050798ED5C2BD0}" {
+   Position -1.513 -0.145 2.237
+  }
+  ShapePoint "{61050798EEC9146D}" {
+   Position -5.131 -0.145 5.054
+  }
+  ShapePoint "{61050798EF74CEFB}" {
+   Position -7.767 -0.145 1.64
+  }
+  ShapePoint "{61050798F1A95026}" {
+   Position -9.923 -0.145 3.457
+  }
+  ShapePoint "{61050798F315824A}" {
+   Position -17.457 -0.145 -6.093
+  }
+  ShapePoint "{61050798F4F17010}" {
+   Position -16.629 -0.145 -6.716
+  }
+  ShapePoint "{61050798F6B89947}" {
+   Position -17.287 -0.145 -7.682
+  }
+  ShapePoint "{61050798F6D2C530}" {
+   Position -17.58 -0.157 -9.774
+  }
+  ShapePoint "{61050798F6053F06}" {
+   Position -16.907 -0.285 -11.912
+  }
+  ShapePoint "{61050798F7BA2C7C}" {
+   Position -15.875 -0.305 -13.068
+  }
+  ShapePoint "{61050798F88A1E7C}" {
+   Position -14.56 -0.239 -13.424
+  }
+  ShapePoint "{61050798F834CED6}" {
+   Position -12.005 -0.336 -13.258
+  }
+  ShapePoint "{61050798F869D6AF}" {
+   Position -10.899 -0.35 -12.6
+  }
+  ShapePoint "{61050798F99904D4}" {
+   Position -10.257 -0.355 -11.839
+  }
+  ShapePoint "{61050798FAD474E1}" {
+   Position -9.785 -0.391 -12.275
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 30
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_iPowerBalance 1
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить здание"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить здание"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

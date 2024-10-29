@@ -1,0 +1,9 @@
+PS_GameModeQuickTvT : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ ID "56B2B479C6B96951"
+ m_iFreezeTime 45000
+ m_iFactionsBalance 4
+ m_iSlotsTime 60000
+ m_iBriefingTime 90000
+ m_iGameTime 1200000
+ m_iDebriefingTime 24000
+}

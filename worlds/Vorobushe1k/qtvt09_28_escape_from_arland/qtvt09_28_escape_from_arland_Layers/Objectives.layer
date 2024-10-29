@@ -1,0 +1,174 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{6102F2CF500C83D1}" {
+  }
+ }
+ coords 2352.775 148.301 4193.202
+ Points {
+  ShapePoint "{6102B7BEFD44D4C7}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6102B7BEFD44F5C1}" {
+   Position 11.381 -0.575 -6.188
+  }
+  ShapePoint "{6102B7BEED3DD873}" {
+   Position 26.224 -4.128 -0.348
+  }
+  ShapePoint "{6102B7BEDCD9E8E6}" {
+   Position 26.596 -4.22 15.87
+  }
+  ShapePoint "{6102B7BEDC2D573C}" {
+   Position 22.596 -3.418 31.449
+  }
+  ShapePoint "{6102B7BEDE268D85}" {
+   Position 22.479 -1.775 45.732
+  }
+  ShapePoint "{6102B7BEDBC0D448}" {
+   Position 27.334 -2.639 61.181
+  }
+  ShapePoint "{6102B7BED7155031}" {
+   Position 21.101 -0.911 63.681
+  }
+  ShapePoint "{6102B7BED11811F9}" {
+   Position 14.063 -0.544 57.197
+  }
+  ShapePoint "{6102B7BECCFAC675}" {
+   Position 8.438 -1.102 56.464
+  }
+  ShapePoint "{6102B7BECE8106BC}" {
+   Position -4.651 -0.829 26.771
+  }
+ }
+ IsClosed 1
+ {
+  PS_Objective {
+   components {
+    RplComponent "{6102F80BAA45EEDC}" {
+    }
+    Hierarchy "{6102F80A7DDE3F73}" {
+    }
+   }
+   m_sTitle "Отряд США уничтожен."
+   m_sTextData ""
+   m_iScore 100
+   m_sFactionKey "RHS_AFRF"
+  }
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   components {
+    RplComponent "{6102F80BAF33C2A4}" {
+    }
+    Hierarchy "{6102F80986703D6F}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 15
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "RHS_USAF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+ }
+}
+Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 1494.434 1.18 1846.468
+ angleY 166.819
+}
+PolylineShapeEntity : "{DCA90362FBC25FB4}Prefabs/PolyZone/PolyZone_Presence.et" {
+ coords 69.239 0 1611.424
+ Points {
+  ShapePoint "{6106DEDE28F66A13}" {
+   Position 286.993 -7.168 547.413
+  }
+  ShapePoint "{6106DEDE2A208E74}" {
+   Position -104.072 0 1066.833
+  }
+  ShapePoint "{6106DEDE24C36FC5}" {
+   Position -1132.904 0 -1299.164
+  }
+  ShapePoint "{6106DEDE2682E571}" {
+   Position -285.22 0 -3105.278
+  }
+  ShapePoint "{6106DEDE26462A4C}" {
+   Position 950.995 0 -3236.083
+  }
+  ShapePoint "{6106DEDE215B9681}" {
+   Position 2847.862 0 -2442.167
+  }
+  ShapePoint "{6106DEDE2312316F}" {
+   Position 3898.806 0 -1267.868
+  }
+  ShapePoint "{6106DEDE2280DBB8}" {
+   Position 4094.58 0 -504.819
+  }
+  ShapePoint "{6106DEDE1D7B4DFF}" {
+   Position 3759.225 -11.192 1103.369
+  }
+  ShapePoint "{6106DEDEEA2C3F02}" {
+   Position 2695.667 75.086 874.38
+  }
+  ShapePoint "{6106DEDEE7D41219}" {
+   Position 2365.253 59.59 1363.706
+  }
+  ShapePoint "{6106DEDED48BA918}" {
+   Position 1877.686 48.497 1355.527
+  }
+  ShapePoint "{6106DEDED66A2150}" {
+   Position 1390.014 38.332 1073.191
+  }
+  ShapePoint "{6106DEDED0C51BA5}" {
+   Position 1448.536 39.368 786.162
+  }
+  ShapePoint "{6106DEDEE1CD8612}" {
+   Position 1941.988 41.515 1028.436
+  }
+  ShapePoint "{6106DEDEEFF5AC05}" {
+   Position 3115.028 52.942 168.85
+  }
+  ShapePoint "{6106DEDE1E093E78}" {
+   Position 2786.37 -73.397 -1129.349
+  }
+  ShapePoint "{6106DEDE1984BCDA}" {
+   Position 1704.635 -88.97 -1393.233
+  }
+  ShapePoint "{6106DEDE19605B14}" {
+   Position 698.017 -107.288 -1286.859
+  }
+  ShapePoint "{6106DEDE1B151D85}" {
+   Position 248.207 -115.855 -1068.812
+  }
+ }
+ {
+  PS_Objective {
+   ID "60E9062D2F15A7F1"
+   m_sTitle "США успешно эвакуировались."
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_PolyZoneObjectivePresence {
+   components {
+    RplComponent "{6106DEDE7569F2E3}" {
+    }
+    Hierarchy "{6106DEDE7E835CA3}" {
+    }
+   }
+   coords 66.206 0 -290.256
+   TriggerShapeType Polyline
+   "Polyline Height" 1016
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   PrefabsFilter {
+    PrefabFilter "{6106DEDE63AA923E}" {
+     Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+    }
+   }
+  }
+ }
+}

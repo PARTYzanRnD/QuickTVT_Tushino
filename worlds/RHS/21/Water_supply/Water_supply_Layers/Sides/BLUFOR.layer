@@ -1,0 +1,37 @@
+SCR_AIGroup RHS_US_USMC_G_001_9 : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FEC7DB60355E31}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1159.326 1.073 3341.492
+ angleY -112.308
+}
+$grp Vehicle : "{9242E92AD1AA279F}PrefabLibrary/Vehicles/M923A1_transport.et" {
+ M923A1_transport1 {
+  coords 1159.513 1.103 3330.787
+  angleY -141.031
+ }
+ M923A1_transport3 {
+  coords 1182.915 1.156 3321.015
+ }
+ M923A1_transport2 {
+  coords 1179.36 1.118 3289.201
+  angleY -84.252
+ }
+ M923A1_transport4 {
+  coords 1141.585 1.075 3363.987
+  angleY -126.789
+ }
+}
+Vehicle M923A1_tanker1 : "{A239FBCCA98F59F3}PrefabLibrary/Vehicles/M923A1_tanker.et" {
+ coords 1096.918 -0.563 3249.655
+ angleX -7.478
+ angleY -31.844
+ angleZ -1.53
+}

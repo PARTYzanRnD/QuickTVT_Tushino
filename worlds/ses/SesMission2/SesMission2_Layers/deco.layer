@@ -1,0 +1,15 @@
+GenericEntity : "{21B4CFCFAE632E30}PrefabsEditable/Auto/Props/Wrecks/E_T62_wreck.et" {
+ components {
+  BaseSlotComponent "{5102A8F4EAA33D0E}" {
+   AttachType EntitySlotInfo "{5102A8F42435DDCC}" {
+    Angles 0 -56.3416 0
+   }
+  }
+ }
+ coords 4589.681 14.719 10382.862
+ angleY 55.176
+}
+GenericEntity : "{A237EA45CED8EBFA}PrefabsEditable/Auto/Props/Wrecks/E_M113_wreck.et" {
+ coords 4588.484 15.718 10468.192
+ angleY -177.986
+}

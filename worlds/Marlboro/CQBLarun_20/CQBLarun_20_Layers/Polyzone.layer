@@ -1,0 +1,205 @@
+PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
+   m_cPolygonColor 0.561 0.071 0.071 1
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 7533.397 82.697 5546.066
+ Points {
+  ShapePoint "{611E7B9C602FA124}" {
+   Position 7.695 0 -7.921
+  }
+  ShapePoint "{611E7B9C61ED9816}" {
+   Position 14.43 0 -17.375
+  }
+  ShapePoint "{611E7B9C636CA96C}" {
+   Position 26.867 0 -36.028
+  }
+  ShapePoint "{611E7B9C65D55791}" {
+   Position 20.461 0 -42.12
+  }
+  ShapePoint "{611E7B9C66FF85C8}" {
+   Position 9.778 0 -48.966
+  }
+  ShapePoint "{611E7B9C6805EAFF}" {
+   Position 1.612 0 -53.177
+  }
+  ShapePoint "{611E7B9C698E0934}" {
+   Position -2.437 0 -51.924
+  }
+  ShapePoint "{611E7B9C6B4F0592}" {
+   Position -7.14 0 -47.009
+  }
+  ShapePoint "{611E7B9C6C079E3E}" {
+   Position -15.924 0 -35.693
+  }
+  ShapePoint "{611E7B9C6DFEC591}" {
+   Position -21.566 0 -27.691
+  }
+  ShapePoint "{611E7B9C6F72631E}" {
+   Position -25.125 0 -22.45
+  }
+  ShapePoint "{611E7B9C108EFF37}" {
+   Position -15.869 0 -13.992
+  }
+  ShapePoint "{611E7B9C11812787}" {
+   Position -7.07 0 -6.138
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 7475.411 0 5397.529
+ Points {
+  ShapePoint "{611E7B93EB172E96}" {
+   Position -5.23 0 37.16
+  }
+  ShapePoint "{611E7B93EC52D7CA}" {
+   Position -14.643 0 82.048
+  }
+  ShapePoint "{611E7B93EDB0611C}" {
+   Position -13.916 0 109.153
+  }
+  ShapePoint "{611E7B93EE892077}" {
+   Position 11.766 0 139.458
+  }
+  ShapePoint "{611E7B9390261F72}" {
+   Position 44.921 0 171.004
+  }
+  ShapePoint "{611E7B93922620A6}" {
+   Position 72.899 0 185.457
+  }
+  ShapePoint "{611E7B939447F0AD}" {
+   Position 100.951 0 203.423
+  }
+  ShapePoint "{611E7B93953B527C}" {
+   Position 137.685 0 204.395
+  }
+  ShapePoint "{611E7B939658E168}" {
+   Position 162.131 0 179.71
+  }
+  ShapePoint "{611E7B9397C6FAD7}" {
+   Position 178.02 0 140.139
+  }
+  ShapePoint "{611E7B9398D483C4}" {
+   Position 194.798 0 92.788
+  }
+  ShapePoint "{611E7B939AE9E5B8}" {
+   Position 201.035 0 52.676
+  }
+  ShapePoint "{611E7B939B995C8C}" {
+   Position 183.295 0 25.406
+  }
+  ShapePoint "{611E7B938063B9FB}" {
+   Position 170.463 0 6.867
+  }
+  ShapePoint "{611E7B93827751BD}" {
+   Position 128.815 0 -13.293
+  }
+  ShapePoint "{611E7B9383FCC93B}" {
+   Position 98.117 0 -14.848
+  }
+  ShapePoint "{611E7B93853BFC6F}" {
+   Position 73.595 0 -42.128
+  }
+  ShapePoint "{611E7B9386B2A804}" {
+   Position 20.848 0 -34.033
+  }
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
+   m_cPolygonColor 0.157 0.275 0.624 1
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "US" "USSR" ""
+   }
+  }
+ }
+ coords 7541.754 82.995 5442.817
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.349 0 -0.974
+  }
+  ShapePoint "{611E7B9C09A8FEBC}" {
+   Position 36.659 0 12.88
+  }
+  ShapePoint "{611E7B9C0C4DFABC}" {
+   Position 24.894 0 46.822
+  }
+  ShapePoint "{611E7B9C0F2B6F51}" {
+   Position -13.704 0 32.953
+  }
+  ShapePoint "{611E7B9C30793463}" {
+   Position -12.984 0 30.804
+  }
+  ShapePoint "{611E7B9C319F8E10}" {
+   Position -19.453 0 28.588
+  }
+  ShapePoint "{611E7B9C3441B7BB}" {
+   Position -13.542 0 16.593
+  }
+  ShapePoint "{611E7B9C35E54046}" {
+   Position -6.244 0 7.296
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_aVisibleForFactions {
+    "" "USSR" "US"
+   }
+  }
+ }
+ coords 7563.275 82.989 5467.89
+ Points {
+  ShapePoint "{611E7B9CD49DAF1D}" {
+   Position -6.265 0 17.639
+  }
+  ShapePoint "{611E7B9CDFF1ED11}" {
+   Position 3.251 0 21.004
+  }
+  ShapePoint "{611E7B9CC3BC3318}" {
+   Position 6.08 0 13.012
+  }
+  ShapePoint "{611E7B9CCAE2005D}" {
+   Position 6.637 0 11.436
+  }
+  ShapePoint "{611E7B9CCD5BE4EB}" {
+   Position 9.52 0 3.369
+  }
+  ShapePoint "{611E7B9CF0F03CF9}" {
+   Position 2.731 0 0.968
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 100
+   m_sFactionKey "USSR"
+   m_iPowerBalance 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Защитить хату"
+   m_sTextData ""
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Занять Дом"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

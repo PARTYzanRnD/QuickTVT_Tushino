@@ -1,0 +1,2767 @@
+$grp GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et" {
+ {
+  coords 2688.054 79.667 1710.846
+  angleY -90
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.001 -0.112 0.251
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 6000
+    LV 7.55
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2733.287 80.05 1606.646
+  angleY 36.162
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.001 -0.112 0.251
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 4800
+    LV 5.95
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2767.312 80.246 1660.798
+  angleY 136.41
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.001 -0.112 0.251
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 5000
+    LV 7.17
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 10.03
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2767.006 80.066 1661.097
+  angleY -42.009
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.001 -0.112 0.251
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 4800
+    LV 5.95
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2763.667 80 1664.51
+  angleY -42.009
+ }
+ {
+  coords 2757.824 80.058 1671.502
+  angleY 137.558
+ }
+ {
+  coords 2819.267 77.21 1606.165
+  angleY -23.498
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.112 0.251
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 4800
+    LV 6.65
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2797.862 77.615 1653.344
+  angleY -24.755
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.001 -0.081 0.212
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 4800
+    LV 8
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 8
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2795.587 76.796 1651.866
+  angleY 155.369
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.001 -0.081 0.212
+    angleX 0
+    angleY -179.853
+    ColorType Temperature
+    Temperature 4800
+    LV 6.65
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2863.805 74.88 1696.771
+  angleY -28.156
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.089 0.231
+    angleX 0
+    angleY 57.262
+    ColorType Temperature
+    Temperature 4000
+    LV 6.2
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2869.047 74.896 1705.464
+  angleY -117.914
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.089 0.231
+    angleX 0
+    angleY 57.262
+    ColorType Temperature
+    Temperature 4000
+    LV 6.2
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+}
+$grp GenericEntity : "{49FF07D895A26DBE}Prefabs/Props/Furniture/LightCeiling_03.et" {
+ {
+  coords 997.564 15.724 1976.986
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords 0 -0.775 -0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4000
+    LV 6.98
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 1
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2745.259 84.652 1640.681
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2746.563 84.64 1644.499
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2743.71 84.626 1649.977
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 8
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 3069.451 88.071 1580.347
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 6.05
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 8
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2794.343 79.062 1596.958
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2807.198 78.425 1595.523
+  angleY 64.383
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2809.529 78.431 1590.337
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2807.342 77.967 1662.507
+  angleY -116.528
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2804.929 77.973 1667.655
+  angleY 179.089
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2860.315 75.809 1698.968
+ }
+ {
+  coords 2862.313 75.817 1701.948
+ }
+ {
+  coords 2871.885 78.124 1704.769
+  angleY 65.657
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0.001
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2830.178 76.501 1664.786
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.5
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2716.602 81.189 1660.155
+  angleY 80.48
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0
+    angleX 0
+    ColorType Temperature
+    Temperature 4500
+    LV 7.26
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 6
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2785.563 81.553 1645.921
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0
+    angleX 0
+    ColorType Temperature
+    Temperature 4800
+    LV 6.2
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+ {
+  coords 2783.746 78.114 1649.66
+  {
+   LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    coords -0.002 -0.785 0
+    angleX 0
+    ColorType Temperature
+    Temperature 3800
+    LV 6.2
+    ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+    Type Point
+    Radius 12
+    NearPlane 0.15
+    DistanceAttenuation 3
+    VolLightOffset 0
+    VolLightScale 0
+    VolLightIntensity 0.1
+   }
+  }
+ }
+}
+$grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+ {
+  coords 1451.783 13.961 1924.118
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8.86
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 1452.705 14.035 1923.767
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 6.05
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.16
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 1454.965 13.992 1927.512
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 6.8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 1455.121 13.944 1921.262
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 6.8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2463.3 90.567 1476.766
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 7.17
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.09
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2462.103 90.634 1475.995
+  angleX 0
+  ColorType Temperature
+  Temperature 6000
+  LV 7
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2460.116 90.556 1478.689
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 7
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2464.027 90.456 1480.849
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 6
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.22
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 1769.796 12.75 888.101
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 7.08
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 1763.791 12.623 888.027
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 1759.513 12.611 892.913
+  angleX 0
+  ColorType Temperature
+  Temperature 6000
+  LV 6.52
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.27
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2295.219 92.378 1234.018
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 7
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2295.599 92.378 1234.038
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 7
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2295.742 92.378 1233.684
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2291.759 95.537 1237.734
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2290.43 92.352 1238.373
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2290.278 92.351 1237.765
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2290.054 92.352 1238.347
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2298.544 92.633 1237.722
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2350.214 71.746 1735.569
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2351.395 68.565 1735.281
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2351.919 68.566 1734.952
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2352.02 68.566 1735.318
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2346.389 68.593 1739.282
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2346.763 68.59 1739.297
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2346.869 68.592 1739.676
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2346.249 68.592 1739.639
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2648.501 82.165 1745.572
+  angleX 0
+  ColorType Temperature
+  Temperature 4000
+  LV 7.08
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2654.454 82.024 1746.406
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2659.366 82.031 1742.003
+  angleX 0
+  ColorType Temperature
+  Temperature 6000
+  LV 6.88
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2687.375 79.565 1713.547
+  angleX 0
+  angleY 90.147
+  ColorType Temperature
+  Temperature 6000
+  LV 7.55
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2689.782 79.5 1715.787
+  angleX 0
+  angleY 90.147
+  ColorType Temperature
+  Temperature 4000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2688.153 79.548 1712.423
+  angleX 0
+  angleY 90.147
+  ColorType Temperature
+  Temperature 4000
+  LV 7.17
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.14
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2692.348 79.401 1712.179
+  angleX 0
+  angleY 90.147
+  ColorType Temperature
+  Temperature 5000
+  LV 7.08
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.19
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2740.564 80.583 1641.921
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2740.295 80.579 1636.131
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2744.011 80.593 1645.024
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2747.098 80.75 1648.035
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 6.05
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2742.328 81.252 1651.814
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0.05
+  LensFlareType Disabled
+ }
+ {
+  coords 2743.052 81.252 1651.01
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0.05
+  LensFlareType Disabled
+ }
+ {
+  coords 2742.537 81.252 1651.588
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0.05
+  LensFlareType Disabled
+ }
+ {
+  coords 2742.829 81.252 1651.259
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0.05
+  LensFlareType Disabled
+ }
+ {
+  coords 2742.501 81.28 1651.81
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0.05
+  LensFlareType Disabled
+ }
+ {
+  coords 2742.793 81.28 1651.481
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0
+  LensFlareType Disabled
+ }
+ {
+  coords 2743.015 81.28 1651.232
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 5
+  NearPlane 0.04
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightIntensity 0
+  LensFlareType Disabled
+ }
+ {
+  coords 2747.528 80.652 1641.58
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 6.33
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.19
+  DistanceAttenuation 3
+  VolLightOffset 0.1
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2743.325 80.582 1638.851
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 8.11
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2737.527 83.854 1638.307
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 7.26
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2748.115 82.953 1643.149
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 4.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 3.34
+  NearPlane 0.02
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+  LensFlareType Disabled
+ }
+ {
+  coords 2741.344 84.491 1644.974
+  angleX 0
+  angleY -87.959
+  ColorType Temperature
+  Temperature 6000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.01
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0.05
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ {
+  coords 2740.994 84.463 1644.521
+  angleX 0
+  angleY -87.959
+  ColorType Temperature
+  Temperature 6000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.01
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0.05
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ {
+  coords 2741.566 84.463 1645.001
+  angleX 0
+  angleY -87.959
+  ColorType Temperature
+  Temperature 6000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.01
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0.05
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ {
+  coords 2741.004 84.491 1644.694
+  angleX 0
+  angleY -87.959
+  ColorType Temperature
+  Temperature 6000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.01
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0.05
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ {
+  coords 2741.229 84.463 1644.722
+  angleX 0
+  angleY -87.959
+  ColorType Temperature
+  Temperature 6000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.01
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0.05
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ {
+  coords 2741.602 84.491 1645.186
+  angleX 0
+  angleY -87.959
+  ColorType Temperature
+  Temperature 6000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.01
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0.05
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ {
+  coords 2740.719 84.242 1639.799
+  angleX 0
+  ColorType Temperature
+  Temperature 4800
+  LV 5.86
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.16
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2735.405 80.029 1605.379
+  angleX 0
+  angleY -179.853
+  ColorType Temperature
+  Temperature 4800
+  LV 5.95
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2733.959 79.969 1605.533
+  angleX 0
+  angleY -179.853
+  ColorType Temperature
+  Temperature 4800
+  LV 5.95
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2708.911 80.856 1668.341
+  angleX 0
+  angleY -179.853
+  ColorType Temperature
+  Temperature 4800
+  LV 7.55
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 10
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2784.126 78.729 1593
+  angleX 0
+  angleY 111.799
+  ColorType Temperature
+  Temperature 4800
+  LV 7.55
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 10
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2787.397 78.319 1593.892
+  angleX 0
+  angleY -68.348
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2790.641 78.326 1595.345
+  angleX 0
+  angleY -68.348
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2804.429 76.96 1602.41
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 6.81
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 9.32
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2809.475 77.023 1609.323
+  angleX 0
+  angleY -68.348
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2811.591 76.932 1604.868
+  angleX 0
+  angleY -68.348
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.37
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2806.345 77.096 1605.352
+  angleX 0
+  angleY -149.669
+  ColorType Temperature
+  Temperature 4500
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.13
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2806.225 77.107 1604.732
+  angleX 0
+  angleY -148.926
+  ColorType Temperature
+  Temperature 4500
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2805.96 77.107 1605.306
+  angleX 0
+  angleY -148.926
+  ColorType Temperature
+  Temperature 4500
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2801.866 77.289 1605.171
+  angleX 0
+  angleY 139.362
+  ColorType Temperature
+  Temperature 4500
+  LV 6.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.13
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2802.138 77.3 1605.203
+  angleX 0
+  angleY 140.105
+  ColorType Temperature
+  Temperature 4500
+  LV 6.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2802.051 77.3 1604.77
+  angleX 0
+  angleY 140.105
+  ColorType Temperature
+  Temperature 4500
+  LV 6.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2793.069 78.417 1601.549
+  angleX 0
+  angleY 31.165
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2793.53 78.427 1601.966
+  angleX 0
+  angleY 31.908
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2792.909 78.427 1601.898
+  angleX 0
+  angleY 31.908
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2793.448 78.416 1601.597
+  angleX 0
+  angleY 31.908
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2798.292 78.314 1599.069
+  angleX 0
+  angleY -68.348
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2815.414 76.912 1614.305
+  angleX 0
+  angleY 111.799
+  ColorType Temperature
+  Temperature 4800
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2799.385 76.545 1643.74
+  angleX 0
+  angleY 111.799
+  ColorType Temperature
+  Temperature 4800
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2875.135 74.486 1704.056
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4800
+  LV 7.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  NearPlane 0.46
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2876.62 77.64 1698.571
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4800
+  LV 8
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2877.511 74.459 1697.746
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4000
+  LV 7.04
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2877.809 74.46 1697.203
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4000
+  LV 7.04
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2878.075 74.46 1697.474
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4000
+  LV 7.04
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2875.083 74.487 1703.676
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4800
+  LV 7.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  NearPlane 0.46
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2875.417 74.484 1703.508
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4800
+  LV 7.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  NearPlane 0.46
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2875.694 74.486 1703.787
+  angleX 0
+  angleY 29.105
+  ColorType Temperature
+  Temperature 4800
+  LV 7.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  NearPlane 0.46
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2870.654 74.753 1701.924
+  angleX 0
+  angleY 57.262
+  ColorType Temperature
+  Temperature 4800
+  LV 6.5
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2805.317 76.641 1648.766
+  angleX 0
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.37
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2803.182 76.711 1653.196
+  angleX 0
+  ColorType Temperature
+  Temperature 4800
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2810.308 76.551 1655.705
+  angleX 0
+  ColorType Temperature
+  Temperature 4500
+  LV 6.81
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 9.32
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2808.806 76.717 1652.793
+  angleX 0
+  angleY 31.782
+  ColorType Temperature
+  Temperature 4500
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2808.42 76.706 1652.752
+  angleX 0
+  angleY 31.039
+  ColorType Temperature
+  Temperature 4500
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.13
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2808.548 76.717 1653.37
+  angleX 0
+  angleY 31.782
+  ColorType Temperature
+  Temperature 4500
+  LV 6.65
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2827.874 75.847 1669.465
+  angleX 0
+  angleY 91.876
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2828.244 75.847 1668.962
+  angleX 0
+  angleY 91.876
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2827.883 75.836 1668.848
+  angleX 0
+  angleY 91.876
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2827.652 75.837 1669.152
+  angleX 0
+  angleY 91.133
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.55
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2833.52 75.736 1667.525
+  angleX 0
+  angleY -8.38
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2826.808 75.743 1662.301
+  angleX 0
+  angleY -8.38
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2823.939 75.742 1660.21
+  angleX 0
+  angleY -8.38
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.54
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2720.403 80.547 1663.375
+  angleX 0
+  angleY 171.614
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2720.133 80.551 1663.103
+  angleX 0
+  angleY 172.357
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2720.744 80.57 1663.207
+  angleX 0
+  angleY 172.357
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2713.503 80.446 1663.094
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2710.977 80.447 1665.597
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2720.312 80.627 1662.758
+  angleX 0
+  angleY 172.357
+  ColorType Temperature
+  Temperature 4500
+  LV 7.27
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2719.752 80.449 1657.323
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 5000
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2794.491 77.42 1646.397
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2792.323 77.416 1650.889
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2786.635 79.474 1652.971
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2787.085 81.009 1647.465
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 6.6
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2794.146 80.931 1650.759
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 6.6
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2787.323 84.536 1648.948
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2792.218 84.8 1644.759
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 3800
+  LV 7.36
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2788.853 77.145 1644.792
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 6
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2788.507 80.829 1640.253
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4800
+  LV 6.2
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.36
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2795.572 80.968 1643.205
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4800
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2795.168 80.971 1643.682
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4800
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2793.173 80.89 1645.301
+  angleX 0
+  ColorType Temperature
+  Temperature 4800
+  LV 6
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2782.628 80.77 1649.25
+  angleX 0
+  angleY 72.101
+  ColorType Temperature
+  Temperature 4200
+  LV 6.2
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2784.376 75.672 1646.482
+  angleX 0
+  ColorType Temperature
+  Temperature 3800
+  LV 5.2
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.3
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2790.125 77.567 1640.507
+  angleX 0
+  angleY -71.361
+  ColorType Temperature
+  Temperature 4000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2789.723 77.604 1640.989
+  angleX 0
+  angleY -71.361
+  ColorType Temperature
+  Temperature 4000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2790.098 77.543 1640.892
+  angleX 0
+  angleY -71.361
+  ColorType Temperature
+  Temperature 4000
+  LV 5.58
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.15
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2891.557 72.513 1612.934
+  angleX 0
+  angleY 98.041
+  ColorType Temperature
+  Temperature 5000
+  LV 5.41
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2885.32 72.652 1603.387
+  angleX 0
+  angleY 98.041
+  ColorType Temperature
+  Temperature 4000
+  LV 6
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 6
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+ {
+  coords 2886.064 72.525 1609.344
+  angleX 0
+  angleY 98.041
+  ColorType Temperature
+  Temperature 5000
+  LV 7.04
+  ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+  Type Point
+  Radius 12
+  NearPlane 0.11
+  DistanceAttenuation 3
+  VolLightOffset 0
+  VolLightScale 0
+  VolLightIntensity 0.1
+ }
+}
+GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+ coords 2889.718 72.652 1603.746
+ angleY -169.804
+ {
+  LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+   coords -0.001 -0.061 0.151
+   angleX 0
+   angleY -92.154
+   ColorType Temperature
+   Temperature 4500
+   LV 5.48
+   ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+   Type Point
+   Radius 12
+   DistanceAttenuation 3
+   VolLightOffset 0
+   VolLightScale 0
+   VolLightIntensity 0.1
+  }
+ }
+}
+$grp GenericEntity : "{97CCD43778D034CF}Prefabs/Props/Furniture/LightCeiling_01.et" {
+ {
+  coords 3073.711 79.987 1582.346
+  {
+   $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    {
+     coords -0.265 -0.572 0.194
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 8
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.098 -0.572 -0.31
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords -0.263 -0.572 -0.188
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.102 -0.583 0.311
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+   }
+  }
+ }
+ {
+  coords 3078.755 79.988 1583.208
+  {
+   $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    {
+     coords -0.264 -0.59 0.192
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 8
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.106 -0.59 -0.307
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords -0.257 -0.59 -0.19
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.325 -0.583 0
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.101 -0.584 0.312
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 7
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+   }
+  }
+ }
+ {
+  coords 3068.085 78.292 1585.318
+  {
+   $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    {
+     coords 0.098 -0.572 -0.31
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 5.67
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 6
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords -0.265 -0.572 0.194
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 5.67
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 6
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.102 -0.583 0.311
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 5.67
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 6
+     NearPlane 0.13
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+   }
+  }
+ }
+ {
+  coords 3068.75 76.504 1581.508
+  {
+   $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
+    {
+     coords 0.098 -0.572 -0.31
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 5.2
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords -0.263 -0.572 -0.188
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 5.2
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords -0.265 -0.572 0.194
+     angleX 0
+     angleY -158.32
+     ColorType Temperature
+     Temperature 4500
+     LV 5.2
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+    {
+     coords 0.102 -0.583 0.311
+     angleX 0
+     angleY -159.063
+     ColorType Temperature
+     Temperature 4500
+     LV 5.2
+     ProjectionMap "{C1C9E2C8B8E0AD8A}Common/Textures/Light_profiles/LightProfile_Flashlight_02_Mask.edds"
+     Type Point
+     Radius 12
+     NearPlane 0.12
+     DistanceAttenuation 3
+     VolLightOffset 0
+     VolLightScale 0
+     VolLightIntensity 0.1
+    }
+   }
+  }
+ }
+}

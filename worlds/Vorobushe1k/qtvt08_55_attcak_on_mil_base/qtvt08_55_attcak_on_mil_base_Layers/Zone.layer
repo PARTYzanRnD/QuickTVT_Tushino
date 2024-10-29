@@ -1,0 +1,110 @@
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{6102F2CF500C83D1}" {
+    m_cPolygonColor 1 1 1 0
+    m_cPolygonBorderColor 0 0 1 1
+    m_fPolygonBorderUVScale 0.001
+    m_fPolygonBorderWidth 8.7
+    m_aVisibleForFactions {
+     "" "RHS_AFRF" "RHS_USAF"
+    }
+   }
+  }
+  coords 1349.808 36.144 2324.696
+  Points {
+   ShapePoint "{6102B7BEFD44D4C7}" {
+    Position 0.348 1.142 -0.413
+   }
+   ShapePoint "{6106785A46C330A1}" {
+    Position -55.684 1.336 79.886
+   }
+   ShapePoint "{6106785A3CDCD660}" {
+    Position 31.924 0.682 138.173
+   }
+   ShapePoint "{6106785A34F224A9}" {
+    Position 87.197 0.951 137.554
+   }
+   ShapePoint "{6106785A327BC662}" {
+    Position 85.986 0.674 -1.286
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTrigger {
+    components {
+     Hierarchy "{6102F809C35E4741}" {
+     }
+    }
+    TriggerShapeType Polyline
+    "Polyline Height" 32.8
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    UpdatePeriod 0.2
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectRestricted "{6102F2CE936D5095}" {
+    }
+    m_bReversed 1
+    m_sGroupKey "Res"
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{6102F809C8623877}" {
+    m_cPolygonColor 1 1 1 0
+    m_fPolygonUVScale 0.12
+    m_cPolygonBorderColor 0 0 0 1
+    m_fPolygonBorderUVScale 0.001
+    m_fPolygonBorderWidth 8.4
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" ""
+    }
+   }
+  }
+  coords 1297.512 39 2070.831
+  Points {
+   ShapePoint "{610352C23A3D85D9}" {
+    Position 0.419 0 -0.11
+   }
+   ShapePoint "{6106785AAE266673}" {
+    Position -414.917 0 591.978
+   }
+   ShapePoint "{6106785AA58DBEB9}" {
+    Position 475.308 0 823.96
+   }
+   ShapePoint "{6106785AA1797004}" {
+    Position 574.76 14.849 1063.274
+   }
+   ShapePoint "{6106785A9F715C5E}" {
+    Position 924.154 19.289 920.244
+   }
+   ShapePoint "{6106785A94CE73E9}" {
+    Position 772.613 8.258 539.57
+   }
+  }
+  IsClosed 1
+  LineColor 0 0.125 0.502 1
+  {
+   PS_PolyZoneTrigger {
+    components {
+     Hierarchy "{60FD050E7DB5D4B9}" {
+     }
+    }
+    TriggerShapeType Polyline
+    SphereRadius 999999
+    "Polyline Height" 57.3
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{6102F2CC12F3D31F}" {
+    }
+    m_bReversed 1
+   }
+  }
+ }
+}

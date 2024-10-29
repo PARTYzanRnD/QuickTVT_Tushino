@@ -1,0 +1,58 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 3088.3 11.81 2875.635
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.38 -0.279 0.103
+  }
+  ShapePoint "{60FED2258BF78B05}" {
+   Position 3.553 -0.778 4.16
+  }
+  ShapePoint "{60FED2258C60BD21}" {
+   Position -4.624 -0.35 10.536
+  }
+  ShapePoint "{60FED2258E0D2F26}" {
+   Position -6.578 -0.248 8.136
+  }
+  ShapePoint "{60FED2259088CA27}" {
+   Position -0.922 -0.248 3.655
+  }
+  ShapePoint "{60FED225905DCF41}" {
+   Position -2.125 -0.248 2.166
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "RHS_AFRF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить заправку"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать заправку"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+  }
+ }
+}

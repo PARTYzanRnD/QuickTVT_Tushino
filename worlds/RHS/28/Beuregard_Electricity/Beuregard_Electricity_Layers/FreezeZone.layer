@@ -1,0 +1,56 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ RED_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 1 0 0 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF" "PS_CheeseRaiders"
+    }
+   }
+  }
+  coords 3056.046 23.816 2614.274
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -0.106 0.017 0.328
+   }
+   ShapePoint "{610ED734C15C931F}" {
+    Position -17.544 2.943 -21.784
+   }
+   ShapePoint "{610ED734C22755D8}" {
+    Position -8.023 3.061 -27.815
+   }
+   ShapePoint "{610ED734C3877D42}" {
+    Position 9.697 -0.5 -5.753
+   }
+  }
+ }
+ CRU_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0.186 0.205 0.063 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.186 0.205 0.063 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF" "PS_CheeseRaiders"
+    }
+   }
+  }
+  coords 3116.993 5.258 3022.875
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position 0.641 -1.283 0.727
+   }
+   ShapePoint "{610ED734D26D0E9E}" {
+    Position 27.534 -0.993 -19.031
+   }
+   ShapePoint "{610ED734D32A4AA9}" {
+    Position 5.276 1.277 -45.544
+   }
+   ShapePoint "{610ED734D4ABAD95}" {
+    Position -21.436 -0.754 -25.371
+   }
+  }
+ }
+}

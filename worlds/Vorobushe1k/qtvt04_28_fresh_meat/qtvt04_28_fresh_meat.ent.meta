@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{99EE22EFB2D68A25}Worlds/qtvt4_28_fresh_meat/qtvt4_28_fresh_meat.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

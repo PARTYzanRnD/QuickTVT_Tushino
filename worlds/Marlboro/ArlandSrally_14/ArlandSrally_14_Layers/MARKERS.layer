@@ -1,0 +1,122 @@
+$grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0.071 0.192 0.561 1
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "US"
+    }
+   }
+  }
+  coords 939.094 8.209 1904.027
+  Points {
+   ShapePoint "{6116D2512F547341}" {
+    Position 13.092 -0 95.584
+   }
+   ShapePoint "{6116D252D4DBAA62}" {
+    Position 173.248 -0 160.641
+   }
+   ShapePoint "{6116D252D6FC3541}" {
+    Position 112.173 0 -76.48
+   }
+   ShapePoint "{6116D252D8CF0B9C}" {
+    Position 47.832 0 -48.721
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0.071 0.561 0.192 1
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "FIA"
+    }
+   }
+  }
+  coords 1772.31 4.276 832.783
+  Points {
+   ShapePoint "{6116D2525B4F211C}" {
+    Position 7.384 0 91.247
+   }
+   ShapePoint "{6116D2525CFA2BF5}" {
+    Position 30.876 0 83.961
+   }
+   ShapePoint "{6116D2525D73C993}" {
+    Position 58.632 -0 65.082
+   }
+   ShapePoint "{6116D2525D86949F}" {
+    Position 74.547 0 60.298
+   }
+   ShapePoint "{6116D2525E7C8A9D}" {
+    Position 100.02 0 60.604
+   }
+   ShapePoint "{6116D2525F01A343}" {
+    Position 110.165 0 52.078
+   }
+   ShapePoint "{6116D2525FDCA352}" {
+    Position 115.755 0 7.456
+   }
+   ShapePoint "{6116D252405DFB62}" {
+    Position 106.024 0 -8.317
+   }
+   ShapePoint "{6116D2524159FFAB}" {
+    Position 64.344 0 -10.937
+   }
+   ShapePoint "{6116D25241E6AB47}" {
+    Position 30.797 0 -8.195
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 2289.144 89.509 1230.279
+  m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Slot_Barracks"
+  m_fWorldSize 80
+  m_sDescription "Дом Максимовны"
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 1804.736 5.14 862.37
+  m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.561 0.192 1
+  m_sQuadName "Slot_LightVehicleDepot"
+  m_fWorldSize 80
+  m_sDescription "Старт"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ {
+  coords 1498.13 1.179 1844.409
+  m_sImageSetGlow ""
+  m_sQuadName "flag"
+  m_fWorldSize 80
+  m_sDescription "Финиш"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ {
+  coords 999.004 12.204 1968.046
+  m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "Slot_HeavyVehicleDepot"
+  m_fWorldSize 80
+  m_sDescription "Молоковоз"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

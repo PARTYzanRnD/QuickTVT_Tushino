@@ -1,0 +1,50 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ Res_RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "a"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3244.15 10.68 1277.682
+  angleY 157.64
+  m_aUnitPrefabSlots {
+   "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{A0170A59C1CDE86A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_GrenadeLauncher.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-2"
+ }
+ RHS_RF_MSV_G_001_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+   }
+  }
+  coords 3480.372 6.043 1716.183
+  angleY 89.509
+  m_aUnitPrefabSlots {
+   "{A518C765EA27048C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{D91D7B9A0B63C2C2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{4C8228A28004D6DA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Anti_Tank.et" "{5CD213E65A8E0E72}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Grenade_Launcher .et" "{93919784558D971F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-1"
+ }
+}
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo2 {
+  coords 3487.49 5.632 1721.259
+  angleX 5.334
+  angleY 174.862
+  angleZ -0.479
+ }
+ UAZ469_Camo3 {
+  coords 3487.825 6.025 1713.598
+  angleX -0.892
+  angleY 174.905
+  angleZ 0.079
+ }
+}

@@ -1,0 +1,433 @@
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 1272.572 37.469 2939.842
+ angleY -10.405
+}
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+     }
+     SCR_FuelNode "{5E9AE02488359898}" {
+      MaxFuel 0
+     }
+     SCR_FuelNode "{5E9AE0248D00D20B}" {
+      MaxFuel 0
+     }
+     SCR_FuelNode "{5E9AE0248101059B}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 52.9
+     }
+     SCR_FuelNode "{5E9AE02480691735}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 33.6
+     }
+    }
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    ActionContexts {
+     UserActionContext "{5E2EC4D3A76449F8}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B0CA46BF0}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B1446DDA6}" {
+      Radius 0
+     }
+     UserActionContext "{5EA294269F991DD9}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2943E86F349E7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA2}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA1}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBF}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBA}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF860D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8603}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8601}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF7F5B}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF346D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF3453}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD134}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD131}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC9278}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927F}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CA7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CB9}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004C}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FDFE5D}" {
+      Radius 0
+     }
+    }
+   }
+  }
+  coords 1128.857 38.04 2909.89
+  angleY 164.287
+ }
+ UH1H5 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5E9AE02488359898}" {
+      MaxFuel 0
+     }
+     SCR_FuelNode "{5E9AE0248D00D20B}" {
+      MaxFuel 0
+     }
+     SCR_FuelNode "{5E9AE0248101059B}" {
+      MaxFuel 0
+     }
+     SCR_FuelNode "{5E9AE02480691735}" {
+      MaxFuel 0
+     }
+    }
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    ActionContexts {
+     UserActionContext "{5E2EC4D3A76449F8}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B0CA46BF0}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B1446DDA6}" {
+      Radius 0
+     }
+     UserActionContext "{5EA294269F991DD9}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2943E86F349E7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA2}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA1}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBF}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBA}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF860D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8603}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8601}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF7F5B}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF346D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF3453}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD134}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD131}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC9278}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927F}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CA7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CB9}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004C}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FDFE5D}" {
+      Radius 0
+     }
+    }
+   }
+  }
+  coords 1074.028 39.151 2950.841
+  angleY 164.287
+ }
+ UH1H6 {
+  components {
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    ActionContexts {
+     UserActionContext "{5E2EC4D3A76449F8}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B0CA46BF0}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B1446DDA6}" {
+      Radius 0
+     }
+     UserActionContext "{5EA294269F991DD9}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2943E86F349E7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA2}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA1}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBF}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBA}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF860D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8603}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8601}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF7F5B}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF346D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF3453}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD134}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD131}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC9278}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927F}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CA7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CB9}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004C}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FDFE5D}" {
+      Radius 0
+     }
+    }
+   }
+  }
+  coords 1019.193 38 2909.653
+  angleY 78.192
+ }
+ UH1H7 {
+  components {
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    ActionContexts {
+     UserActionContext "{5E2EC4D3A76449F8}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B0CA46BF0}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2942B1446DDA6}" {
+      Radius 0
+     }
+     UserActionContext "{5EA294269F991DD9}" {
+      Radius 0
+     }
+     UserActionContext "{5EA2943E86F349E7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA2}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDA1}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBF}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FFEDBA}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF860D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8603}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF8601}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF7F5B}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF346D}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FF3453}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD134}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FCD131}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC9278}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC927F}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CA7}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC6CB9}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004A}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FC004C}" {
+      Radius 0
+     }
+     UserActionContext "{5CAAA44AC4FDFE5D}" {
+      Radius 0
+     }
+    }
+   }
+  }
+  coords 1073.682 38.045 2864.076
+  angleY 76.57
+ }
+}
+$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ RHS_US_USMC_G_000_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1022.33 38.19 2943.651
+  angleY 161.814
+  m_aUnitPrefabSlots {
+   "{4778794C76E28828}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{77F2B5CF728E176E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+  }
+  m_sCustomNameSet "1-2"
+ }
+ RHS_US_USMC_G_000_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+   }
+  }
+  coords 1013.847 38.19 2940.903
+  angleY 161.814
+  m_aUnitPrefabSlots {
+   "{4778794C76E28828}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{77F2B5CF728E176E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+  }
+  m_sCustomNameSet "1-1"
+ }
+ RHS_US_USMC_G_000_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1266.768 37.469 2938.692
+  angleY 77.157
+  m_aUnitPrefabSlots {
+   "{4778794C76E28828}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{77F2B5CF728E176E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+  }
+  m_sCustomNameSet "2-1"
+ }
+}

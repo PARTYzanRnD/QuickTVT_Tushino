@@ -1,0 +1,15 @@
+SCR_DestructibleBuildingEntity : "{1B68F3EE279C97A1}Prefabs/Structures/Commercial/Pubs/PubVillage_E_2L01/PubVillage_E_2L01_V1.et" {
+ coords 1187.522 0.156 2713.948
+ angleY -14.934
+ {
+  $grp GenericEntity : "{B9F8987A84B94738}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_addon.et" {
+   {
+    coords 1.102 8.425 -9.096
+    angleY 180
+   }
+   {
+    coords 3.816 8.437 6.899
+   }
+  }
+ }
+}

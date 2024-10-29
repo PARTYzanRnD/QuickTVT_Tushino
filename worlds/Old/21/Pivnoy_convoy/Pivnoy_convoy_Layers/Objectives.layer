@@ -1,0 +1,84 @@
+PolylineShapeEntity : "{7882697F7345B966}PrefabLibrary/PolyZones/PolyZone_Presence.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 1787.348 55.89 2290.151
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -437.772 -19.122 43.674
+  }
+  ShapePoint "{60FE9D9D786CEE79}" {
+   Position -483.203 -18.425 113.93
+  }
+  ShapePoint "{60FE9D9FDDB0E101}" {
+   Position -404.222 -19.08 167.133
+  }
+  ShapePoint "{60FE9D9D79F102FA}" {
+   Position -361.44 -19.137 163.758
+  }
+  ShapePoint "{60FE9D9D791A1CD4}" {
+   Position -364.799 -19.816 36.963
+  }
+ }
+ {
+  PS_Objective {
+   ID "60E9062D2F15A7F1"
+   m_sTitle "Пополнить пивные запасы."
+   m_sFactionKey "USSR"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_PolyZoneObjectivePresence {
+   ID "60E9062D2F15A7F9"
+   PrefabsFilter {
+    PrefabFilter "{60FE9D9C4C2B0C57}" {
+     Prefab "{FB30F1FC8B4A6E13}PrefabLibrary/Vehicles/Ural4320_tanker.et"
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{C6DAEFE44431B98A}PrefabLibrary/PolyZones/PolyZone_Destroy.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 83.735 0 285.052
+ Points {
+  ShapePoint "{60FE9D9F86DD529A}" {
+   Position 3862.66 -159.81 -146.13
+  }
+  ShapePoint "{60FE9D9F87952BAA}" {
+   Position 3833.86 0 3707.104
+  }
+  ShapePoint "{60FE9D9F8750E6BD}" {
+   Position 16.996 -93.678 3700.785
+  }
+ }
+ {
+  PS_Objective {
+   ID "60E9062E6BABF763"
+   m_sTitle "Уничтожить пиво."
+   m_sFactionKey "US"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_PolyZoneObjectiveTriggerDestroy {
+   ID "60E9062E6BABF765"
+   "Polyline Height" 600
+   ClassesFilter {
+   }
+   PrefabsFilter {
+    PrefabFilter "{60FE9D9FB084729E}" {
+     Prefab "{FB30F1FC8B4A6E13}PrefabLibrary/Vehicles/Ural4320_tanker.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,151 @@
+$grp StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ {
+  coords 1404.443 36.016 2336.974
+  angleX 0.643
+  angleY -0.865
+  angleZ 0.19
+ }
+ {
+  coords 1407.182 36.047 2337.095
+  angleX 0.643
+  angleY -0.865
+  angleZ 0.19
+ }
+ {
+  coords 1405.82 36.049 2337.083
+  angleX 0.643
+  angleY -0.865
+  angleZ 0.19
+ }
+ {
+  coords 1406.799 35.813 2367
+  angleY 0
+ }
+ {
+  coords 1405.413 35.812 2367.01
+  angleY 0
+ }
+ {
+  coords 1404.02 35.798 2367.002
+  angleY 0
+ }
+}
+$grp GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
+ {
+  coords 1403.723 36.782 2367.025
+  angleY 43.668
+ }
+ {
+  coords 1406.489 36.797 2366.882
+  angleY 43.668
+ }
+ {
+  coords 1406.796 36.797 2366.673
+  angleY 43.668
+ }
+ {
+  coords 1405.663 36.796 2366.758
+  angleY 43.668
+ }
+ {
+  coords 1403.997 36.782 2367.031
+  angleY 43.668
+ }
+ {
+  coords 1405.498 36.796 2366.956
+  angleY 43.668
+ }
+ {
+  coords 1403.814 36.782 2367.092
+  angleY 43.668
+ }
+ {
+  coords 1404.161 36.782 2367.116
+  angleY 43.668
+ }
+ {
+  coords 1406.71 36.797 2366.759
+  angleY 43.668
+ }
+ {
+  coords 1404.332 36.782 2367.069
+  angleY 43.668
+ }
+ {
+  coords 1405.074 36.796 2366.992
+  angleY 43.668
+ }
+ {
+  coords 1405.243 36.796 2366.794
+  angleY 43.668
+ }
+ {
+  coords 1406.638 36.797 2366.868
+  angleY 43.668
+ }
+ {
+  coords 1404.596 37.001 2337.119
+  angleX 0.329
+  angleY 43.668
+  angleZ 0.586
+ }
+ {
+  coords 1404.425 37.002 2337.119
+  angleX 0.329
+  angleY 43.668
+  angleZ 0.586
+ }
+ {
+  coords 1406.728 37.028 2336.731
+  angleX 0.329
+  angleY 43.668
+  angleZ 0.586
+ }
+ {
+  coords 1406.732 37.033 2337.163
+  angleX 0.329
+  angleY 43.668
+  angleZ 0.586
+ }
+ {
+  coords 1405.984 37.034 2337.224
+  angleX 0.324
+  angleY 43.668
+ }
+ {
+  coords 1406.156 37.031 2337.052
+  angleX 0.324
+  angleY 43.668
+ }
+ {
+  coords 1405.729 37.036 2337.308
+  angleX 0.324
+  angleY 43.668
+ }
+ {
+  coords 1405.9 37.035 2337.308
+  angleX 0.324
+  angleY 43.668
+ }
+ {
+  coords 1404.679 37 2337.035
+  angleX 0.319
+  angleY 43.668
+ }
+ {
+  coords 1404.509 37.002 2337.173
+  angleX 0.329
+  angleY 43.668
+  angleZ 0.586
+ }
+ {
+  coords 1406.998 37.033 2337.199
+  angleX 0.329
+  angleY 43.668
+  angleZ 0.586
+ }
+}
+GenericEntity : "{CAE986C2BF5D5859}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_Base.et" {
+ coords 1407.412 38.458 2370.887
+ angleY 90.151
+}

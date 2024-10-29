@@ -1,0 +1,33 @@
+SCR_MapEntity MapEntity_Arland1 : "{66FBC1063149819B}Prefabs/World/Game/Arland/MapEntity_Arland.et" {
+ coords 71.438 1 120.527
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 111.676 1 127.135
+ Formations {
+  AIFormationDefinition "{60FCFC15ACE2B7DB}" {
+   Name "LineTight"
+   Offsets {
+    0 0 0 1 0 0 -1 0 0 2 0 0 -2 0 0 3 0 0 -3 0 0 4 0 0 -4 0 0 5 0 0 -5 0 0
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 113.126 1 124.397
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ coords 1986.776 51.675 3027.745
+ m_iFreezeTime 10000
+ m_iPreviewTime 10000
+ m_iBriefingTime 10000
+ m_iGameTime 120000
+ m_iDebriefingTime 10000
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 127.244 1 148.956
+}
+SCR_DestructibleBuildingEntity : "{0FD764569422DBA7}Prefabs/Structures/Cultural/Churches/ChurchSmall_E_01.et" {
+ coords 1187.994 0 2713.768
+ angleY -12.685
+ m_BuildingConfig "{6B762D80D736767C}Configs/Buildings/TEST_Church_01.conf"
+}

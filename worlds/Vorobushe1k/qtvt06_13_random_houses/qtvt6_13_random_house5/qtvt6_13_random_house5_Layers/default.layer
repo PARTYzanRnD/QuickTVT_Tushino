@@ -1,0 +1,61 @@
+SCR_MapEntity MapEntity_Arland1 : "{66FBC1063149819B}Prefabs/World/Game/Arland/MapEntity_Arland.et" {
+ coords 71.438 1 120.527
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 111.676 1 127.135
+ Formations {
+  AIFormationDefinition "{60FCFC15ACE2B7DB}" {
+   Name "LineTight"
+   Offsets {
+    0 0 0 1 0 0 -1 0 0 2 0 0 -2 0 0 3 0 0 -3 0 0 4 0 0 -4 0 0 5 0 0 -5 0 0
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 113.126 1 124.397
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ coords 1986.776 51.675 3027.745
+ m_iFreezeTime 10000
+ m_iPreviewTime 10000
+ m_iBriefingTime 10000
+ m_iGameTime 120000
+ m_iDebriefingTime 10000
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 127.244 1 148.956
+}
+SCR_DestructibleBuildingEntity : "{CFE8511B2B7E8AAA}Prefabs/Structures/Commercial/Shops/ShopModern_E_01.et" {
+ coords 1186.43 0.029 2716.72
+ angleY -15.759
+ {
+  GenericEntity {
+   ID "5562EB460FBBE8E5"
+   coords 0 -0.005 3.017
+  }
+  GenericEntity {
+   ID "5562EB460FBBE8DF"
+   coords -3.736 0 1.486
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "5562EB460FBBE8F1"
+   coords 0 0 0
+  }
+  GenericEntity : "{3E49A2FF5FFE1CA8}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Peace_V1.et" {
+   coords 8.076 1.652 6.198
+   angleZ -3.533
+  }
+  GenericEntity : "{8B3C8FC588BD4D30}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Starka_V1.et" {
+   coords -4.855 1.124 5.339
+   angleY -90
+   angleZ -1.741
+  }
+  GenericEntity : "{E1893BF545D216A2}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Mix_V1.et" {
+   coords -4.851 0.626 3.895
+   angleY -90
+   angleZ 2.786
+   scale 1.16
+  }
+ }
+}

@@ -1,0 +1,48 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ coords 1612.769 38.255 2898.654
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -90.192 0.745 -94.292
+  }
+  ShapePoint "{60FD050FC32614B5}" {
+   Position -137.904 -0.255 50.203
+  }
+  ShapePoint "{60FD050E29202D72}" {
+   Position -106.5 0.557 209.765
+  }
+  ShapePoint "{60FD050E2A5FAC17}" {
+   Position 111.052 -9.286 415.717
+  }
+  ShapePoint "{60FD050E2CA507BB}" {
+   Position 323.475 19.159 399.589
+  }
+  ShapePoint "{60FD050E32F83C5B}" {
+   Position 451.895 10.092 245.883
+  }
+  ShapePoint "{60FD050E3341C3D1}" {
+   Position 520.541 8.51 151.546
+  }
+  ShapePoint "{60FD050E341A600F}" {
+   Position 615.355 21.511 104.266
+  }
+  ShapePoint "{60FD050E36B73949}" {
+   Position 554.099 15.106 -62.846
+  }
+  ShapePoint "{60FD050E383E0277}" {
+   Position 409.978 6.286 -155.275
+  }
+  ShapePoint "{60FD050E39A93D38}" {
+   Position 269.137 2.65 -225.701
+  }
+  ShapePoint "{60FD050E3AD4D83F}" {
+   Position 43.755 0.949 -156.65
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{60FD050E0DC2A2AB}" {
+   }
+  }
+ }
+}

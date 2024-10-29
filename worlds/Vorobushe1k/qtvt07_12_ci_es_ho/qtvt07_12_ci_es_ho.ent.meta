@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7FE64E4A167A3718}Worlds/qtvt7_12_ci_es_ho/qtvt7_12_ci_es_ho.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

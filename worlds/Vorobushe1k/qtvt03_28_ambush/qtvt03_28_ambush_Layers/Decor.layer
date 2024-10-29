@@ -1,0 +1,118 @@
+$grp ParticleEffectEntity {
+ {
+  coords 3214.182 9.887 1256.449
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3212.99 11.521 1261.503
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3208.261 9.529 1257.696
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3210.218 10.183 1262.652
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3209.134 9.349 1252.174
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3211.393 11.097 1256.713
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3203.961 9.238 1255.075
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3211.835 10.882 1259.99
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 3210.524 10.814 1256.625
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3213.64 10.036 1260.44
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3212.214 10.831 1261.364
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 3254.809 10.086 1286.12
+  EffectPath "{4CE0C24CD0909157}Particles/Vehicle/Vehicle_fire_ground_T14.ptc"
+ }
+ {
+  coords 3255.359 10.95 1286.146
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 3259.358 11.167 1287.564
+  EffectPath "{79DD3A5F1F3069CD}Particles/Vehicle/Vehicle_fire_engine_small.ptc"
+ }
+ {
+  coords 3250.858 10.994 1282.955
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3258.422 10.156 1284.31
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3263.441 9.848 1286.542
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3260.484 10.003 1288.359
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 3272.549 9.21 1296.734
+  EffectPath "{CE5CC76F3574097F}Particles/Vehicle/Vehicle_fire_engine_UAZ_01.ptc"
+ }
+}
+$grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ Ural4320_ammo1 {
+  coords 3231.741 9.769 1262.913
+  angleX -10.394
+  angleY -174.683
+  angleZ -12.268
+ }
+ Ural4320_ammo2 {
+  coords 3240.821 10.616 1279.762
+  angleX 1.158
+  angleY -111.118
+  angleZ 0.512
+ }
+}
+GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck.et" {
+ coords 3272.781 8.754 1297.6
+ angleX 4.394
+ angleY -137.251
+ angleZ -0.804
+}
+$grp GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_wreck.et" {
+ {
+  coords 3257.96 9.64 1286.97
+  angleX 3.144
+  angleY -110.849
+  angleZ 0.716
+ }
+ {
+  coords 3211.649 9.426 1258.821
+  angleX -3.633
+  angleY -162.509
+  angleZ 2.601
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 3264.524 9.743 1293.444
+ angleX 1.658
+ angleY -82.499
+ angleZ 1.121
+}

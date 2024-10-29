@@ -1,0 +1,50 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 1 0 0 0
+   }
+  }
+  coords 2887.039 70.972 1700.454
+  Points {
+   ShapePoint "{60FD050C8DB703C5}" {
+    Position -6.012 0.895 -3.192
+   }
+   ShapePoint "{60FD050C8F89DF6C}" {
+    Position -12.975 0.913 9.859
+   }
+   ShapePoint "{60FD050C9233F8E9}" {
+    Position -6.785 -0.366 13.02
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0 0.074 1 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.074 1 0
+   }
+  }
+  coords 2752.308 77.43 1642.598
+  Points {
+   ShapePoint "{60FD0508D3183424}" {
+    Position -12.413 0.007 -10.524
+   }
+   ShapePoint "{60FD0502A717AAA1}" {
+    Position -26.209 0.101 3.989
+   }
+   ShapePoint "{60FD0502A979B1B7}" {
+    Position -19.228 0.101 11.142
+   }
+   ShapePoint "{60FD0502AA6DBEB2}" {
+    Position -15.483 0.088 7.349
+   }
+   ShapePoint "{60FD0508D4CB5728}" {
+    Position -10.494 0.019 11.795
+   }
+  }
+ }
+}

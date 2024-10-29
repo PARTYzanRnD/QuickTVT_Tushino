@@ -1,0 +1,200 @@
+GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+ coords 11671.12 0.539 2043.901
+ angleX -0.65
+ angleY 153.936
+ angleZ -1.329
+}
+$grp SCR_DestructibleEntity : "{2AFC62A9517BBCAD}Prefabs/Structures/Walls/Pole/PoleFence_01/PoleFence_01_3m_End.et" {
+ {
+  coords 11690.066 1.001 2080.268
+  angleX 0.01
+  angleY 85.787
+  angleZ -3.32
+  placement none
+ }
+ {
+  coords 11686.553 0.103 2086.215
+  angleY 1.742
+  placement none
+ }
+ {
+  coords 11677.612 0.242 2082.781
+  angleY -91.272
+  placement none
+ }
+ {
+  coords 11680.825 0.828 2076.915
+  angleY -178.578
+  placement none
+ }
+}
+$grp GenericEntity : "{4A6CAB11852FD31C}Prefabs/Props/Furniture/Chair_01/Chair_01_yellow.et" {
+ {
+  coords 11684.021 3.277 2092.114
+  angleY -179.161
+ }
+ {
+  coords 11686.389 3.333 2092.205
+  angleX -9.571
+  angleY -179.161
+ }
+ {
+  coords 11683.249 3.168 2090.753
+  angleY -179.161
+ }
+ {
+  coords 11682.16 3.171 2090.772
+  angleY -179.161
+ }
+ {
+  coords 11689.953 3.013 2090.166
+  angleX 10.102
+  angleY 16.399
+  angleZ 1.248
+ }
+}
+$grp GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubCompositions/BoxWooden_Cluttered_01.et" {
+ {
+  coords 11685.821 3.108 2090.632
+  angleX 7.396
+ }
+ {
+  coords 11682.201 3.319 2092.27
+  angleX 7.396
+ }
+ {
+  coords 11682.121 3.35 2092.703
+  angleX -0.45
+  angleY -93.47
+  angleZ -7.382
+ }
+}
+StaticModelEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+ coords 11713.4 0.574 2040.508
+ angleY -4.809
+}
+$grp GenericEntity : "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" {
+ {
+  coords 11670.238 1.467 2043.558
+  angleY -9.727
+  angleZ 90.445
+ }
+ {
+  coords 11670.444 1.541 2043.531
+ }
+ {
+  coords 11670.349 1.549 2043.472
+ }
+ {
+  coords 11670.551 1.55 2043.672
+  angleY -89.217
+ }
+ {
+  coords 11671.197 1.535 2043.834
+  angleY -89.217
+ }
+ {
+  coords 11670.815 1.473 2043.792
+  angleX -89.352
+  angleY -89.217
+ }
+ {
+  coords 11671.037 1.467 2043.982
+  angleX -17.757
+  angleY 0.576
+  angleZ -89.32
+ }
+}
+GenericEntity : "{7AB0AFBE367A9FB7}Prefabs/Props/Furniture/Chair_01/Chair_01_red.et" {
+ coords 11689.189 2.911 2085.643
+ angleY -122.363
+}
+$grp GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
+ {
+  coords 11713.066 1.557 2040.52
+  angleY 43.319
+ }
+ {
+  coords 11713.409 1.557 2040.4
+  angleY 43.319
+ }
+ {
+  coords 11713.273 1.557 2040.456
+  angleY 43.319
+ }
+ {
+  coords 11713.474 1.557 2040.553
+  angleY 43.319
+ }
+ {
+  coords 11713.603 1.557 2040.461
+  angleY 43.319
+ }
+ {
+  coords 11713.758 1.557 2040.48
+  angleY 43.319
+ }
+ {
+  coords 11713.507 1.557 2040.365
+  angleY 43.319
+ }
+}
+$grp SCR_DestructibleEntity : "{AF1A678815A3E17A}Prefabs/Structures/Walls/Pole/PoleFence_01/PoleFence_01_6m_C.et" {
+ {
+  coords 11689.65 0.229 2086.146
+  angleY 85.61
+  angleZ -3.32
+  placement none
+ }
+ {
+  coords 11680.656 -0.134 2086.33
+  angleY 1.565
+  placement none
+ }
+ {
+  coords 11677.732 0.816 2076.887
+  angleY -91.449
+  placement none
+ }
+ {
+  coords 11686.72 1.028 2076.751
+  angleY -178.755
+  placement none
+ }
+}
+$grp GenericEntity : "{B3C3E866F3AFFA03}Prefabs/Structures/Military/Camps/Foundations/Foundation_TentUSSR_01.et" {
+ {
+  coords 11680.958 2.935 2082.929
+ }
+ {
+  coords 11686.371 2.95 2082.982
+ }
+ {
+  coords 11686.903 2.955 2079.576
+ }
+ {
+  coords 11681.087 2.958 2079.489
+ }
+}
+GenericEntity : "{BD02400CAB005CE8}Prefabs/Props/Furniture/Chair_01/Chair_01_blue.et" {
+ coords 11678.256 2.908 2077.526
+ angleY 52.171
+}
+$grp GenericEntity : "{D0FF7E066D18C383}Prefabs/Props/Furniture/Chair_01/Chair_01_white.et" {
+ {
+  coords 11685.064 3.266 2092.211
+  angleY -179.951
+ }
+ {
+  coords 11686.722 3.03 2090.541
+  angleY -179.951
+ }
+ {
+  coords 11688.501 2.983 2090.26
+  angleY -179.951
+ }
+ {
+  coords 11682.788 3.258 2091.992
+  angleY -179.951
+ }
+}

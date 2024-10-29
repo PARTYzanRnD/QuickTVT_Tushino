@@ -1,0 +1,53 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 9478.677 1.158 5257.75
+  m_sTitle "Лехенда"
+  m_sTextData "Старт синих - синяя зона"\
+  "Старт красных - красная зона"\
+  "Зона захвата - Белый тригер"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 9475.367 1.157 5258.47
+  m_sTitle "Описание"
+  m_sTextData "Острые козырьки отбиваются от выпивох"
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 9473.369 1.158 5258.934
+  m_sTitle "Задачи"
+  m_sTextData "Победить бандитов"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 9471.052 1.164 5259.551
+  m_sTitle "Задачи"
+  m_sTextData "Отбиться от пьянчуг"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 9469.108 1.169 5260.004
+  m_sTitle "Подробное описание"
+  m_sTextData "Нормально же сидели выпивали, а тут пришли эти с козырьками, и отжали всю выпивку в баре. Нам даже ничего не оставили! И чем нам догоняться? "\
+  ""\
+  "Такой вечер испортили. Надо им показать, что нельзя просто так влетать в наше заведение и портить нам настроение!"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 9467.526 1.158 5260.455
+  m_sTitle "Подробное описание"
+  m_sTextData "Как ошалелый прибежал шестерка, его выставили из пивной через дорогу какие то мужики. И они не просто проявили неуважение, они ещё и ломяться сюда!"\
+  ""\
+  "Надо показать им кто тут главный!"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

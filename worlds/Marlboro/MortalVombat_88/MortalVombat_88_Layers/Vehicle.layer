@@ -1,0 +1,92 @@
+Vehicle M923A1_transport_covered_MERDC1 : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et" {
+ coords 1251.284 37.6 2932.601
+ angleY 78.277
+}
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  coords 3084.739 4.813 1148.835
+  angleY 63.982
+ }
+ UAZ469_PKM2 {
+  coords 3077.286 4.904 1145.408
+  angleY 63.982
+ }
+ UAZ469_PKM3 {
+  coords 3256.449 5.133 1244.039
+  angleY 44.856
+ }
+}
+$grp Vehicle : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ UAZ469_uncovered1 {
+  coords 3250.574 5.406 1244.408
+  angleY 48.551
+ }
+ UAZ469_uncovered2 {
+  coords 3068.237 4.556 1141.325
+  angleX 5.1
+  angleY 65.526
+  angleZ 2.579
+ }
+ UAZ469_uncovered3 {
+  coords 3061.923 4.257 1138.635
+  angleX 2.303
+  angleY 65.412
+  angleZ 2.879
+ }
+}
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 3234.208 5.052 1235.369
+  angleX 1.076
+  angleY -129.219
+  angleZ -4.336
+ }
+ Ural4320_transport2 {
+  coords 3110.603 4.444 1163.282
+  angleX -2.345
+  angleY 164.396
+  angleZ 1.583
+ }
+ Ural4320_transport3 {
+  coords 3103.312 4.285 1161.429
+  angleX -2.621
+  angleY 167.566
+  angleZ 0.578
+ }
+}
+Vehicle M923A1_transport_MERDC1 : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
+ coords 1249.614 37.6 2938.412
+ angleY 77.03
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 3250.773 3.673 1217.731
+ angleX -0.557
+ angleY -118.433
+ angleZ -4.778
+}
+Vehicle M1 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ coords 1268.156 37.6 2927.784
+ angleY 129.574
+}
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H1 {
+  coords 906.92 39.062 2821.826
+  angleY -169.662
+ }
+ UH1H2 {
+  coords 933.144 38.969 2786.917
+  angleY -104.33
+ }
+ UH1H3 {
+  coords 954.324 39.344 2751.891
+  angleY -117.998
+ }
+}
+Vehicle M998_covered_long_MERDC1 : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
+ coords 1273.316 37.598 2931.096
+ angleY 134.503
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 3181.185 4.83 1201.965
+ angleY -179.422
+}

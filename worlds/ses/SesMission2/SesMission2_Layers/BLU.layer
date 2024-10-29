@@ -1,0 +1,24 @@
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6292FA5AB0265673}" {
+   }
+  }
+  coords 4574.284 17.411 10646.134
+  angleY 168.312
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6292FA5AB0265673}" {
+   }
+  }
+  coords 4531.665 16.045 10639.521
+  angleY 168.727
+ }
+}

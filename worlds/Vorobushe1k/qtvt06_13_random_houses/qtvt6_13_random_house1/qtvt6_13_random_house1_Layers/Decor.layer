@@ -1,0 +1,130 @@
+$grp SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_8m.et" {
+ {
+  coords 1210.57 41.328 2747.102
+  angleY -15.256
+ }
+ {
+  coords 1202.963 41.328 2745.027
+  angleY -15.256
+ }
+ {
+  coords 1187.83 41.328 2740.9
+  angleY -15.256
+ }
+ {
+  coords 1195.59 41.328 2750.39
+  angleY -15.256
+ }
+ {
+  coords 1157.862 41.328 2732.727
+  angleY -15.256
+ }
+ {
+  coords 1160.668 41.328 2741.301
+  angleY -15.256
+ }
+ {
+  coords 1180.602 41.328 2738.928
+  angleY -15.256
+ }
+ {
+  coords 1172.995 41.328 2736.854
+  angleY -15.256
+ }
+ {
+  coords 1150.399 41.328 2730.692
+  angleY -15.256
+ }
+ {
+  coords 1147.28 41.328 2725.089
+  angleY 75.262
+ }
+ {
+  coords 1142.703 41.328 2718.067
+  angleY 75.262
+ }
+ {
+  coords 1151.187 41.328 2710.236
+  angleY 75.262
+ }
+ {
+  coords 1152.555 41.328 2683.938
+  angleY 75.262
+ }
+ {
+  coords 1155.163 41.328 2695.122
+  angleY 75.262
+ }
+ {
+  coords 1153.162 41.328 2702.728
+  angleY 75.262
+ }
+ {
+  coords 1158.993 41.328 2680.562
+  angleY 75.262
+ }
+ {
+  coords 1222.982 41.328 2740.679
+  angleY 75.262
+ }
+ {
+  coords 1219.975 41.328 2729.062
+  angleY 75.262
+ }
+ {
+  coords 1232.369 41.328 2705.262
+  angleY 75.262
+ }
+ {
+  coords 1223.951 41.328 2713.948
+  angleY 75.262
+ }
+ {
+  coords 1221.95 41.328 2721.554
+  angleY 75.262
+ }
+ {
+  coords 1227.781 41.328 2699.388
+  angleY 75.262
+ }
+ {
+  coords 1216.068 41.328 2743.915
+  angleY 75.262
+ }
+ {
+  coords 1217.285 41.328 2691.497
+  angleY -15.256
+ }
+ {
+  coords 1202.152 41.328 2687.369
+  angleY -15.256
+ }
+ {
+  coords 1213.416 41.328 2684.475
+  angleY -15.256
+ }
+ {
+  coords 1172.184 41.328 2679.196
+  angleY -15.256
+ }
+ {
+  coords 1178.904 41.328 2675.166
+  angleY -15.256
+ }
+ {
+  coords 1194.924 41.328 2685.397
+  angleY -15.256
+ }
+ {
+  coords 1187.317 41.328 2683.324
+  angleY -15.256
+ }
+ {
+  coords 1164.721 41.328 2677.162
+  angleY -15.256
+ }
+ {
+  coords 1224.892 41.328 2693.572
+  angleY -15.256
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F649EED46C3123B3}Worlds/qtvt6_12_random_houses/qtvt6_12_random_house3/qtvt6_12_random_house3.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

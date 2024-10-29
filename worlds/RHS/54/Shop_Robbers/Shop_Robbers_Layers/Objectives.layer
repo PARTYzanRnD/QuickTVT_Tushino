@@ -1,0 +1,59 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR" "RHS_USAF" "RHS_AFRF" "PS_CheeseRaiders"
+   }
+  }
+ }
+ coords 3158.719 13.864 2724.582
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.192 -0.647 -0.023
+  }
+  ShapePoint "{611B3393D741C96D}" {
+   Position 7.878 -0.802 -4.861
+  }
+  ShapePoint "{611B3393DB067475}" {
+   Position 4.314 -0.802 -10.157
+  }
+  ShapePoint "{611B3393DD6AB70F}" {
+   Position 12.814 -0.544 -15.861
+  }
+  ShapePoint "{611B3393E2A83C9E}" {
+   Position 25.675 -0.573 3.881
+  }
+  ShapePoint "{611B3393E5F2CA62}" {
+   Position 9.588 -1.333 14.422
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 90
+   m_sCurrentFaction "PS_CheeseRaiders"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить магазин"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать магазин"
+   m_sTextData ""
+   m_sFactionKey "PS_CheeseRaiders"
+  }
+ }
+}

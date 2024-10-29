@@ -1,0 +1,12 @@
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 3540.282 45.022 2641.344
+ angleY 90.479
+ m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 0.686 0.458 0.019 1
+ m_sQuadName "Slot_HQ"
+ m_aVisibleForFactions {
+  "US" "USSR"
+ }
+ m_bVisibleForEmptyFaction 1
+}

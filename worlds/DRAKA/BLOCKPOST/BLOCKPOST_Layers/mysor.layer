@@ -1,0 +1,46 @@
+$grp GenericEntity : "{27B3CECB6489D952}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_burlap.et" {
+ {
+  coords 2363.362 66.908 2790.078
+  angleY 130.551
+ }
+ {
+  components {
+   Hierarchy "{5A58883F887D4286}" {
+   }
+  }
+  coords 2362.744 70.435 2799.985
+  angleY 42.734
+ }
+}
+GenericEntity : "{2FE44206E527DA4C}Prefabs/Props/Military/Compositions/US/VehicleService_US_Medium.et" {
+ coords 2339.854 68.176 2783.915
+}
+Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ coords 2364.923 68.121 2793.806
+ angleY 120.324
+ scale 1.1
+}
+$grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
+ {
+  coords 2359.352 70.287 2800.179
+ }
+ {
+  coords 2342.301 69.547 2782.822
+ }
+ {
+  coords 2342.755 69.622 2782.854
+  {
+   GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
+    coords 16.234 0.696 17.639
+   }
+  }
+ }
+}
+GenericEntity : "{CF4F7AEE0BFA7B25}Prefabs/Props/Military/Compositions/US/Antenna_01_US.et" {
+ coords 2339.492 68.089 2782.899
+ angleY 8.057
+}
+GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et" {
+ coords 2360.003 71.404 2794.302
+ scale 1.87
+}

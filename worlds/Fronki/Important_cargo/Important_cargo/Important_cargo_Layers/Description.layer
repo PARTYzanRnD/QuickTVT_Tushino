@@ -1,0 +1,57 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "Описание миссии"
+  m_sTextData "После разгрома биологической лаборатории отступающим силам ВС США пришлось закрепиться на территории города Берегард."\
+  ""\
+  " Секретный биологический образец хранится в единственном пригодном для этом месте - холодильнике местного магазина. Войскам ВС РФ необходимо захватить и удерживать местный магазин пока идет передача секретных данных в штаб."\
+  ""\
+  "Задачи ВС США - не дать ВС РФ захватить магазин, либо ликвидировать наступающего противника. "\
+  "        Данные разведки: У ВС РФ есть вертолеты возможно стоит подготовиться к встрече с ними."\
+  ""\
+  "Задачи ВС РФ - захватить и удерживать магазин в городе Берегард, либо ликвидировать всех обороняющихся.  "\
+  "        Данные разведки: Противник хорошо окопался в городе, но мы нашли их слабые места (Подробнее в разделе Legend)."\
+  ""\
+  " After the defeat of the biological laboratory, the retreating forces of the US Armed Forces had to gain a foothold in the territory of the city of Beregard."\
+  ""\
+  "The secret biological sample is stored in the only place suitable for this purpose - the refrigerator of a local store. The troops of the Armed Forces of the Russian Federation need to capture and hold a local store while secret data is being transferred to the headquarters."\
+  ""\
+  "The tasks of the US Armed Forces are to prevent the Russian Armed Forces from seizing the store, or to eliminate the advancing enemy."\
+  "         Intelligence data: The Russian Armed Forces have helicopters, it may be worth preparing for a meeting with them."\
+  ""\
+  "The tasks of the Armed Forces of the Russian Federation are to capture and hold the store in the city of Beregard, or eliminate all the defenders."\
+  "         Intelligence data: The enemy is well entrenched in the city, but we have found their weak points (For more information, see the Legend section)."
+  m_aVisibleForFactions {
+   "" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ LEGEND {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "Легенда"
+  m_sTextData "Белая зона - цель миссии. "\
+  ""\
+  "Красная зона - зона подготовки к игре красной стороны, за неё запрещено выходить до конца фризтайма. "\
+  ""\
+  "Синяя зона - зона подготовки к игре синей стороны, за неё запрещено выходить до конца фризтайма. "\
+  ""\
+  "Отсчет времени до захвата точки показан в правом верхнем углу, увидеть его можно только в зоне триггера."\
+  ""\
+  "Особенности миссии: Некоторые входы в здания забаррикадированы, возможно удары прикладом помогут разобрать барикады. "\
+  ""\
+  ""\
+  "The white zone is the goal of the mission."\
+  ""\
+  "The red zone is the zone of preparation for the game of the red side, it is forbidden to leave it until the end of the freeze-time."\
+  ""\
+  "The blue zone is the zone of preparation for the game of the blue side, it is forbidden to leave it until the end of the freeze-time."\
+  ""\
+  "The countdown to the capture of the point is shown in the upper right corner, it can only be seen in the trigger area."\
+  ""\
+  "Mission Features: Some entrances to buildings are barricaded, perhaps blows with the butt will help to dismantle the barricades."
+  m_aVisibleForFactions {
+   "" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}

@@ -1,0 +1,78 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{6102F2CF500C83D1}" {
+  }
+ }
+ coords 1359.179 37.941 2956.557
+ Points {
+  ShapePoint "{6102B7BEFD44D4C7}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6104D843620C9578}" {
+   Position -1.134 0.028 4.281
+  }
+  ShapePoint "{6104D8435D1D2D12}" {
+   Position -4.057 0.014 3.512
+  }
+  ShapePoint "{6104D8435E96CB03}" {
+   Position -5.682 -0.044 10.015
+  }
+  ShapePoint "{6104D84355B180EE}" {
+   Position 10.071 -0.015 14.488
+  }
+  ShapePoint "{6104D8435711D579}" {
+   Position 13.05 0.048 3.464
+  }
+ }
+ IsClosed 1
+ {
+  $grp PS_Objective {
+   {
+    components {
+     RplComponent "{6102F80BAA45EEDC}" {
+     }
+     Hierarchy "{6102F80A7DDE3F73}" {
+     }
+    }
+    m_sTitle "Центр управления под контролем РФ."
+    m_sTextData ""
+    m_iScore 100
+    m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
+   }
+   {
+    components {
+     RplComponent "{6102F80BA6503D06}" {
+     }
+     Hierarchy "{6102F80A792BDE01}" {
+     }
+    }
+    m_sTitle "Центр управления под контролем США."
+    m_sTextData ""
+    m_iScore 100
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   components {
+    RplComponent "{6102F80BAF33C2A4}" {
+    }
+    Hierarchy "{6102F80986703D6F}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 46
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "RHS_AFRF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+ }
+}

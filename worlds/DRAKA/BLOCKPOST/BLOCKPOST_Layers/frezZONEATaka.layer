@@ -1,0 +1,60 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0
+    m_cPolygonBorderColor 1 0 0 1
+   }
+  }
+  coords 2591.647 17.683 3097.396
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position 5.246 0.75 0
+   }
+   ShapePoint "{611C3B3654FFA3E6}" {
+    Position 11.191 0 -11.084
+   }
+   ShapePoint "{611C3B36557D94B1}" {
+    Position 6.975 0 -22.041
+   }
+   ShapePoint "{611C3B36562375FB}" {
+    Position -14.659 0 -21.04
+   }
+   ShapePoint "{611C3B3652F8035A}" {
+    Position -47.034 0 -32.514
+   }
+   ShapePoint "{611C3B3653A52E92}" {
+    Position -59.773 0 -0.817
+   }
+   ShapePoint "{611C3B365C410A81}" {
+    Position -36.072 0 7.088
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 1
+    m_cPolygonBorderColor 0.937 0 0 1
+   }
+  }
+  coords 2068.637 51.779 2841.017
+  Points {
+   ShapePoint "{611C93DD87C652F9}" {
+    Position 9.589 0 23.952
+   }
+   ShapePoint "{611C93DD87195665}" {
+    Position 21 0 39.104
+   }
+   ShapePoint "{611C93DD82C127CA}" {
+    Position 29.79 0 50.381
+   }
+   ShapePoint "{611C93DD82396ED5}" {
+    Position 44.391 0 38.463
+   }
+   ShapePoint "{611C93DD8DDBAD2F}" {
+    Position 15.223 0 -4.695
+   }
+  }
+ }
+}

@@ -1,0 +1,59 @@
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 3002.679 43.777 2049.507
+ angleX 6.064
+ angleY -114.078
+ angleZ -1.729
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 2805.89 73.65 1664.81
+ angleY -114.096
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   angleY -174.463
+   m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+   m_sImageSetGlow ""
+   m_sQuadName "Slot_HeavyVehicleDepot"
+   m_aVisibleForFactions {
+    "FIA" "USSR"
+   }
+   m_bVisibleForEmptyFaction 1
+  }
+ }
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 2750.356 77.958 1652.847
+ angleX -0.358
+ angleY 46.374
+ angleZ 0.771
+}
+Vehicle S1203_transport_yellow1 : "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et" {
+ coords 2847.538 71.419 1595.414
+ angleX -1.83
+ angleY 58.729
+ angleZ 2.157
+}
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 2732.22 77.525 1648.84
+ angleY 24.113
+}
+Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 2762.749 77.544 1666.661
+ angleY -131.611
+}
+Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
+ coords 2675.364 77.859 1730.965
+}
+Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+ coords 2790.927 72.988 1708.437
+ angleX -3.611
+ angleY 68.747
+ angleZ -4.34
+}
+Vehicle Ural4320_tanker_CIV_pohona1 : "{B3C8EC88E7782C78}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_CIV_pohona.et" {
+ coords 2858.881 71.781 1673.865
+}
+Vehicle UAZ469_uncovered_CIV_teal1 : "{D4855501D5B12AF2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_teal.et" {
+ coords 2700.845 77.757 1680.229
+ angleY -122.919
+}

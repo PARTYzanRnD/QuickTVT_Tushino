@@ -1,0 +1,26 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1390.019 36.156 2375.354
+  m_sTitle "ДРАКА"
+  m_sTextData "Если драка не избежна, бить надо первым."\
+  " (p.s НЕ ЗАБУДЬ ВЗЯТЬ В РУКИ ДЫМ)"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1411.32 35.862 2373.531
+  m_sTitle "ЗАДАЧА"
+  m_sTextData "Побить красных"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 1386.346 36.313 2357.27
+  m_sTitle "ЗАДАЧА"
+  m_sTextData "Побить синих"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}

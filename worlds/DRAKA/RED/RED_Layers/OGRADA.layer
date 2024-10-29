@@ -1,0 +1,64 @@
+$grp GenericEntity : "{35E211705F8FED68}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_blue.et" {
+ {
+  coords 1402.697 35.896 2370.671
+  angleX 0.307
+  angleY 89.331
+  angleZ -1.783
+ }
+ {
+  coords 1410.257 35.72 2365.94
+  angleX -0.221
+  angleY 177.902
+  angleZ -1.749
+ }
+ {
+  coords 1391.886 36.135 2362.952
+  angleX -0.221
+  angleY 179.226
+  angleZ -1.749
+ }
+}
+GenericEntity : "{526D39BE96FE8A08}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_grey.et" {
+ coords 1417.358 35.683 2361.154
+ angleZ 0.895
+}
+$grp GenericEntity : "{88A64A32F78CFB77}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_blue.et" {
+ {
+  coords 1393.409 35.937 2370.552
+  angleY -92.04
+ }
+ {
+  coords 1410.543 35.769 2356.682
+ }
+ {
+  coords 1392.189 36.108 2356.86
+ }
+}
+$grp GenericEntity : "{DB403F1A9E7B0B4F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_red.et" {
+ {
+  coords 1391.894 36.089 2338.69
+  angleX -0.895
+ }
+ {
+  coords 1410.473 35.793 2347.411
+  angleX -0.895
+ }
+ {
+  coords 1410.369 36.073 2335.157
+  angleX -0.895
+ }
+ {
+  coords 1402.93 36.091 2331.41
+  angleX -0.895
+  angleY -90.009
+ }
+ {
+  coords 1395.866 36.028 2331.333
+  angleX -0.895
+  angleY -90.009
+ }
+ {
+  coords 1392.029 36.127 2350.978
+  angleX -0.18
+ }
+}

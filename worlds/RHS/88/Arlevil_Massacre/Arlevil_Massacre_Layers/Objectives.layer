@@ -1,0 +1,61 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 2740.103 77.724 1631.283
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.068 -0.28 0.279
+  }
+  ShapePoint "{610CEE7B2C67AF95}" {
+   Position 12.498 -0.286 11.361
+  }
+  ShapePoint "{610CEE7B31FC4E54}" {
+   Position 1.988 -0.28 23.131
+  }
+  ShapePoint "{610CEE7B3207EA25}" {
+   Position -4.063 -0.209 17.705
+  }
+  ShapePoint "{610CEE7B34B22084}" {
+   Position -0.382 -0.282 13.689
+  }
+  ShapePoint "{610CEE7B29BE46FF}" {
+   Position -6.838 -0.255 7.836
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 300
+   m_iPowerBalance 4
+   m_sCurrentFaction "RHS_AFRF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить гостинницу Арлевиля"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить гостинницу Арлевиля"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

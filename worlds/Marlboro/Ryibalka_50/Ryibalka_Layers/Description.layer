@@ -1,0 +1,67 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description_All_1 {
+  coords 2767.733 20.392 1173.956
+  m_sTitle "Информация к размышлению"
+  m_sTextData "Пьяная драка рыбаков и рыбнадзора"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Description_All_2 {
+  coords 2766.954 20.692 1178.432
+  m_sTitle "Лехенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Фриз зона Зеленых - Зеленая зона"\
+  "Фриз зона синих - Синяя зона"
+  m_bEmptyFactionVisibility 1
+ }
+ Desription_FIA_1 {
+  coords 2758.92 22.511 1204.419
+  m_sTitle "Задачи"
+  m_sTextData "Удержать завод, уничтожить нападающих"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Desription_FIA_2 {
+  coords 2755.147 22.984 1212.669
+  m_sTitle "Подробное описание"
+  m_sTextData "Мы всегда здесь работали, это наше место! А теперь они хотять его у нас отнять! Мы этого не потерпим, пускай катятся куда подальше! Корабль с командой ушёл в открытые воды, там его не достанут. Андреич спрятал у себя несколько контробандных стволов, пора пустить их в дело."
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Desription_FIA_3 {
+  coords 2751.821 23.254 1221.408
+  m_sTitle "Правила и условности"
+  m_sTextData "В камуфлированной палатке и за ней есть дополнительное вооружение и патроны. Не заплывай за буйки"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Description_US_1 {
+  coords 2747.951 24.034 1233.56
+  m_sTitle "Задачи"
+  m_sTextData "Захватить завод  незаконного лова и переработки"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Description_US_2 {
+  coords 2747.299 24.328 1241.292
+  m_sTitle "Подробное описание"
+  m_sTextData "Согласно новым правилам сезонных уловов, на Восточном побережье острова вылов, на данный момент, запрещён. Однако было установленно, что группа лиц, продолжает промысел в данном районе, и делает это незаконно. "\
+  ""\
+  "Пока береговая охрана, на гребных лодках ведёт погоню, мы должны провести наземную операцию по захвату территории завода."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Description_US_3 {
+  coords 2746.545 24.387 1248.673
+  m_sTitle "Правила и условности"
+  m_sTextData "Не заплывай за буйки"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

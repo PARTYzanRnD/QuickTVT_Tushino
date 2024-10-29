@@ -1,0 +1,69 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description_All_1 {
+  coords 2767.733 20.392 1173.956
+  m_sTitle "Информация к размышлению"
+  m_sTextData "Битва за Бунгерную"
+  m_bEmptyFactionVisibility 1
+ }
+ Description_All_2 {
+  coords 2766.954 20.692 1178.432
+  m_sTitle "Лехенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Фриз зона Красных - Красноватая зона"\
+  "Фриз зона синих - Синяя зона"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Desription_USSR_1 {
+  coords 2758.92 22.511 1204.419
+  m_sTitle "Задачи"
+  m_sTextData "Занять Бунгерную"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Desription_USSR_2 {
+  coords 2755.147 22.984 1212.669
+  m_sTitle "Подробное описание"
+  m_sTextData "В третий раз это заведение мешает нашим планам. Каждый раз когда мы пытаемся всей ротой зайти нормально покушать, у них то нет на нас времени, то все места заняты американцами!"\
+  ""\
+  "Мы не можем выполнять приказы штаба на пустой желудок! Нужно выбить незванных гостей с этого места и занять его для себя."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Desription_USSR_3 {
+  coords 2751.821 23.254 1221.408
+  m_sTitle "Правила и условности"
+  m_sTextData "Не трогайте сыр на кухне!"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_US_1 {
+  coords 2747.951 24.034 1233.56
+  m_sTitle "Задачи"
+  m_sTextData "Сохранить Бунгерную в целости и сохранности, до возвращения Сеска"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Description_US_2 {
+  coords 2747.299 24.328 1241.292
+  m_sTitle "Подробное описание"
+  m_sTextData "Сеск отошёл по делам, и попросил нас присмотреть за его заведением. Так как это единственное местное заведение такого уровня, мы не смогли отказать."\
+  ""\
+  "Его Бунгерную перестрвиают уже в третий раз, так что давайте не подведем парни."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Description_US_3 {
+  coords 2746.545 24.387 1248.673
+  m_sTitle "Правила и условности"
+  m_sTextData "В здании хранится доп вооружение. Не съеште весь сыр"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

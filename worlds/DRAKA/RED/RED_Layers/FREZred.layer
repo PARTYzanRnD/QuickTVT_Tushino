@@ -1,0 +1,79 @@
+PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 1384.515 37.497 2324.558
+ Points {
+  ShapePoint "{61147C8B2AACD48C}" {
+   Position 2.154 -2.037 49.188
+  }
+  ShapePoint "{6114B3185C82ED8C}" {
+   Position 25.193 1.855 55.25
+  }
+  ShapePoint "{61147C88D05EC471}" {
+   Position 28.816 0 2.418
+  }
+  ShapePoint "{61147C88D14A0857}" {
+   Position 0.24 0 1.095
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 1384.487 37.376 2324.557
+ Points {
+  ShapePoint "{61147C8B847F95CD}" {
+   Position -0.441 0 54.607
+  }
+  ShapePoint "{61147C8B895E683F}" {
+   Position 29.921 -0.065 51.29
+  }
+  ShapePoint "{61147C8B94A5403F}" {
+   Position 29.495 -0.567 0.649
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 1394.082 36.092 2339.156
+ Points {
+  ShapePoint "{61147C890025DA52}" {
+   Position 14.473 0 0.02
+  }
+  ShapePoint "{61147C8903F446C8}" {
+   Position 14.14 -0.192 25.422
+  }
+  ShapePoint "{61147C890CA6952F}" {
+   Position 0.544 0.182 26.133
+  }
+ }
+ {
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "ПОБЕДА СИНИХ"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "ПОБЕДА КРАСНЫХ"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

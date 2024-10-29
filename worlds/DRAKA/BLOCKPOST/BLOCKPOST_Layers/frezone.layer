@@ -1,0 +1,139 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ coords 2006.821 0 2663.48
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -42.564 0 -53.594
+  }
+  ShapePoint "{611E9BC13CDB1D46}" {
+   Position -86.365 0 38.219
+  }
+  ShapePoint "{611E9BC13E08A7B6}" {
+   Position -113.989 0 129.052
+  }
+  ShapePoint "{611E9BC13AA8D03B}" {
+   Position -161.245 0 383.163
+  }
+  ShapePoint "{611E9BC13B59FFC9}" {
+   Position -6.139 0 562.807
+  }
+  ShapePoint "{611E9BC0C1F7BA76}" {
+   Position 163.737 0 590.209
+  }
+  ShapePoint "{611E9BC0C31136DB}" {
+   Position 636.015 0 495.878
+  }
+  ShapePoint "{611E9BC0C9120DDF}" {
+   Position 791.171 0 458.82
+  }
+  ShapePoint "{611E9BC0D4FFCD97}" {
+   Position 639.431 0 -246.236
+  }
+  ShapePoint "{611E9BC0D60108CA}" {
+   Position 429.297 0 -331.209
+  }
+  ShapePoint "{611E9BC0D22EF98A}" {
+   Position 216.009 0 -289.487
+  }
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 2346.297 66.76 2767.689
+ Points {
+  ShapePoint "{611C3B2EDBD2D895}" {
+   Position -11.245 -0.668 -0.344
+  }
+  ShapePoint "{611C3B2EE65A83FA}" {
+   Position -22.352 -2.289 12.443
+  }
+  ShapePoint "{611C3B2EE002DD47}" {
+   Position -16.964 -0.881 40.244
+  }
+  ShapePoint "{611C3B2EECA47CB5}" {
+   Position 3.731 -1.567 51.89
+  }
+  ShapePoint "{611C3B2EEFAE7644}" {
+   Position 26.747 -6.1 32.489
+  }
+  ShapePoint "{611C3B2EEAE025D5}" {
+   Position 30.713 -1.4 13.488
+  }
+  ShapePoint "{611C3B2EF4FFB575}" {
+   Position 10.275 0.299 -0.968
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   components {
+    Hierarchy "{611C3B2FDDF0671C}" {
+    }
+   }
+   coords 37.816 0 15.018
+   TriggerShapeType Polyline
+   SphereRadius 9.999
+   "Polyline Height" 100000000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{611C3B2F4BB8B4EF}" {
+    m_fKillTime 10
+   }
+   m_bReversed 1
+   m_bAliveOnly 1
+   m_sFactionKey "US"
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 2354.582 0 2808.073
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.187 -1.551 1.867
+  }
+  ShapePoint "{611E9BC58BDD6615}" {
+   Position -4.884 0 -2.568
+  }
+  ShapePoint "{611E9BC59DAC9EA7}" {
+   Position 5.288 0 -13.284
+  }
+  ShapePoint "{611E9BC5997AFC90}" {
+   Position 10.123 0 -8.066
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 200000
+   m_sFactionKey "USSR"
+   m_iPowerBalance 1
+   m_sCurrentFaction "US"
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "НАПАДЕНИЕ ОТБЫТО"
+   m_sTextData ""
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "БЛОКПОСТ ЗАХВАЧЕН"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

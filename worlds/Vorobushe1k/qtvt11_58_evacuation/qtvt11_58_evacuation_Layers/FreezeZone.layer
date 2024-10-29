@@ -1,0 +1,73 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{6102F2CF500C83D1}" {
+  }
+ }
+ coords 3391.533 0 2903.258
+ Points {
+  ShapePoint "{6102B7BEFD44D4C7}" {
+   Position 0 0 0
+  }
+  ShapePoint "{610AEA158148D5E7}" {
+   Position -89.945 2.108 -63.461
+  }
+  ShapePoint "{610AEA1583173060}" {
+   Position -117.107 3.89 -70.359
+  }
+  ShapePoint "{610AEA147CB5187C}" {
+   Position -145.346 3.878 -50.354
+  }
+  ShapePoint "{610AEA147C6D0069}" {
+   Position -150.85 3.933 -41.627
+  }
+  ShapePoint "{610AEA1479119A50}" {
+   Position -181.057 1.879 11.138
+  }
+  ShapePoint "{610AEA147822CCFC}" {
+   Position -186.142 1.937 41.441
+  }
+  ShapePoint "{610AEA147A9DD5B7}" {
+   Position -155.537 1.646 64.771
+  }
+  ShapePoint "{610AEA1475425D0D}" {
+   Position -116.7 -4.129 92.153
+  }
+  ShapePoint "{610AEA147403B7E6}" {
+   Position -58.641 -4.838 98.765
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger {
+   components {
+    Hierarchy "{6102F809C35E4741}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 3.8
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 0.2
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{610B5025C60C5DCF}" {
+   }
+   m_bReversed 1
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 1845.779 14.698 3449.252
+ }
+ {
+  coords 2801.623 73.754 1633.609
+ }
+ {
+  coords 2899.117 36.741 3140.111
+  angleX 4.188
+  angleY -34.508
+  angleZ -1.793
+ }
+}

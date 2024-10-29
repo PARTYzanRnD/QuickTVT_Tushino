@@ -1,0 +1,247 @@
+Vehicle S1203_transport_red1 : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1974.223 51.312 3004.622
+ angleY -72.806
+}
+Vehicle S105_lightgreen1 : "{321016E0F9361A22}Prefabs/Vehicles/Wheeled/S105/S105_lightgreen.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1968.21 51.281 3006.848
+ angleY -62.767
+}
+SCR_AIGroup PS_CheeseRaiders_G_012_5 : "{34AB88038127D8D5}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Bandits.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B21910289E8D7}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 1969.411 51.24 3000.677
+ angleY 24.991
+}
+$grp SCR_AIGroup : "{3C44754065983F08}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Gangsters.et" {
+ PS_CheeseRaiders_G_002_5 {
+  components {
+   PS_GroupCallsignAssigner "{611B21917D663344}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1966.001 51.262 3010.668
+  angleY -157.995
+ }
+ PS_CheeseRaiders_G_010_5 {
+  components {
+   PS_GroupCallsignAssigner "{611B21917FCFFEB4}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1971.847 51.262 3008.347
+  angleY -157.995
+ }
+}
+$grp Vehicle : "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et" {
+ S1203_transport_yellow1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "PS_CheeseRaiders"
+   }
+  }
+  coords 1980.334 51.505 2998.636
+  angleX -0.834
+  angleY -68.604
+  angleZ -0.327
+ }
+ S1203_transport_yellow2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "PS_CheeseRaiders"
+   }
+  }
+  coords 1971.868 51.31 3002.018
+  angleX -0.806
+  angleY -64.217
+  angleZ -0.389
+ }
+}
+$grp Vehicle : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ S1203_transport_beige1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "PS_CheeseRaiders"
+   }
+  }
+  coords 1986.645 51.572 2995.226
+  angleX -0.817
+  angleY -65.893
+  angleZ -0.366
+ }
+ S1203_transport_beige2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "PS_CheeseRaiders"
+   }
+  }
+  coords 1996.646 51.385 2994.608
+  angleX -0.796
+  angleY -62.785
+  angleZ -0.409
+ }
+}
+Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1962.299 51.192 3010.035
+ angleX -0.85
+ angleY -71.639
+ angleZ -0.282
+}
+Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1965.79 51.247 3004.533
+ angleX -0.813
+ angleY -65.389
+ angleZ -0.373
+}
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1960.204 51.19 3006.404
+ angleX -0.873
+ angleY -77.193
+ angleZ -0.198
+}
+SCR_AIGroup PS_CheeseRaiders_G_011_4 : "{803AC0AEA66D221D}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Thiefs.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B219100293753}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1963.813 51.133 3003.086
+ angleY 20.791
+}
+SCR_AIGroup PS_CheeseRaiders_G_001_3 : "{9363C234DEAA21E7}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Boss.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B21917C04C50E}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1958.721 51.143 3004.758
+ angleY 18.251
+}
+Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1988.339 51.281 2998.214
+ angleY -69.168
+}
+SCR_AIGroup PS_CheeseRaiders_G_020_4 : "{DB66B03D076ACDB4}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Shooters.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B219103F8FFFB}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 0
+  }
+ }
+ coords 1977.653 51.324 3006.173
+ angleY -157.419
+}
+$grp SCR_AIGroup : "{E4023AFD012F4B90}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Low.et" {
+ PS_CheeseRaiders_G_021_6 {
+  components {
+   PS_GroupCallsignAssigner "{611B219104D937B1}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1976.718 51.268 2997.46
+  angleY 21.708
+ }
+ PS_CheeseRaiders_G_022_6 {
+  components {
+   PS_GroupCallsignAssigner "{611B219105318416}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1984.096 51.346 3002.762
+  angleY -154.225
+ }
+ PS_CheeseRaiders_G_100_6 {
+  components {
+   PS_GroupCallsignAssigner "{611B2191060C495E}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1983.58 51.268 2994.545
+  angleY 21.708
+ }
+ PS_CheeseRaiders_G_101_6 {
+  components {
+   PS_GroupCallsignAssigner "{611B2191077A8986}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1992.373 51.346 2999.413
+  angleY -154.225
+ }
+ PS_CheeseRaiders_G_102_6 {
+  components {
+   PS_GroupCallsignAssigner "{611B2191077A8986}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1999.769 51.346 2994.919
+  angleY -147.393
+  m_aUnitPrefabSlots + {
+   "{C5066E523D973159}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Yegg.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et"
+  }
+ }
+}
+Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 1980.973 51.317 3001.69
+ angleX -0.307
+ angleY -69.943
+ angleZ 0.841
+}

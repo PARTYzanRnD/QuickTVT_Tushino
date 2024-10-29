@@ -1,0 +1,197 @@
+$grp Vehicle : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
+ Mi8MTT_A_Black1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5A7CE769E7A9C416}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5A7CE769E7A9C414}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    ActionContexts {
+     UserActionContext "{5A7CE769E7A9C577}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C548}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C54A}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C54C}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C54E}" {
+      Radius 0
+     }
+    }
+   }
+  }
+  coords 834.262 0.704 3562.544
+  angleX 7.859
+  angleY 140.832
+  angleZ -0.309
+ }
+ Mi8MTT_A_Black2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5A7CE769E7A9C416}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5A7CE769E7A9C414}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    ActionContexts {
+     UserActionContext "{5A7CE769E7A9C577}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C548}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C54A}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C54C}" {
+      Radius 0
+     }
+     UserActionContext "{5A7CE769E7A9C54E}" {
+      Radius 0
+     }
+    }
+   }
+  }
+  coords 793.728 0.355 3559.133
+  angleX 4.992
+  angleY 128.038
+ }
+}
+$grp StaticModelEntity : "{AF8D04AE2FDC3351}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_forest.et" {
+ {
+  coords 975.85 -0.335 3498.043
+  angleX 0.923
+  angleY 104.939
+  angleZ -3.455
+ }
+ {
+  coords 977.434 -0.334 3503.806
+  angleX -1.031
+  angleY 105.056
+  angleZ -3.055
+ }
+ {
+  coords 978.528 -0.336 3509.318
+  angleX -2.058
+  angleY 97.734
+  angleZ -4.783
+ }
+ {
+  coords 978.656 -0.334 3515.281
+  angleX -3.872
+  angleY 85.033
+  angleZ -3.247
+ }
+ {
+  coords 973.71 -0.335 3492.901
+  angleX 3.728
+  angleY 118.955
+  angleZ -3.041
+ }
+ {
+  coords 970.252 -0.334 3487.491
+  angleX 5.915
+  angleY 125.291
+  angleZ 0.906
+ }
+ {
+  coords 966.659 -0.334 3483.661
+  angleX 4.244
+  angleY 138.131
+  angleZ 3.389
+ }
+ {
+  coords 899.553 -0.512 3517.474
+  angleY 96.227
+ }
+ {
+  coords 900.235 -0.515 3523.413
+  angleX -1.485
+  angleY 96.296
+  angleZ -2.862
+ }
+ {
+  coords 900.47 -0.514 3529.029
+  angleX -0.947
+  angleY 88.901
+  angleZ -2.666
+ }
+ {
+  coords 899.682 -0.514 3534.946
+  angleX 0.214
+  angleY 75.898
+  angleZ -2.821
+ }
+ {
+  coords 898.226 -0.513 3512.063
+  angleX -3.052
+  angleY 110.124
+  angleZ -2.069
+ }
+ {
+  coords 895.512 -0.505 3506.22
+  angleX -3.302
+  angleY 118.898
+  angleZ -0.056
+ }
+ {
+  coords 892.666 -0.511 3501.857
+  angleX -5.26
+  angleY 129.734
+  angleZ -2.047
+ }
+}
+$grp StaticModelEntity : "{F4D70CC286F0181E}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal_end_forest.et" {
+ {
+  coords 962.469 -0.307 3480.006
+  angleX -6.098
+  angleY -39.362
+  angleZ -8.755
+ }
+ {
+  coords 977.711 -0.395 3521.247
+  angleX -4.065
+  angleY 77.668
+  angleZ -4.754
+ }
+ {
+  coords 897.834 -0.515 3540.699
+  angleX -1.635
+  angleY 68.565
+  angleZ -4.158
+ }
+ {
+  coords 889.086 -0.927 3497.637
+  angleX 1.008
+  angleY -48.448
+  angleZ -3.127
+ }
+}

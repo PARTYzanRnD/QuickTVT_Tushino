@@ -1,0 +1,60 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 3158.813 13.543 2724.812
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.116 -0.442 -0.181
+  }
+  ShapePoint "{610EE60DADB04444}" {
+   Position 7.959 -0.48 -5.033
+  }
+  ShapePoint "{610EE60DAFCF4C3A}" {
+   Position 4.55 -0.481 -10.855
+  }
+  ShapePoint "{610EE60DB2F294A9}" {
+   Position 12.701 -0.223 -16.28
+  }
+  ShapePoint "{610EE60DB376470A}" {
+   Position 25.656 -0.257 3.764
+  }
+  ShapePoint "{610EE60DB5109BC3}" {
+   Position 9.689 -1.014 14.246
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 300
+   m_iPowerBalance 4
+   m_sCurrentFaction "RHS_USAF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Удержать магазин Берегарда"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить магазин Берегарда"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

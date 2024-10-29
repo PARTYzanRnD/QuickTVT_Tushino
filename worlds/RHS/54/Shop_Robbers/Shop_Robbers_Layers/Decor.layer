@@ -1,0 +1,14 @@
+$grp GenericEntity : "{63AC073BCB438FEB}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_Criminals.et" {
+ {
+  coords 3184.355 18.217 2728.431
+ }
+ {
+  coords 3168.296 18.23 2738.981
+ }
+ {
+  coords 3171.557 18.223 2708.742
+ }
+ {
+  coords 3159.831 18.217 2716.304
+ }
+}

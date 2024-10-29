@@ -1,0 +1,16 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 2264.032 58.992 2745.184
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2267 58.062 2763.603
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ coords 2443.625 7.882 3180.649
+ m_iFreezeTime 10000
+ m_iPreviewTime 10000
+ m_iBriefingTime 180000
+ m_iGameTime 720000
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 2277.209 59.607 2757.932
+}

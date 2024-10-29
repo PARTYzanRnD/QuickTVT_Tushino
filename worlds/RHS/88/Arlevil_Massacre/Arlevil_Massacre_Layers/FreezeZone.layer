@@ -1,0 +1,125 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ RED_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 1 0 0 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 3045.832 30.227 2569.345
+  Points {
+   ShapePoint "{60FEFEAC3DEAC1BF}" {
+    Position -4.966 -1.053 2.609
+   }
+   ShapePoint "{610CEE74CDFC49CA}" {
+    Position 19.094 -2.915 13.741
+   }
+   ShapePoint "{610CEE74CD00F1AB}" {
+    Position 33.64 -6.11 29.143
+   }
+   ShapePoint "{610CEE74CD5444EE}" {
+    Position 46.863 -7.975 45.435
+   }
+   ShapePoint "{610CEE74CEF3D6F1}" {
+    Position 58.465 -9.595 59.139
+   }
+   ShapePoint "{610CEE74CE096F4E}" {
+    Position 67.571 -12.223 73.98
+   }
+   ShapePoint "{610CEE74CE476550}" {
+    Position 75.046 -13.698 90.501
+   }
+   ShapePoint "{610CEE74CF98830E}" {
+    Position 78.867 -13.821 99.667
+   }
+   ShapePoint "{610CEE74CF00523A}" {
+    Position 68.377 -14.15 116.824
+   }
+   ShapePoint "{610CEE74D0AEBE9D}" {
+    Position 62.346 -14.193 122.909
+   }
+   ShapePoint "{610CEE74D0F1B80C}" {
+    Position 48.238 -13.891 122.228
+   }
+   ShapePoint "{610CEE74D00C2E69}" {
+    Position 36.734 -12.494 110.359
+   }
+   ShapePoint "{610CEE74D073F1C8}" {
+    Position 15.845 -8.994 84.109
+   }
+   ShapePoint "{610CEE74D19FE261}" {
+    Position 0.042 -6.432 61.273
+   }
+   ShapePoint "{610CEE74D56E515B}" {
+    Position -11.406 -4.981 48.051
+   }
+   ShapePoint "{610CEE74D6A076CE}" {
+    Position -21.712 -3.74 35.139
+   }
+   ShapePoint "{610CEE74D6CD20C0}" {
+    Position -27.332 -2.098 20.154
+   }
+   ShapePoint "{610CEE74D6141258}" {
+    Position -19.777 -1.293 8.478
+   }
+  }
+ }
+ BLU_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0 0.074 1 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.074 1 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 2103.325 77.09 1207.736
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -0.369 -0.221 -1.241
+   }
+   ShapePoint "{610CEE74EA18BF53}" {
+    Position -16.317 -1.422 7.836
+   }
+   ShapePoint "{610CEE74EBB7A5A1}" {
+    Position -49.805 -7.391 23.274
+   }
+   ShapePoint "{610CEE74EBC101A1}" {
+    Position -82.887 -12.807 39.219
+   }
+   ShapePoint "{610CEE74EB6A1ECE}" {
+    Position -107.709 -15.691 50.5
+   }
+   ShapePoint "{610CEE74ECB48EF7}" {
+    Position -121.951 -17.635 50.242
+   }
+   ShapePoint "{610CEE74ECC679B9}" {
+    Position -124.707 -18.287 30.79
+   }
+   ShapePoint "{610CEE74EC09F2BE}" {
+    Position -108.978 -18.298 17.384
+   }
+   ShapePoint "{610CEE74EC4A7897}" {
+    Position -85.059 -14.483 8.497
+   }
+   ShapePoint "{610CEE74ED84A6EE}" {
+    Position -61.321 -9.739 -4.129
+   }
+   ShapePoint "{610CEE74EDD3B423}" {
+    Position -34.545 -1.457 -12.453
+   }
+   ShapePoint "{610CEE74ED67198C}" {
+    Position -17.694 1.212 -21.449
+   }
+   ShapePoint "{610CEE74EEA9368E}" {
+    Position -6.405 2.02 -23.706
+   }
+  }
+ }
+}

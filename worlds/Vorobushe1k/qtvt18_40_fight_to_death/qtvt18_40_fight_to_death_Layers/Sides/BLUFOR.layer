@@ -1,0 +1,18 @@
+SCR_AIGroup "(1-1) RHS_US_USMC_G_000_13" : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+ }
+ coords 2128.202 53.538 2953.444
+ angleY -66.124
+ m_aUnitPrefabSlots {
+  "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et" "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "1-1"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8F1D5A64E1DFC7E4}Worlds/RHS/8/Arleville_house_2/Arleville_house_2.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

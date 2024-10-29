@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{780BF35E49A3ED98}Worlds/RHS/8/Beuregard_house_3/Beuregard_house_3.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

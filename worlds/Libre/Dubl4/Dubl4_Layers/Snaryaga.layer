@@ -1,0 +1,233 @@
+$grp GenericEntity : "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et" {
+ {
+  coords 3176.141 14.561 2729.312
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3176.28 14.554 2729.471
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3176.256 14.554 2729.292
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3176.426 14.554 2729.725
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3176.461 14.555 2729.596
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3182.555 14.587 2726.592
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3182.546 14.587 2726.847
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3177.858 14.833 2724.079
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3177.472 14.834 2724.296
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+ {
+  coords 3177.597 14.833 2724.043
+  angleX 1.899
+  angleY -64.257
+  angleZ 90.915
+ }
+}
+GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ coords 3176.039 14.35 2730.105
+ angleX -1.092
+ angleY 26.267
+ angleZ 81.468
+}
+GenericEntity : "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et" {
+ coords 3161.106 13.68 2726.215
+}
+GenericEntity : "{4805E67E2AE30F8D}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_M5.et" {
+ coords 3166.223 15.344 2720.549
+}
+$grp GenericEntity : "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et" {
+ {
+  coords 3162.224 14.682 2722.818
+  angleY 6.095
+  angleZ -88.975
+ }
+ {
+  coords 3162.224 14.709 2722.813
+  angleY 6.095
+  angleZ -88.975
+ }
+}
+GenericEntity : "{4B57C11AA5161760}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT.et" {
+ coords 3166.678 14.326 2720.266
+}
+GenericEntity : "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et" {
+ coords 3173.899 14.452 2718.444
+}
+$grp GenericEntity : "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et" {
+ {
+  coords 3167.575 14.483 2722.83
+  angleZ 90.707
+ }
+ {
+  coords 3167.72 14.476 2722.895
+  angleZ 90.707
+ }
+ {
+  coords 3167.736 14.487 2722.711
+  angleZ 90.707
+ }
+ {
+  coords 3167.583 14.467 2722.947
+  angleZ 90.707
+ }
+}
+$grp GenericEntity : "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" {
+ {
+  coords 3169.357 14.4 2721.766
+  angleY 43.415
+ }
+ {
+  coords 3169.472 14.4 2721.655
+  angleY 43.415
+ }
+ {
+  coords 3169.393 14.4 2721.68
+  angleY 43.415
+ }
+ {
+  coords 3169.65 14.4 2721.691
+  angleY 43.415
+ }
+ {
+  coords 3169.532 14.4 2721.775
+  angleY 43.415
+ }
+}
+$grp GenericEntity : "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" {
+ {
+  coords 3169.052 14.212 2722.079
+ }
+ {
+  coords 3168.912 14.206 2722.172
+ }
+ {
+  coords 3168.958 14.195 2721.999
+ }
+ {
+  coords 3169.092 14.207 2721.959
+ }
+ {
+  coords 3168.71 14.21 2722.205
+ }
+ {
+  coords 3168.842 14.207 2722.058
+ }
+}
+GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
+ coords 3166.156 14.326 2720.656
+}
+$grp GenericEntity : "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" {
+ {
+  coords 3168.275 14.833 2711.703
+  angleZ 88.269
+ }
+ {
+  coords 3168.127 14.833 2711.73
+  angleZ 90.32
+ }
+ {
+  coords 3168.077 14.833 2711.55
+  angleZ 82.485
+ }
+}
+$grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
+ {
+  coords 3160.165 14.243 2724.985
+ }
+ {
+  coords 3160.009 14.242 2725.051
+ }
+ {
+  coords 3175.874 14.586 2718.876
+ }
+ {
+  coords 3175.637 14.586 2718.844
+ }
+ {
+  coords 3177.025 14.288 2731.748
+ }
+}
+GenericEntity : "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et" {
+ coords 3162.523 14.503 2722.941
+ angleX 76.972
+ angleY -41.894
+ angleZ -78.005
+}
+GenericEntity : "{B31929F65F0D0279}Prefabs/Weapons/Rifles/M14/Rifle_M21.et" {
+ coords 3164.953 14.355 2721.527
+ angleY -56.179
+ angleZ -89.77
+}
+GenericEntity : "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et" {
+ coords 3167.609 14.847 2711.828
+ angleZ -85.616
+}
+$grp GenericEntity : "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" {
+ {
+  coords 3168.277 13.939 2722.466
+  angleY 43.303
+ }
+ {
+  coords 3168.402 13.939 2722.453
+  angleY 43.303
+ }
+ {
+  coords 3168.291 13.939 2722.401
+  angleY 43.303
+ }
+ {
+  coords 3168.42 13.939 2722.343
+  angleY 43.303
+ }
+ {
+  coords 3168.211 13.939 2722.477
+  angleY 43.303
+ }
+}
+GenericEntity : "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et" {
+ coords 3166.916 14.327 2712.331
+}
+GenericEntity : "{F97A4AC994231900}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine.et" {
+ coords 3182.131 14.587 2726.604
+ angleZ 87.213
+}
+GenericEntity : "{FDA7B6630DB87991}Prefabs/Items/Equipment/Backpacks/Backpack_M70_Swiss.et" {
+ coords 3171.365 13.68 2717.189
+}

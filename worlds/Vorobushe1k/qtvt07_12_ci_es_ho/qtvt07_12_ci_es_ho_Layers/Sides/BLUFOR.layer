@@ -1,0 +1,13 @@
+SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ coords 1151.431 39 2707.331
+ angleY 74.196
+ m_aUnitPrefabSlots {
+  "{64AD55FF89C97DFA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P1.et" "{64AD55FF89C97DFA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P1.et" "{64AD55FF89C97DFA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P1.et" "{64AD55FF89C97DFA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P1.et" "{64AD55FF89C97DFA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P1.et" "{64AD55FF89C97DFA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P1.et"
+ }
+ m_sCustomNameSet "1-1"
+}

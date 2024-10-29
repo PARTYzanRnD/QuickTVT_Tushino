@@ -1,0 +1,609 @@
+$grp SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ US_G_001_0 {
+  components {
+   PS_GroupCallsignAssigner "{611E7B92D2F15B98}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+   PS_GroupLateLinkerComponent "{611E7B98F98AAEE1}" {
+   }
+  }
+  coords 7574.165 82.781 5465.56
+  m_aUnitPrefabSlots {
+  }
+  {
+   $grp SCR_ChimeraCharacter : "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" {
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+         }
+        }
+       }
+      }
+     }
+     coords -0.958 -0 -1.366
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+         }
+        }
+       }
+      }
+     }
+     coords -2.572 -0 -1.405
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+         }
+        }
+       }
+      }
+     }
+     coords -4.229 -0 -1.449
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+         }
+        }
+       }
+      }
+     }
+     coords -5.573 0 -1.248
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+         }
+        }
+       }
+      }
+     }
+     coords -6.771 0 -1.107
+    }
+   }
+  }
+ }
+ US_G_002_0 {
+  components {
+   PS_GroupCallsignAssigner "{611E7B92D5F3876C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+   PS_GroupLateLinkerComponent "{611E7B98F98AAEE1}" {
+   }
+  }
+  coords 7531.196 82.781 5460.507
+  angleY 64.321
+  m_aUnitPrefabSlots {
+  }
+  {
+   $grp SCR_ChimeraCharacter : "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" {
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+         }
+        }
+       }
+      }
+     }
+     coords -0.958 -0 -1.366
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+         }
+        }
+       }
+      }
+     }
+     coords -4.229 -0 -1.449
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+         }
+        }
+       }
+      }
+     }
+     coords -2.572 -0 -1.405
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+         }
+        }
+       }
+      }
+     }
+     coords -6.771 0 -1.107
+    }
+    {
+     components {
+      PS_ClothRandomizerComponent "{611E7B9856B81088}" {
+       m_aJacket {
+        "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et" "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+       }
+       m_aPants {
+        "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et" "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et" "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+       }
+       m_aFootwear {
+        "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       m_aHeadgear {
+        "{DD565E2C7E00A5BB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue.et" "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et" "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+       }
+      }
+      CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+       WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+      }
+      BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+       Slots {
+        LoadoutSlotInfo Hat {
+         Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+        }
+        LoadoutSlotInfo Jacket {
+         Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        LoadoutSlotInfo Pants {
+         Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+        }
+        LoadoutSlotInfo Back {
+         Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+        }
+       }
+      }
+      SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+       InitialInventoryItems {
+        ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+         PrefabsToSpawn {
+          "{52AACED13FA088FF}Prefabs/Items/Equipment/Radios/Radio_Noqia2028_CheeseRiders.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+         }
+        }
+        ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+         TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+        }
+        ItemsInitConfigurationItem "{611E7B983CE775E1}" {
+         TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+         PrefabsToSpawn {
+          "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+         }
+        }
+       }
+      }
+     }
+     coords -5.573 0 -1.248
+    }
+   }
+  }
+ }
+}

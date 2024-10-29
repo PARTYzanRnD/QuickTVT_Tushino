@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A7F815BA4F32FACD}Worlds/RHS/88/Steep_Dive/Steep_Dive.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

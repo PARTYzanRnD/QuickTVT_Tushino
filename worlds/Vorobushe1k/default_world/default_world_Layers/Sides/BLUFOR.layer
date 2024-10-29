@@ -1,0 +1,14 @@
+SCR_AIGroup RHS_US_USMC_G_000_9 : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+ }
+ coords 2319.697 90.244 1256.037
+ angleY -59.104
+ m_bDeleteWhenEmpty 0
+}

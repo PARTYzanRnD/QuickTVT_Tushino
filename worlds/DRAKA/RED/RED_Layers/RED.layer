@@ -1,0 +1,16 @@
+SCR_AIGroup USSR_G_001_5 : "{BB5751D55D9D21AD}Prefabs/Groups/OPFOR/Group_USSR_ManeuverGroup_p.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{6114B31A6876C153}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1404.214 36.953 2334.645
+ m_aUnitPrefabSlots {
+  "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et"
+ }
+}

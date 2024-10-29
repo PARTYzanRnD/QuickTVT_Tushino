@@ -1,0 +1,44 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "ОПИСАНИЕ"
+  m_sTextData "США после ожесточенных боев смогли овладеть аэропортом. "\
+  "ВСРФ посылает взвод штрафников перейти ВПП, чтобы захватить центр управления."\
+  ""\
+  "Время на миссию: 8 минут."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ DESCRIPTION2 {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "УСЛОВНОСТИ"
+  m_sTextData "США запрещено пересекать синий маркер."\
+  "Отделениям 1-1, 1-2, 1-3 РФ запрещено пересекать красный маркер."\
+  "Отделение 2-1 имеет право расстреливать отступающих назад, а также тех, кто не выполняет приказ о наступлении. "\
+  "(сидит на месте после команды от любого бойца из отделения 2-1)"\
+  "Отделениям 1-1, 1-2, 1-3 РФ запрещено открывать ответный огонь по отделению 2-1."\
+  "Всем запрещено пересекать черный маркер."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ DESCRIPTION3 {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "ЗАДАЧИ ВСРФ"
+  m_sTextData "Захватить центр управления."
+  m_aVisibleForFactions {
+   "" "" "RHS_AFRF"
+  }
+ }
+ DESCRIPTION4 {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "ЗАДАЧИ США"
+  m_sTextData "Удержать центр управления."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" ""
+  }
+ }
+}

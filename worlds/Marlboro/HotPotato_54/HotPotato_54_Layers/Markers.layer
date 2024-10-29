@@ -1,0 +1,64 @@
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
+   m_cPolygonColor 0.259 0.365 0.686 1
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "FIA" "USSR"
+   }
+  }
+ }
+ coords 5170.689 14.387 4042.675
+ Points {
+  ShapePoint "{611C16AB68CF2FEB}" {
+   Position 10.688 0 2.719
+  }
+  ShapePoint "{611C16AB6A2C92BC}" {
+   Position 12.391 0 -3.267
+  }
+  ShapePoint "{611C16AB6B98E2F1}" {
+   Position 16.808 0 -2.083
+  }
+  ShapePoint "{611C16AB6F11A1C2}" {
+   Position 19.55 0 -12.139
+  }
+  ShapePoint "{611C16AB117E9DAD}" {
+   Position 15.136 0 -13.245
+  }
+  ShapePoint "{611C16AB12EAD1E8}" {
+   Position 16.54 0 -19.005
+  }
+  ShapePoint "{611C16AB14CA8F68}" {
+   Position 5.479 0 -22.114
+  }
+  ShapePoint "{611C16AB16105A53}" {
+   Position 3.201 0 -13.258
+  }
+  ShapePoint "{611C16AB16BEAC4E}" {
+   Position 1.726 0 -13.682
+  }
+  ShapePoint "{611C16AB18D4EE92}" {
+   Position 0.453 0 -9.31
+  }
+  ShapePoint "{611C16AB19AF6E53}" {
+   Position 1.972 0 -8.9
+  }
+  ShapePoint "{611C16AB1BA9C1A7}" {
+   Position -0.333 0 -0.083
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5180.784 14.601 4038.414
+ m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0.125 0.502 1
+ m_sQuadName "characters"
+ m_fWorldSize 40
+ m_sDescription "Штаб Полиции"
+ m_aVisibleForFactions {
+  "" "US" "FIA"
+ }
+ m_bVisibleForEmptyFaction 1
+}

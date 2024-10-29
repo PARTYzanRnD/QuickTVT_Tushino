@@ -1,0 +1,23 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "Описание миссии"
+  m_sTextData "Красные пытаються пополнить пивные запасы на военной базе."\
+  "Синие убежденные ЗОЖ-ники и пытаються уничтожить груз."
+  m_aVisibleForFactions {
+   "" "US" "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ LEGEND {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "Легенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Фриз зона красных - Красная зона"\
+  "Фриз зона синих - Синяя зона"
+  m_aVisibleForFactions {
+   "" "US" "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}

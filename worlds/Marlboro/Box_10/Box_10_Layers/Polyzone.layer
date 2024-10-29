@@ -1,0 +1,138 @@
+PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 11659.913 1.102 2007.751
+ Points {
+  ShapePoint "{61147A804476181D}" {
+   Position -10.083 0 23.229
+  }
+  ShapePoint "{61147A80462BEB0A}" {
+   Position -17.201 0 48.367
+  }
+  ShapePoint "{61147A8049539051}" {
+   Position -4.252 0 110.309
+  }
+  ShapePoint "{61147A804CEC4253}" {
+   Position 13.043 0 122.404
+  }
+  ShapePoint "{61147A804FC87CB6}" {
+   Position 45.021 0 122.799
+  }
+  ShapePoint "{61147A8072B25828}" {
+   Position 70.463 0 115.494
+  }
+  ShapePoint "{61147A8078122177}" {
+   Position 86.622 0 89.043
+  }
+  ShapePoint "{61147A807B007402}" {
+   Position 99.689 0 53.494
+  }
+  ShapePoint "{61147A807F61A81A}" {
+   Position 80.676 0 11.379
+  }
+  ShapePoint "{61147A80618F1463}" {
+   Position 64.807 0 -1.079
+  }
+  ShapePoint "{61147A80654C79D4}" {
+   Position 36.127 0 -1.912
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonBorderColor 1 1 1 0
+  }
+ }
+ coords 11660.583 1.03 2007.676
+ Points {
+  ShapePoint "{61147A9733676827}" {
+   Position -11.26 0 23.351
+  }
+  ShapePoint "{61147A97346F97E3}" {
+   Position -18.102 0 48.54
+  }
+  ShapePoint "{61147A97367A8AA6}" {
+   Position -9.815 0 79.266
+  }
+  ShapePoint "{61147A973753D5CE}" {
+   Position -5.034 0 110.696
+  }
+  ShapePoint "{61147A973941D428}" {
+   Position 12.806 0 122.229
+  }
+  ShapePoint "{61147A9739AC2CC2}" {
+   Position 44.308 0 122.685
+  }
+  ShapePoint "{61147A973AEE96E9}" {
+   Position 69.822 0 115.357
+  }
+  ShapePoint "{61147A973C37ECA1}" {
+   Position 85.849 0 89.048
+  }
+  ShapePoint "{61147A973D00C993}" {
+   Position 98.894 0 53.501
+  }
+  ShapePoint "{61147A973E63ACBC}" {
+   Position 79.954 0 11.44
+  }
+  ShapePoint "{61147A973F5D076E}" {
+   Position 63.842 0 -0.979
+  }
+  ShapePoint "{61147A9720B577ED}" {
+   Position 35.416 0 -1.807
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 11662.226 6.782 2110.785
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.313 -1.433 9.042
+  }
+  ShapePoint "{61147A99D12FD102}" {
+   Position 6.238 -1.644 8.723
+  }
+  ShapePoint "{61147A99D27612EA}" {
+   Position 6.024 -1.806 -1.252
+  }
+  ShapePoint "{61147A99D28B01D9}" {
+   Position -0.131 -1.439 -1.734
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   coords 0.003 0 0
+   m_fCaptureTime 12
+   m_iPowerBalance 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   coords 0.003 0 0
+   m_sTitle "Драка на кулаках"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   coords 0.003 0 0
+   m_sTitle "Драка на кулаках"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

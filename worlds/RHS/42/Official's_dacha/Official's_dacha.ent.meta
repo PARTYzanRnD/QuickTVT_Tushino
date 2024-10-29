@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A3C42C9AC63D4DD1}Worlds/RHS/42/Official's_dacha/Official's_dacha.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

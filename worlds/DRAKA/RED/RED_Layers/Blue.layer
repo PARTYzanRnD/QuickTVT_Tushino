@@ -1,0 +1,17 @@
+SCR_AIGroup US_G_001_5 : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{6114B31AB9019141}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1405.519 35.824 2368.752
+ angleY 177.659
+ m_aUnitPrefabSlots {
+  "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et"
+ }
+}

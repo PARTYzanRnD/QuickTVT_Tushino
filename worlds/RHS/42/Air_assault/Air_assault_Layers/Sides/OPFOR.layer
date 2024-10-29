@@ -1,0 +1,88 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1411.42 38.942 2187.442
+  angleY -121.911
+ }
+ RHS_RF_MSV_G_002_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A89E18AC3}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1406.159 38.968 2195.708
+  angleX 3.01
+  angleY -125.257
+  angleZ 1.157
+ }
+ RHS_RF_MSV_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A8A3FD59F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1397.614 39 2191.301
+  angleX -3.063
+  angleY 51.863
+  angleZ -1.005
+ }
+ RHS_RF_MSV_G_011_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A8A3FD59F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1403.544 39.021 2184.362
+  angleX -3.011
+  angleY 54.648
+  angleZ -1.153
+ }
+}
+Vehicle BTR1 : "{A95573BF4A5C1901}PrefabLibrary/Vehicles/BTR70.et" {
+ coords 1405.797 39 2185.514
+ angleY -36.151
+}
+$grp Vehicle : "{C5B4E63204C88F4E}PrefabLibrary/Vehicles/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 1399.807 39 2192.898
+  angleY -37.71
+ }
+ Ural4320_transport2 {
+  coords 1403.216 39 2195.538
+  angleY -32.878
+ }
+}
+Vehicle UAZ452_ambulance1 : "{CE88CC81880BE24C}PrefabLibrary/Vehicles/UAZ452_ambulance.et" {
+ coords 1413.18 38.651 2196.456
+ angleX -3.392
+ angleY 36.763
+ angleZ 3.042
+}
+Vehicle UAZ1 : "{E10A0CE2A18A92BE}PrefabLibrary/Vehicles/UAZ469.et" {
+ coords 1408.431 39 2187.899
+ angleY -39.347
+}

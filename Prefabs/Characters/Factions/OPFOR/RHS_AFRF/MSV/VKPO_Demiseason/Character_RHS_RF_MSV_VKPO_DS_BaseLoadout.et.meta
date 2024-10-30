@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{58CD040CDA060E80}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_c_p_crossbow.et"
+ Name "{4CD88E5A61AE773D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_BaseLoadout.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

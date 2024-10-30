@@ -1,12 +1,26 @@
-class SCR_RandomTimeAndWeatherHandlerComponentClass : SCR_TimeAndWeatherHandlerComponentClass
-{
-}
-
-class SCR_RandomTimeAndWeatherHandlerComponent : SCR_TimeAndWeatherHandlerComponent
+modded class SCR_TimeAndWeatherHandlerComponent: SCR_BaseGameModeComponent
 {
 	//[Attribute("1", UIWidgets.Slider, "Time acceleration during the night (1 = 100%, 2 = 200% etc)", "0.1 24 0.1")]
 	//override protected float m_fNightTimeAcceleration = 24;
+	[Attribute("1", UIWidgets.Slider, desc: "Dusk and Dawn Timescale", category: "DuskDawnTimescale", params: "1 64 1")]
+	protected int m_iDuskDawnTimescale;
+	[Attribute("4", UIWidgets.Slider, desc: "Day Timescale", category: "DayTimescale", params: "1 64 1")]
+	protected int m_iDayTimescale;
+	[Attribute("32", UIWidgets.Slider, desc: "Night Timescale", category: "NightTimescale", params: "1 64 1")]
+	protected int m_iNightTimescale;
 	
+	float DuskDawnTimescale()
+	{
+		return m_iDuskDawnTimescale;
+	}
+	float DayTimescale()
+	{
+		return m_iDayTimescale;
+	}
+	float NightTimescale()
+	{
+		return m_iNightTimescale;
+	}
 	
 	override void SetupDaytimeAndWeather(int hours, int minutes, int seconds = 0, string loadedWeatherState = "", bool loadDone = false)
 	{

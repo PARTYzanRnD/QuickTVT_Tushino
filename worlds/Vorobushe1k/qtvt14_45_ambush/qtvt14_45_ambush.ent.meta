@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F4159AF76EA3485F}Worlds/qtvt14_45_ambush/qtvt14_45_ambush.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

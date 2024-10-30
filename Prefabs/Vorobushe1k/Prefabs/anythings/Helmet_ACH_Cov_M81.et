@@ -1,0 +1,29 @@
+GameEntity : "{FC3B9607C5987B3A}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_ACH_Name (#RHS-Camo_M81)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{244A6A1121439AAC}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_base.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{BB6D2A91C9D7CC19}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/rhs_ach_cov_m81.emat"
+   }
+   ItemMaterialsOverride {
+    "{BB6D2A91C9D7CC19}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/rhs_ach_cov_m81.emat"
+   }
+  }
+ }
+ coords -0.732 1.525 2.343
+}

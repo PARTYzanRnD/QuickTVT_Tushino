@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{368B0CC7CD6D8286}Worlds/RHS/54/Arleville_Criminals/Arleville_Criminals.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

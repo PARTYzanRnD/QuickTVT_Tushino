@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1EC99ACF71BF912E}Worlds/qtvt18_45_fight_to_death/qtvt18_45_fight_to_death.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

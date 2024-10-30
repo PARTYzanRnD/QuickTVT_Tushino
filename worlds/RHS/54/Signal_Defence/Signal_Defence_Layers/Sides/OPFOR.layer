@@ -1,0 +1,100 @@
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo1 {
+  coords 2677.53 105.152 2249.518
+  angleX 4.198
+  angleY -24.91
+  angleZ 6.879
+ }
+ UAZ469_Camo2 {
+  coords 2676.831 104.66 2237.123
+  angleX 1.739
+  angleY -154.932
+  angleZ -9.952
+ }
+ UAZ469_Camo3 {
+  coords 2261.6 94.864 2306.456
+  angleX 18.895
+  angleY 40.378
+  angleZ -0.899
+ }
+ UAZ469_Camo4 {
+  coords 2262.935 93.937 2299.091
+ }
+ UAZ469_Camo5 {
+  coords 2259.718 93.465 2291.004
+  angleX 7.016
+  angleY -0.881
+  angleZ -7.179
+ }
+}
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610ED736707C546E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2668.648 108.953 2238.815
+ }
+ RHS_RF_MSV_G_002_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610ED73672A1AFAC}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2674.27 108.953 2248.042
+  angleY 180
+ }
+ RHS_RF_MSV_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610ED7367383729F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2267.042 95.055 2307.954
+  angleY 100.549
+ }
+ RHS_RF_MSV_G_011_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610ED736749C57D6}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2266.571 95.055 2300.521
+  angleY 83.451
+ }
+ RHS_RF_MSV_G_012_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610ED73675B28ACD}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2263.229 95.055 2292.678
+  angleY 83.451
+ }
+}

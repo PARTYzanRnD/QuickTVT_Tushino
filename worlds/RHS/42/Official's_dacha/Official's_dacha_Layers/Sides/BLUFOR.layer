@@ -1,0 +1,52 @@
+Vehicle M151A1 : "{2980245098C38E17}PrefabLibrary/Vehicles/M151A2.et" {
+ coords 2311.755 89.903 1250.436
+ angleX 3.291
+ angleY -23.058
+ angleZ -1.4
+}
+$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ RHS_US_USMC_G_000_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+   }
+  }
+  coords 2319.697 90.244 1256.037
+  angleY -59.104
+ }
+ RHS_US_USMC_G_001_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC34A95B2}" {
+    m_iCompanyCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2326.474 90.244 1267.313
+  angleY -59.104
+ }
+}
+Vehicle M923A1_transport1 : "{9242E92AD1AA279F}PrefabLibrary/Vehicles/M923A1_transport.et" {
+ coords 2296.571 89.624 1288.748
+ angleY 21.461
+}
+$grp Vehicle : "{BE5B12703B058750}PrefabLibrary/Vehicles/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 2315.25 91.161 1275.291
+  angleX -3.023
+  angleY -103.284
+  angleZ -1.124
+ }
+ M1025_armed_M2HB2 {
+  coords 2297.624 90.268 1258.804
+  angleX 0.728
+  angleY 9.892
+  angleZ 1.036
+ }
+}

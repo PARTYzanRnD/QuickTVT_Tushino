@@ -1,0 +1,14 @@
+$grp GenericEntity : "{1AAC905FBE6CF779}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_USSR.et" {
+ {
+  coords 1377.173 44.67 2358.613
+ }
+ {
+  coords 1363.297 44.671 2359.173
+ }
+ {
+  coords 1376.521 44.671 2342.256
+ }
+ {
+  coords 1365.346 44.671 2342.658
+ }
+}

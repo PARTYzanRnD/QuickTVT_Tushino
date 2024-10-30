@@ -1,0 +1,30 @@
+SCR_AIGroup US_G_002_4 : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FD0506F4B92265}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 1679.841 6.614 872.296
+ angleY -80.479
+ m_bSnapToTerrain 0
+}
+SCR_AIGroup US_G_001_9 : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FD0506F294837F}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1677.986 6.584 876.992
+ angleY 93.774
+ m_bSnapToTerrain 0
+}

@@ -1,0 +1,547 @@
+GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageReduction 0
+     DamageThreshold 0
+     "Melee multiplier" 10
+    }
+   }
+  }
+ }
+ coords 3177.293 14.336 2715.378
+ angleX -55.599
+ angleY 121.518
+ angleZ -176.895
+ {
+  GenericEntity : "{8B2C4E871E57D6A4}Prefabs/Props/Commercial/ShelfShop_02/ShelfShop_02.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       DamageReduction 0
+       "Melee multiplier" 20
+      }
+     }
+     m_fBaseHealth 1500
+     m_fDamageThresholdMaximum 3000
+     m_eMaterialSoundType BREAK_WOOD_SOLID
+    }
+   }
+   coords -0.853 0.35 1.011
+   angleX -71.414
+   angleY 15.037
+   angleZ 165.284
+   scale 1.3
+  }
+  GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       "Melee multiplier" 20
+      }
+     }
+     m_aDamagePhases {
+      SCR_DamagePhaseData "{5C54D7C1B2724555}" {
+       m_fPhaseHealth 0.01
+      }
+     }
+    }
+   }
+   coords -0.279 0.136 -0.375
+   angleX -2.869
+   angleY 92.317
+   angleZ 96.584
+  }
+ }
+}
+GenericEntity : "{5069A070F3DA111B}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V4_dst_01_USSR.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{58E0E94B2709F4DF}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     "Melee multiplier" 30
+    }
+   }
+  }
+ }
+ coords 3121.826 11.664 2764.919
+ angleY -133.007
+ {
+  StaticModelEntity : "{4862CD3623FE4E31}PrefabsEditable/Auto/Props/Military/Furniture/E_TableMilitary_USSR_01.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       DamageReduction 0
+       DamageThreshold 0
+      }
+     }
+     m_fBaseHealth 10
+     m_fDamageThresholdMaximum 10
+    }
+   }
+   coords 0.026 2.107 -0.41
+   angleX -17.131
+   angleY 177.916
+   angleZ -179.767
+  }
+  GenericEntity : "{698E03A5DD7AF292}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V6_dst_01_USSR.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{58E0E94B2709F4DF}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       "Melee multiplier" 20
+      }
+     }
+    }
+   }
+   coords -0.448 0.681 1.076
+   angleX -0.124
+   angleY -171.796
+   angleZ -0.079
+  }
+  GenericEntity : "{9E2D46C5ED3EBC84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V1_dst_01_USSR.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{58E0E94B2709F4DF}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       "Melee multiplier" 20
+      }
+     }
+     m_bPassDamageToChildren 0
+    }
+   }
+   coords -0.949 -0.186 0.8
+   angleX 0.012
+   angleY -78.82
+   angleZ -0.243
+  }
+  GenericEntity : "{A7CAE510C39E5F0D}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V3_dst_01_USSR.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{58E0E94B2709F4DF}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       "Melee multiplier" 20
+      }
+     }
+    }
+   }
+   coords 0.157 -0.03 1.173
+   angleX 0.017
+   angleY -77.826
+   angleZ -0.243
+  }
+ }
+}
+GenericEntity : "{8B2C4E871E57D6A4}Prefabs/Props/Commercial/ShelfShop_02/ShelfShop_02.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageReduction 0
+     "Melee multiplier" 20
+    }
+   }
+   m_fBaseHealth 1500
+   m_fDamageThresholdMaximum 3000
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+ }
+ coords 3181.641 11.695 2757.077
+ angleX 35.777
+ angleY 113.143
+ angleZ -3.938
+ scale 2.2
+ {
+  GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       DamageReduction 0
+       DamageThreshold 0
+       "Melee multiplier" 10
+      }
+     }
+    }
+   }
+   coords -0.596 0.216 0.226
+   angleX -1.24
+   angleY -81.093
+   angleZ 77.727
+   scale 0.454
+  }
+  GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_base.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       "Melee multiplier" 20
+      }
+     }
+     m_aDamagePhases {
+      SCR_DamagePhaseData "{5C54D7C1B2724555}" {
+       m_fPhaseHealth 100
+      }
+     }
+    }
+   }
+   coords 0.619 0.015 -0.071
+   angleX -16.746
+   angleY -116.499
+   angleZ 28.486
+   scale 0.454
+  }
+  GenericEntity : "{D0E01CBC080D4F84}Prefabs/Props/Furniture/ChairRecreation_01/ChairRecreation_01_red.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       DamageReduction 0
+       DamageThreshold 0
+      }
+     }
+     m_fBaseHealth 10
+     m_fDamageThresholdMaximum 10
+    }
+   }
+   coords 0.256 0.885 0.256
+   angleX -49.866
+   angleY -164.49
+   angleZ 52.202
+   scale 0.454
+  }
+ }
+}
+$grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      "Melee multiplier" 20
+     }
+    }
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5C54D7C1B2724555}" {
+      m_fPhaseHealth 0.01
+     }
+    }
+   }
+  }
+  coords 3187.674 12.204 2773.609
+  angleY 4.594
+  {
+   GenericEntity : "{2DB729170DBCE7BE}Prefabs/Props/Furniture/TableOld_01/TableOld_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+        "Melee multiplier" 30
+        "Explosive multiplier" 0
+       }
+      }
+     }
+    }
+    coords 0.637 1.844 0.394
+    angleX 58.081
+    angleY -70.601
+    angleZ -179.792
+   }
+   GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        "Melee multiplier" 20
+       }
+      }
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{5C54D7C1B2724555}" {
+        m_fPhaseHealth 0.01
+       }
+      }
+     }
+    }
+    coords 0.277 0.001 1.172
+    angleY -156.535
+   }
+  }
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      "Melee multiplier" 20
+     }
+    }
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5C54D7C1B2724555}" {
+      m_fPhaseHealth 0.01
+     }
+    }
+   }
+  }
+  coords 3192.888 11.684 2767.724
+  {
+   GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_base.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        "Melee multiplier" 20
+       }
+      }
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{5C54D7C1B2724555}" {
+        m_fPhaseHealth 0.01
+       }
+      }
+     }
+    }
+    coords -1.577 0.086 0.246
+    angleX 9.522
+    angleY 14.045
+    angleZ 29.271
+   }
+   GenericEntity : "{F7E3B5AB8E8D8B48}Prefabs/Props/Furniture/DeckChair_01/DeckChair_01_ochre.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+       }
+      }
+      m_fBaseHealth 10
+      m_fDamageThresholdMaximum 10
+     }
+    }
+    coords 0.135 0.998 -0.124
+    angleX -0.978
+    angleY 11.969
+    angleZ -1.222
+   }
+  }
+ }
+}
+$grp GenericEntity : "{EF070B8345288C8B}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_base.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      "Melee multiplier" 20
+     }
+    }
+   }
+  }
+  coords 3135.069 11.508 2791.383
+  angleY -72.492
+  {
+   GenericEntity : "{2DB729170DBCE7BE}Prefabs/Props/Furniture/TableOld_01/TableOld_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+        "Melee multiplier" 20
+       }
+      }
+     }
+    }
+    coords 0.002 1.521 1.813
+    angleX 1.139
+    angleY 96.112
+    angleZ 112.269
+   }
+   GenericEntity : "{8B2C4E871E57D6A4}Prefabs/Props/Commercial/ShelfShop_02/ShelfShop_02.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        "Melee multiplier" 30
+       }
+      }
+      m_fBaseHealth 1500
+      m_fDamageThresholdMaximum 3000
+      m_eMaterialSoundType BREAK_WOOD_SOLID
+     }
+    }
+    coords 1.947 0.401 -0.421
+    angleX 34.008
+    angleY 66.53
+    angleZ 0.266
+    scale 1.3
+   }
+   GenericEntity : "{BC1F6A91A8756582}Prefabs/Props/Furniture/DeckChair_01/DeckChair_01_turquoise.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+       }
+      }
+      m_fBaseHealth 5
+      m_fDamageThresholdMaximum 5
+      m_bPassDamageToChildren 0
+     }
+    }
+    coords 1.148 1.25 -0.33
+    angleX 6.946
+    angleY 62.681
+    angleZ -1.673
+   }
+  }
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 0
+      DamageThreshold 0
+      "Melee multiplier" 20
+     }
+    }
+   }
+  }
+  coords 3125.604 11.601 2785.116
+  angleY -10.268
+  {
+   GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+        "Melee multiplier" 20
+       }
+      }
+     }
+    }
+    coords 1.467 2.062 0.173
+    angleX 1.244
+    angleY 141.722
+    angleZ 112.969
+   }
+   GenericEntity : "{DE31BAA70E260BE9}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_decal_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      m_fBaseHealth 50
+      m_fDamageThresholdMaximum 50
+     }
+    }
+    coords 1.705 -0.031 0.286
+    angleY -134.999
+   }
+   GenericEntity : "{EF070B8345288C8B}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_base.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+        "Melee multiplier" 20
+       }
+      }
+     }
+    }
+    coords 0.634 0.051 -1.094
+    angleX -1.365
+    angleY 62.233
+    angleZ -0.403
+   }
+  }
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      "Melee multiplier" 20
+     }
+    }
+   }
+  }
+  coords 3176.727 12.21 2748.72
+  angleY 49.98
+  {
+   StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        "Melee multiplier" 20
+       }
+      }
+     }
+    }
+    coords 0.908 1.166 1.845
+    angleX -2.757
+    angleY 138.711
+    angleZ 138.263
+   }
+   StaticModelEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+       }
+      }
+      m_fBaseHealth 10
+      m_fDamageThresholdMaximum 10
+     }
+    }
+    coords -0.108 1.966 0.076
+    angleX -49.525
+    angleY -159.446
+    angleZ 99.411
+   }
+   GenericEntity : "{B73423FE52121937}Prefabs/Props/Furniture/DeckChair_01/DeckChair_01_greenstripe.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        DamageReduction 0
+        DamageThreshold 0
+       }
+      }
+      m_fBaseHealth 10
+      m_fDamageThresholdMaximum 10
+     }
+    }
+    coords 0.235 1.663 1.564
+    angleX -64.963
+    angleY -9.018
+    angleZ -145.788
+   }
+   GenericEntity : "{DE31BAA70E260BE9}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_decal_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        "Melee multiplier" 200
+       }
+      }
+      m_fBaseHealth 1500
+     }
+    }
+    coords -0.085 0.003 1.059
+    angleY -140.386
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 3139.769 11.596 2768.339
+  m_sTitle "Захват почты В Борегаре"
+  m_sTextData "Условность: в триггере нужно находиться не менее 60 сек."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 3141.865 11.589 2767.237
+  m_sTitle "Защита почты в Борегаре"
+  m_sTextData "Братья, неудачники советы решили взять наше почтовое отделение в Борегаре, нам нужно продержаться 15 минут, и не дать этим ИРОДАМ захватить почту(P.S В продуктовом оружие)"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ {
+  coords 3140.481 11.601 2766.103
+  m_sTitle "Война за почту"
+  m_sTextData "Никогда мир не был так в ахуе от почты на Арланде"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}

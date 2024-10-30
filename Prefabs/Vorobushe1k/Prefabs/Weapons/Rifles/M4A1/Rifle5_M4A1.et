@@ -1,0 +1,31 @@
+GenericEntity : "{4AF0459B888B0608}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ERGO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{6E83B9FD41086F5B}Assets/Weapons/Rifles/m4a1/Anims/anm/p_rfl_m4ErgoAFG_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{E2D47DD5E8557199}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_RasUpperErgoAfg.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+     }
+    }
+    WeaponAnimationComponent "{5E0ED058CD703F4E}" {
+     AnimInjection AnimationAttachmentInfo "{5E0ED058CD703F70}" {
+      AnimInstance "{5262140AFB27ACE1}Assets/Weapons/Rifles/workspaces/RHS_M4_Forward_AFG_Player.asi"
+     }
+    }
+   }
+  }
+ }
+}

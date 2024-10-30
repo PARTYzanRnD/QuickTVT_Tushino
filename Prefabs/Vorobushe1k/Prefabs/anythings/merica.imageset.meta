@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C5AAB0ADE5AF2634}anythings/merica.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+  ImageSetResourceClass Xbox : PC {
+  }
+ }
+}

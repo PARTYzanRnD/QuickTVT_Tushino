@@ -1,0 +1,31 @@
+GameEntity : "{1B08F57835BCC3D4}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_OPSCORE_MID_Name (#RHS-Camo_MULTICAM/#RHS-Headgear_AMP_Name_Short)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{8388B77DCA5B071D}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_frog.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+    }
+   }
+   WornModel "{242F753163585716}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_MID_AMP.xob"
+   WornMaterialsOverride {
+    "" "" "{EB32E28D8E8264B9}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_XP_MC.emat"
+   }
+   ItemModel "{EBFA8C66D3C3B3E5}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_MID_AMP_ground.xob"
+   ItemMaterialsOverride {
+    "" "" "{EB32E28D8E8264B9}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_XP_MC.emat"
+   }
+  }
+ }
+ coords 0.18 0.969 2.34
+}

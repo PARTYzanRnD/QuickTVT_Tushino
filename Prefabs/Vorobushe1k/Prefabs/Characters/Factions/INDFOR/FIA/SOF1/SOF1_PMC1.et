@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{AA7EFCF143E3576B}Prefabs/Characters/Factions/INDFOR/FIA/SOF1/SOF1_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DD7B5E60435E5B06}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ERGO_AFG_NT41.et"
+  }
+ }
+}

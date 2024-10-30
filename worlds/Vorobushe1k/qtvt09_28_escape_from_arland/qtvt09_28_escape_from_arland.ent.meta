@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{886308763BA07D58}Worlds/qtvt9_28_escape_from_arland/qtvt9_28_escape_from_arland.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

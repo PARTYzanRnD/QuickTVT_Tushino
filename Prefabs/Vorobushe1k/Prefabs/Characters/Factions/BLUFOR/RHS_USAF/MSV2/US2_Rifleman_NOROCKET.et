@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{92A265D3063ADFCD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Rifleman"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F6B5997A493A186D}Prefabs/Weapons/Rifles/M4A1/Rifle1_M4A1_BLOCK_II.et"
+  }
+ }
+}

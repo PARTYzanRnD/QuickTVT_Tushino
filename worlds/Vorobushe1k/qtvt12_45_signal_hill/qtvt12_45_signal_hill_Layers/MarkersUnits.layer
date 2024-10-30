@@ -1,0 +1,185 @@
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  coords 2530.1 0 2241.589
+  angleX 12.864
+  angleY -107.359
+  angleZ -3.07
+ }
+ {
+  coords 2534.331 0 2241.106
+  angleX 10.454
+  angleY -132.048
+  angleZ -8.136
+ }
+ {
+  coords 2538.594 0 2241.069
+  angleX 5.161
+  angleY -26.427
+  angleZ 12.187
+ }
+ {
+  coords 2541.975 0 2243.176
+  angleX 13.218
+  angleY -94.626
+  angleZ -0.186
+ }
+ {
+  coords 2538.593 0 2288.801
+  angleX 13.218
+  angleY -94.626
+  angleZ -0.186
+ }
+ {
+  coords 2540.939 0 2296.746
+  angleX 8.665
+  angleY -143.367
+  angleZ -10.022
+ }
+ {
+  coords 2538.061 0.076 2304.418
+  angleX 6.527
+  angleY -154.667
+  angleZ -11.521
+ }
+ {
+  coords 2534.833 0 2311.353
+  angleX 7.065
+  angleY -35.657
+  angleZ 11.201
+ }
+ {
+  coords 2528.786 0.101 2314.699
+  angleX 11.149
+  angleY -126.783
+  angleZ -7.149
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_RF_MSV_G_110_M {
+  coords 2509.231 148.184 2276.794
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "1-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ RHS_RF_MSV_G_120_M {
+  coords 2504.608 148.18 2269.909
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "1-2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ FIA_G_001_M {
+  coords 2359.945 82.724 2064.128
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "1-2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_USAF" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ FIA_G_000_M {
+  coords 2581.2 111.031 2536.577
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "1-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_USAF" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ RHS_RF_MSV_G_002_M {
+  coords 2540.533 145.495 2268.396
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "1-3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 2529.844 143.906 2271.628
+  angleY 197.37
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ FIA_G_002_M {
+  coords 2612.561 89.847 2014.653
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "1-3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_USAF" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+}

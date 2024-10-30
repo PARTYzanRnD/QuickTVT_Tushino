@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 1 0.75 0 1
+ DiffuseIBL 0.561 0.439 0.071 1
+ CastShadow 1
+ ReceiveShadow 1
+ BCRMap "{DC0BCE10BD16D9D8}Assets/Weapons/Handguns/PM/Data/Pistol_PM_BCR.edds"
+ NormalPower 1.618
+ NMOMap "{E4D3758264618B46}Assets/Weapons/Handguns/PM/Data/Pistol_PM_NMO.edds"
+}

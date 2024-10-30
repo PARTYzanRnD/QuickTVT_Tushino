@@ -1,0 +1,48 @@
+SCR_AIGroup PS_CheeseRaiders_G_010_6 : "{21392E41C94DF128}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Gang.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B219671D061E2}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 0
+  }
+ }
+ coords 3107.709 4 3011.721
+ angleY 37.523
+ m_aUnitPrefabSlots {
+  "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{6AACA58A0D0C7B47}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Ruffian.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et" "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et" "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{C5066E523D973159}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Yegg.et" "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et"
+ }
+}
+Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PS_CheeseRaiders"
+  }
+ }
+ coords 3120.69 3.927 3011.838
+ angleY 114.771
+}
+SCR_AIGroup PS_CheeseRaiders_G_001_3 : "{9363C234DEAA21E7}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Boss.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B21966A3EA8A8}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3121.626 4.011 3001.5
+ angleY -28.071
+}
+SCR_AIGroup PS_CheeseRaiders_G_002_4 : "{E569289C7086C378}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Merk.et" {
+ components {
+  PS_GroupCallsignAssigner "{611B21966FD4CC01}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 3116.248 3.981 3004.801
+ angleY 36.717
+ m_aUnitPrefabSlots {
+  "{B3FCA34114806846}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Taskmaster.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et" "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{C5066E523D973159}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Yegg.et"
+ }
+}

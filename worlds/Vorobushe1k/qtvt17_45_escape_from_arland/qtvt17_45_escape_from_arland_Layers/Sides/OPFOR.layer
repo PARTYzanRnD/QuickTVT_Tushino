@@ -1,0 +1,56 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+   }
+  }
+  coords 1427.45 12.989 1894.141
+  angleY -174.108
+  m_aUnitPrefabSlots {
+   "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{71AFD9ED7B86694D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-1"
+ }
+ RHS_RF_MSV_G_001_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1419.299 12.989 1894.982
+  angleY -174.108
+  m_aUnitPrefabSlots {
+   "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{71AFD9ED7B86694D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-2"
+ }
+ RHS_RF_MSV_G_001_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1414.24 11 1870.898
+  angleY 8.866
+  m_aUnitPrefabSlots {
+   "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{71AFD9ED7B86694D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-3"
+ }
+}

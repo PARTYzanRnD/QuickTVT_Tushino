@@ -1,0 +1,37 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 1415.522 37.352 2698.48
+  angleY -104.46
+  m_aUnitPrefabSlots {
+   "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-1"
+ }
+ RHS_RF_MSV_G_001_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1407.257 37.352 2696.66
+  angleY 75.369
+  m_aUnitPrefabSlots {
+   "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-2"
+ }
+}

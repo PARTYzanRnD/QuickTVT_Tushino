@@ -1,0 +1,89 @@
+Vehicle M151A1 : "{2980245098C38E17}PrefabLibrary/Vehicles/M151A2.et" {
+ coords 2529.411 144.056 2280.625
+ angleX -2.647
+ angleY 165.139
+ angleZ -2.996
+}
+$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ RHS_US_USMC_G_011_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FEFEAC53A22472}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2528.404 143.906 2271.532
+  angleY 82.348
+ }
+ RHS_US_USMC_G_010_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FEFEAC515BE2F0}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2527.793 143.89 2260.939
+  angleY 109.767
+ }
+}
+$grp Vehicle : "{9242E92AD1AA279F}PrefabLibrary/Vehicles/M923A1_transport.et" {
+ M923A1_transport1 {
+  coords 2530.328 143.735 2257.022
+  angleX -2.323
+  angleY -149.945
+  angleZ -1.344
+ }
+ M923A1_transport2 {
+  coords 2532.327 143.901 2270.913
+  angleX -0.232
+  angleY 165.003
+  angleZ -0.865
+ }
+}
+$grp SCR_AIGroup : "{AA9FEAD8E691A5F7}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_FireTeam.et" {
+ RHS_US_USMC_G_002_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FEFEAC509B562F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2533.005 143.779 2285.525
+  angleY -125.96
+  m_aUnitPrefabSlots {
+   "{0CC861F88F205BDB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_TL.et" "{66876AB6DB22430B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AR.et"
+  }
+ }
+ RHS_US_USMC_G_001_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FEFEAC4FA27DCA}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2534.459 143.916 2280.398
+  angleY -98.652
+ }
+}
+Vehicle M1025_armed_M2HB1 : "{BE5B12703B058750}PrefabLibrary/Vehicles/M1025_armed_M2HB.et" {
+ coords 2525.731 144.61 2287.863
+ angleX -5.753
+ angleY 150.288
+ angleZ -2.874
+}

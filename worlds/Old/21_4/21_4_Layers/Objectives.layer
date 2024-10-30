@@ -1,0 +1,69 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 1461.341 35.516 1160.688
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.16 -0.888 0.333
+  }
+  ShapePoint "{60FD0503BC813B01}" {
+   Position 1.191 -0.771 -0.531
+  }
+  ShapePoint "{60FD0503BE2D8ADB}" {
+   Position 3.247 -0.765 -0.06
+  }
+  ShapePoint "{60FD0503408566DB}" {
+   Position 4.101 -0.761 1.051
+  }
+  ShapePoint "{60FD050343712041}" {
+   Position 4.136 -0.841 2.514
+  }
+  ShapePoint "{60FD05034001D9FE}" {
+   Position 3.205 -0.952 3.867
+  }
+  ShapePoint "{60FD050341CFD94C}" {
+   Position 1.733 -1.024 4.4
+  }
+  ShapePoint "{60FD050342EB7395}" {
+   Position -0.069 -1.043 3.656
+  }
+  ShapePoint "{60FD0503421E732B}" {
+   Position -0.818 -1.026 2.085
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 25
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404B4C2B45DB}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "USSR"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить маяк"
+   m_sTextData "Задачи США:"\
+   ""\
+   "Удержать электро домик"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать маяк"
+   m_sTextData "Задачи СССР:"\
+   ""\
+   "Захватить электро домик"
+  }
+ }
+}

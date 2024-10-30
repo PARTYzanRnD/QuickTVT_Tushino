@@ -1,0 +1,28 @@
+SCR_AIGroup RHS_RF_MSV_G_001_6 : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{6105079016F09E10}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3454.027 3.08 2805.414
+ angleY -70.011
+}
+SCR_AIGroup RHS_RF_MSV_G_002_2 : "{83B177C81A2D6F8E}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{61050790285CBE57}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 3450.83 2.023 2809.226
+ angleY 157.84
+}

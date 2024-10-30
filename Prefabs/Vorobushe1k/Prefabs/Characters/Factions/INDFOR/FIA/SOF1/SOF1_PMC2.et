@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{AA7EFCF143E3576B}Prefabs/Characters/Factions/INDFOR/FIA/SOF1/SOF1_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{555C98D1CD949F3E}" {
+   "faction affiliation" "US"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DCFFEF3A8A9A8C94}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1_NT41.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+    }
+   }
+  }
+ }
+}

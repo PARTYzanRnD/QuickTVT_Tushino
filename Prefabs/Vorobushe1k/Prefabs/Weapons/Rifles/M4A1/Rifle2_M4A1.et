@@ -1,0 +1,21 @@
+GenericEntity : "{753B3C734B95826C}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600_PMAG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{4268B2077766E8C7}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_high.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{825BCF0CB21B9C0F}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+}

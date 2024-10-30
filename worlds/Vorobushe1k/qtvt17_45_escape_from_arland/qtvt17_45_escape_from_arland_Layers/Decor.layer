@@ -1,0 +1,385 @@
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 1426.911 11 1872.439
+  angleY 119.145
+ }
+ Ural4320_transport2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 1414.131 10.889 1860.936
+  angleY 169.803
+ }
+}
+$grp StaticModelEntity : "{23C109BC7122FA1D}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
+ {
+  coords 1382.615 12.089 1889.134
+  angleY -77.847
+ }
+ {
+  coords 1464.363 11.157 1935.572
+  angleY 30.261
+ }
+ {
+  coords 1402.164 14 1802.433
+  angleY -123.217
+ }
+ {
+  coords 1371.912 14.678 1909.747
+  angleY -105.735
+ }
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5AD4F813E67ECBD3}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 1452.713 11.25 1915.709
+ angleY -84.987
+}
+$grp StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
+ {
+  coords 1417.905 14.033 1918.179
+  angleY -172.36
+ }
+ {
+  coords 1406.254 14.033 1914.574
+  angleY 148.015
+ }
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA8A557A363F}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 1402.192 11.906 1853.248
+ angleY -159.339
+}
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Ural4320_tanker1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 1428.074 10.939 1876.601
+  angleY -55.762
+ }
+ Ural4320_tanker2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 1509.731 1.157 1853.762
+  angleY 86.771
+ }
+}
+$grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
+ {
+  coords 1380.857 13.219 1889.488
+  angleX 1.815
+  angleY -78.072
+ }
+ {
+  coords 1370.035 15.78 1909.479
+  angleX 1.613
+  angleY -105.351
+  angleZ -0.832
+ }
+ {
+  coords 1400.694 15.135 1801.493
+  angleX 1.32
+  angleY -121.427
+  angleZ -1.246
+ }
+ {
+  coords 1465.3 12.272 1937.032
+  angleX -0.647
+  angleY 32.819
+  angleZ 1.696
+ }
+}
+GenericEntity : "{77D49455528ED5E6}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_small.et" {
+ coords 1412.279 14.011 1922.155
+ angleY 10.672
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 1425.559 11.031 1867.67
+ angleY 116.87
+}
+$grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ {
+  coords 1379.466 -0.057 1892.752
+  angleY -20.891
+ }
+ {
+  coords 1377.544 0 1894.638
+  angleY -20.891
+ }
+ {
+  coords 1379.512 0 1896.751
+  angleY -20.891
+ }
+ {
+  coords 1474.871 0.533 1937.464
+  angleY -20.891
+ }
+ {
+  coords 1472.378 0 1936.364
+  angleY -20.891
+ }
+ {
+  coords 1470.009 0.574 1938.202
+  angleY -20.891
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 1458.611 1.125 1814.689
+  angleY -119.464
+ }
+ Ural4320_transport_covered2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 1460.816 1.125 1820.547
+  angleY -119.464
+ }
+}
+$grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ {
+  coords 1368.683 15.068 1912.836
+  angleX -1.594
+  angleY -27.051
+  angleZ 0.814
+ }
+ {
+  coords 1367.842 14.984 1915.541
+  angleX -1.761
+  angleY -10.229
+  angleZ 0.318
+ }
+ {
+  coords 1367.308 14.929 1918.186
+  angleX 0.587
+  angleY -17.383
+  angleZ -1.122
+ }
+ {
+  coords 1366.397 14.956 1920.856
+  angleX 0.487
+  angleY -22.384
+  angleZ -1.168
+ }
+ {
+  coords 1365.24 15.144 1923.714
+  angleX 7.263
+  angleY -22.512
+  angleZ -1.079
+ }
+ {
+  coords 1364.028 15.616 1926.113
+  angleX 11.209
+  angleY -31.073
+  angleZ -3.631
+ }
+ {
+  coords 1362.471 16.122 1928.12
+  angleX 11.142
+  angleY -45.979
+  angleZ -6.375
+ }
+ {
+  coords 1360.236 16.679 1929.902
+  angleX 10.445
+  angleY -57.127
+  angleZ -7.912
+ }
+ {
+  coords 1461.425 11.206 1938.53
+  angleX 1.485
+  angleY -56.038
+  angleZ 1
+ }
+ {
+  coords 1458.795 11.288 1940.117
+  angleX 1.607
+  angleY -63.879
+  angleZ 0.788
+ }
+ {
+  coords 1456.216 11.369 1941.371
+  angleX 1.607
+  angleY -63.879
+  angleZ 0.788
+ }
+ {
+  coords 1453.586 11.657 1942.798
+  angleX 4.44
+  angleY -59.428
+  angleZ -0.489
+ }
+ {
+  coords 1451.05 11.884 1944.266
+  angleX 4.416
+  angleY -61.791
+  angleZ -0.672
+ }
+ {
+  coords 1448.983 12.131 1946.082
+  angleX 5.017
+  angleY -38.346
+  angleZ 0.585
+ }
+ {
+  coords 1447.62 12.376 1948.511
+  angleX 5.643
+  angleY -29.611
+  angleZ 0.897
+ }
+ {
+  coords 1446.27 12.739 1951.156
+  angleX 8.706
+  angleY -29.657
+  angleZ -0.865
+ }
+ {
+  coords 1444.406 13.252 1953.38
+  angleX 10.037
+  angleY -49.802
+  angleZ -7.674
+ }
+ {
+  coords 1442.173 13.906 1955.169
+  angleX 12.663
+  angleY -59.156
+  angleZ -10.686
+ }
+ {
+  coords 1439.689 14.711 1956.304
+  angleX 16.425
+  angleY -70.526
+  angleZ -9.662
+ }
+ {
+  coords 1437.567 15.401 1957.255
+  angleX 13.531
+  angleY -69.124
+  angleZ -10.601
+ }
+ {
+  coords 1434.915 16.007 1957.98
+  angleX 14.106
+  angleY -69.251
+  angleZ -12.165
+ }
+ {
+  coords 1432.321 16.982 1959.566
+  angleX 17.979
+  angleY -57.595
+  angleZ -11.802
+ }
+}

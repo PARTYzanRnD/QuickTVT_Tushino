@@ -1,0 +1,18 @@
+SCR_AIGroup US_G_001_9 : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FCFC13F90DEEEB}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1701.118 38.062 3021.02
+ angleY -111.382
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 1697.874 38.064 3008.022
+ angleY -122
+}

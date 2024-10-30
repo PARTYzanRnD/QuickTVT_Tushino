@@ -1,0 +1,88 @@
+$grp PolylineShapeEntity : "{DCA90362FBC25FB4}Prefabs/PolyZone/PolyZone_Presence.et" {
+ {
+  coords 2810.271 75.455 1516.259
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -2.24 -9.934 3.202
+   }
+   ShapePoint "{610377ABC0C472F2}" {
+    Position 156.034 -13.861 154.192
+   }
+   ShapePoint "{610377ABC3D4DC00}" {
+    Position 101.041 -7.442 228.46
+   }
+   ShapePoint "{610377ABC2E731BE}" {
+    Position -86.542 -3.884 39.412
+   }
+  }
+  {
+   PS_Objective {
+    ID "60E9062D2F15A7F1"
+    m_sTitle "Грузовик доставлен повстанцами"
+    m_sFactionKey "FIA"
+    m_bAdvanceWhenTriggered 1
+   }
+   PS_PolyZoneObjectivePresence {
+    components {
+     Hierarchy "{610377AA6FB3ACC5}" {
+     }
+    }
+    TriggerShapeType Polyline
+    "Polyline Height" 54.4
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    PrefabsFilter {
+     PrefabFilter "{610377AB8CB4CDE5}" {
+      Prefab "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et"
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonBorderColor 1 1 1 1
+   }
+  }
+  coords 3411.719 7.21 1632.154
+  angleY 42.032
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -2.24 -9.934 3.202
+   }
+   ShapePoint "{610377ABC0C472F2}" {
+    Position 156.034 -13.861 154.192
+   }
+   ShapePoint "{610377ABC3D4DC00}" {
+    Position 101.041 -7.442 228.46
+   }
+   ShapePoint "{610377ABC2E731BE}" {
+    Position -86.542 -3.884 39.412
+   }
+  }
+  {
+   PS_Objective {
+    ID "60E9062D2F15A7F1"
+    m_sTitle "Грузовик доставлен ВСРФ"
+    m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
+   }
+   PS_PolyZoneObjectivePresence {
+    components {
+     Hierarchy "{610377AA6FB3ACC5}" {
+     }
+    }
+    TriggerShapeType Polyline
+    "Polyline Height" 54.4
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    PrefabsFilter {
+     PrefabFilter "{610377AB8CB4CDE5}" {
+      Prefab "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et"
+     }
+    }
+   }
+  }
+ }
+}

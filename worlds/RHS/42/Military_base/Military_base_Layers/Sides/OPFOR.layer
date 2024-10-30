@@ -1,0 +1,74 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FEFEAD7CEC081A}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1413.238 35.729 2354.361
+  angleY 178.397
+ }
+ RHS_RF_MSV_G_002_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FEFEAD7EB8B53B}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1411.136 35.922 2342.928
+  angleY 0.579
+ }
+}
+SCR_AIGroup RHS_RF_MSV_G_010_2 : "{83B177C81A2D6F8E}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FEFEAD19285B52}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 0
+  }
+ }
+ coords 1408.135 35.781 2359.155
+ angleY -105
+}
+SCR_AIGroup USSR_G_001_4 : "{84B0760E0C747AAC}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FEFEAD7A9DA418}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1381.029 36.318 2356.851
+ angleY 79.158
+}
+Vehicle APC_K17_Epoch1 : "{8D59A78E709E595B}PrefabLibrary/Vehicles/APC_K17_Epoch.et" {
+ coords 1412.037 35.738 2351.109
+ angleY -88.056
+}
+Vehicle Ural4320_transport1 : "{C5B4E63204C88F4E}PrefabLibrary/Vehicles/Ural4320_transport.et" {
+ coords 1398.536 36.051 2338.975
+ angleY 180
+}
+Vehicle UAZ452_ambulance1 : "{CE88CC81880BE24C}PrefabLibrary/Vehicles/UAZ452_ambulance.et" {
+ coords 1411.361 35.877 2372.491
+ angleY -98
+}
+Vehicle Ural4320_tanker1 : "{FB30F1FC8B4A6E13}PrefabLibrary/Vehicles/Ural4320_tanker.et" {
+ coords 1336.752 38.041 2411.793
+ angleY 145.804
+}

@@ -1,0 +1,36 @@
+SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ coords 3191.425 11.94 2750.906
+ angleY -156.337
+ m_aUnitPrefabSlots + {
+  "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et" "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et" "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et" "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et" "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et"
+ }
+}
+SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ coords 2545.068 25.588 3024.344
+ angleY 96.474
+ m_aUnitPrefabSlots + {
+  "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" "{D2E883F5E6911DBA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed_P.et" "{B5AEDC813E4F4A58}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et"
+ }
+}
+SCR_AIGroup : "{BB5751D55D9D21AD}Prefabs/Groups/OPFOR/Group_USSR_ManeuverGroup_p.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ coords 2535.957 144.29 2264.457
+ angleY -93.754
+ m_aUnitPrefabSlots + {
+  "{B5AEDC813E4F4A58}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et"
+ }
+}

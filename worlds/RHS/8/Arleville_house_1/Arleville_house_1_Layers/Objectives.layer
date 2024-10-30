@@ -1,0 +1,59 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 2740.095 77.866 1631.292
+ Points {
+  ShapePoint "{6105079149720B44}" {
+   Position -0.023 -0.42 0.186
+  }
+  ShapePoint "{610507965D07098B}" {
+   Position 12.487 -0.428 11.345
+  }
+  ShapePoint "{6105079660565CE4}" {
+   Position 1.961 -0.421 23.173
+  }
+  ShapePoint "{6105079662CB8A85}" {
+   Position -4.044 -0.351 17.712
+  }
+  ShapePoint "{6105079662772D7E}" {
+   Position -0.586 -0.421 13.644
+  }
+  ShapePoint "{61050796634B3BD8}" {
+   Position -7.005 -0.397 7.777
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 30
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_iPowerBalance 1
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить здание"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать здание"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

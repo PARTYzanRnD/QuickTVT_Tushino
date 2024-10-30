@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CB3C55A5B5316F05}Prefabs/Weapons/Rifles/M4A1/Rifle3_M4A1_BLOCK_II.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

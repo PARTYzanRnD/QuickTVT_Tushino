@@ -1,0 +1,67 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR" "RHS_USAF" "RHS_AFRF"
+   }
+  }
+ }
+ coords 2523.512 147.144 2254.097
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.098 -0.647 0.09
+  }
+  ShapePoint "{610ED7372086CA9B}" {
+   Position 0.468 -3.042 16.314
+  }
+  ShapePoint "{610ED737207519B7}" {
+   Position -3.629 -2.171 32.174
+  }
+  ShapePoint "{610ED737229B185E}" {
+   Position -29.87 -2.597 40.173
+  }
+  ShapePoint "{610ED737220837D0}" {
+   Position -36.161 -1.906 24.077
+  }
+  ShapePoint "{610ED73723FBB2B2}" {
+   Position -37.51 -3.006 8.697
+  }
+  ShapePoint "{610ED737230A225E}" {
+   Position -30.584 0.521 -1.721
+  }
+  ShapePoint "{610ED737243E1401}" {
+   Position -28.519 -0.442 -11.75
+  }
+  ShapePoint "{610ED737258BAF76}" {
+   Position -5.063 -1.286 -7.257
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "RHS_USAF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Удержать SignalHill"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить SignalHill"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

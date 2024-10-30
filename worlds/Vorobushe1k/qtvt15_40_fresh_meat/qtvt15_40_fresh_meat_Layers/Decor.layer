@@ -1,0 +1,852 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{6104D8458C3F9BFE}" {
+    Object "{29EAA98933DAA736}Assets/Vehicles/Tracked/2S1/2s1_wreck.xob"
+   }
+  }
+  coords 1585.593 39 2839.228
+ }
+ {
+  components {
+   MeshObject "{6104D845840FB7B7}" {
+    Object "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+   }
+  }
+  coords 1593.817 39 2827.222
+ }
+ {
+  components {
+   MeshObject "{6104D846DBE0BA1D}" {
+    Object "{CE90658993A183A9}Assets/Vehicles/Helicopters/Mi8/Mi8MT_Wreck.xob"
+   }
+  }
+  coords 1620.057 37.659 2928.361
+  angleY -172.334
+ }
+ {
+  components {
+   MeshObject "{6104D846DBE0BA1D}" {
+    Object "{CE90658993A183A9}Assets/Vehicles/Helicopters/Mi8/Mi8MT_Wreck.xob"
+   }
+  }
+  coords 1640.183 37.892 2934.97
+  angleY -172.334
+ }
+ {
+  components {
+   MeshObject "{6104D846DBE0BA1D}" {
+    Object "{CE90658993A183A9}Assets/Vehicles/Helicopters/Mi8/Mi8MT_Wreck.xob"
+   }
+  }
+  coords 911.015 39.045 2822.533
+  angleY -172.334
+ }
+ {
+  components {
+   MeshObject "{6104D845840FB7B7}" {
+    Object "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+   }
+  }
+  coords 1447.966 39 2828.494
+  angleY -48.044
+ }
+ {
+  components {
+   MeshObject "{6104D846E3DC55AF}" {
+    Object "{97B6EE1A45A88A89}Assets/Vehicles/Helicopters/UH1H/UH1H_Wreck.xob"
+   }
+  }
+  coords 1297.385 36.818 2910.176
+  angleX -16.494
+  angleY 13.259
+  angleZ 29.358
+ }
+ {
+  components {
+   MeshObject "{6104D8458C3F9BFE}" {
+    Object "{29EAA98933DAA736}Assets/Vehicles/Tracked/2S1/2s1_wreck.xob"
+   }
+  }
+  coords 1537.552 37.583 2859.311
+  angleY -43.054
+ }
+ {
+  components {
+   MeshObject "{6104D8458C3F9BFE}" {
+    Object "{29EAA98933DAA736}Assets/Vehicles/Tracked/2S1/2s1_wreck.xob"
+   }
+  }
+  coords 1191.217 38.545 2776.368
+  angleY 117.746
+ }
+ {
+  components {
+   MeshObject "{6104D846E3DC55AF}" {
+    Object "{97B6EE1A45A88A89}Assets/Vehicles/Helicopters/UH1H/UH1H_Wreck.xob"
+   }
+  }
+  coords 1126.457 38.251 2734.529
+  angleX 2.302
+  angleY 30.956
+  angleZ 1.38
+ }
+ {
+  components {
+   MeshObject "{6104D845840FB7B7}" {
+    Object "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+   }
+  }
+  coords 1244.482 38.442 2688.721
+  angleY -47.665
+ }
+ {
+  components {
+   MeshObject "{6104D846DBE0BA1D}" {
+    Object "{CE90658993A183A9}Assets/Vehicles/Helicopters/Mi8/Mi8MT_Wreck.xob"
+   }
+  }
+  coords 1247.689 36.841 2796.6
+  angleY 129.403
+ }
+}
+$grp ParticleEffectEntity {
+ {
+  coords 1585.394 40.799 2837.866
+  EffectPath "{B073169BAA0BDD62}Particles/Logistics/Fire/Ammunition_Fire/Ammunition_Fire_Medium.ptc"
+ }
+ {
+  coords 1189.887 40.045 2777.226
+  EffectPath "{B073169BAA0BDD62}Particles/Logistics/Fire/Ammunition_Fire/Ammunition_Fire_Medium.ptc"
+ }
+ {
+  coords 1486.402 38.964 2910.16
+  EffectPath "{4325B2EB1B7E9A45}Particles/Logistics/Fire/Ammunition_Fire/Ammunition_Fire_Large.ptc"
+ }
+ {
+  coords 1307.724 39.123 2703.376
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1366.661 38.814 2828.279
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1358.508 38.6 2832.053
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1373.618 38.416 2841.005
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1376.681 38.797 2831.837
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1393.781 39 2807.894
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1388.146 39 2807.746
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1408.344 38.961 2832.494
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1415.158 39 2829.027
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1434.001 39 2816.095
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1441.677 38.984 2835.015
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1448.612 38.801 2844.365
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1334.741 38.043 2839.979
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1297.8 37.999 2903.895
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1306.306 37.992 2889.466
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1310.085 38.081 2887.355
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1338.179 38.134 2918.739
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1343.929 39.685 2918.344
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1387.667 38 2900.847
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1375.717 38.244 2905.301
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1248.216 38.156 2783.904
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1259.905 38.156 2788.564
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1248.753 37.945 2813.529
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1255.958 37.907 2819.061
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1231.872 39.186 2683.332
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1249.159 39.15 2690.099
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1253.738 38.45 2667.795
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1262.932 38.602 2673.063
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1381.608 39 2733.046
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1382.431 39.027 2726.25
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1374.712 39 2728
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1368.623 39.112 2721.401
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1421.014 39 2739.275
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1425.637 39.176 2734.008
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1411.616 39 2737.054
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1363.152 39 2792.818
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1368.335 39.213 2792.857
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1340.283 39.533 2845.464
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1392.591 38.113 2874.531
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1393.756 38.188 2873.35
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1378.718 39.069 2896.662
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1379.212 39.077 2894.137
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1349.698 38.834 2905.241
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1366.211 40.347 2837.086
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1405.519 39.291 2785.83
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1429.808 40.527 2764.787
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1431.093 40.393 2768.128
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1430.311 39.991 2769.342
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1428.959 39.393 2764.653
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1377.367 39.238 2734.413
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1416.72 38.612 2736.274
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1385.503 40.485 2759.822
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1387.745 40.378 2762.866
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 1386.306 40.397 2761.163
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1430.791 40.42 2765.889
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1392.241 40.53 2815.799
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1447.121 41.427 2828.891
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1446.51 39.477 2824.551
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1565.026 40.485 2839.048
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1538.359 39.083 2858.726
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1265.097 39.693 2745.022
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1243.592 39.401 2691.854
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1247.01 41.103 2796.799
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1250.516 38.473 2793.163
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1326.485 38.318 2807.856
+  EffectPath "{EBFD65A6258EB919}Particles/Logistics/Fire/Tire/Fire_wheel_big.ptc"
+ }
+ {
+  coords 1393.935 39.388 2817.171
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1250.085 38.672 2795.559
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1619.412 40.197 2927.26
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 1639.277 41.2 2934.208
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 1128.329 40.355 2735.584
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 912.352 41.521 2823.654
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 1340.006 38.311 2845.801
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1392.819 37.034 2875.375
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1534.336 40.108 2803.678
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1592.706 41.423 2829.326
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1605.743 40.244 2795.124
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1414.237 39.825 2735.818
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+ {
+  coords 1339.129 37.233 2882.866
+  EffectPath "{3FEEFBF34A5A515C}Particles/Vehicle/Vehicle_fire_engine_BTR70_01.ptc"
+ }
+}
+$grp GenericEntity : "{02A8148519E81867}Prefabs/Props/Wrecks/M998_wreck.et" {
+ {
+  coords 1607.451 39 2793.823
+  angleY -59.044
+ }
+ {
+  coords 1412.103 38.636 2834.027
+  angleY -153.028
+ }
+}
+$grp GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+ {
+  coords 1568.184 38.525 2868.871
+ }
+ {
+  coords 1414.529 39.022 2735.454
+  angleX 0.782
+  angleY 29.091
+  angleZ 0.435
+ }
+}
+$grp GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+ {
+  coords 1532.762 39 2927.834
+ }
+ {
+  coords 1344.031 37.971 2907.376
+  angleY 120.057
+ }
+ {
+  coords 1369.305 38 2896.102
+  angleY -166.726
+ }
+}
+$grp Vehicle : "{33BC05D02006BE44}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_CIV_base.et" {
+ Ural4320_tanker_CIV_base1 {
+  coords 1163.001 38.001 2834.078
+  angleY -44.456
+ }
+ Ural4320_tanker_CIV_base2 {
+  coords 1159.406 38.001 2823.889
+  angleY -112.189
+ }
+ Ural4320_tanker_CIV_base3 {
+  coords 1453.564 38 2923.595
+  angleY -118.133
+ }
+ Ural4320_tanker_CIV_base4 {
+  coords 1268.282 37.438 2945.951
+  angleY -112.189
+ }
+ Ural4320_tanker_CIV_base5 {
+  coords 1272.607 37.625 2931.698
+  angleY -112.189
+ }
+}
+$grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+ {
+  coords 1389.78 -0.554 2912.851
+  angleY 165.17
+  angleZ -1.463
+ }
+ {
+  coords 1321.343 -0.413 2895.05
+  angleX 0.02
+  angleY -15.605
+  angleZ -1.36
+ }
+}
+$grp Vehicle : "{5BF04078A1EC66D8}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black_no_pylons.et" {
+ Mi8MTT_A_Black_no_pylons1 {
+  coords 1596.043 38 2922.028
+  angleY -169.615
+ }
+ Mi8MTT_A_Black_no_pylons2 {
+  coords 1665.086 38.972 2941.654
+  angleY -169.615
+ }
+ Mi8MTT_A_Black_no_pylons3 {
+  coords 1254.485 37.219 2643.607
+  angleY -163.41
+ }
+ Mi8MTT_A_Black_no_pylons4 {
+  coords 958.875 39.343 2751.222
+  angleY -169.615
+ }
+ Mi8MTT_A_Black_no_pylons5 {
+  coords 935.069 38.968 2786.094
+  angleY -169.615
+ }
+}
+$grp GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck.et" {
+ {
+  coords 1264.876 38.674 2745.505
+ }
+ {
+  coords 1377.959 38.584 2734.076
+  angleY -86.864
+ }
+ {
+  coords 1405.551 38.584 2786.136
+  angleY 20.727
+ }
+ {
+  coords 1392.944 37.46 2873.671
+  angleY -48.991
+ }
+ {
+  coords 1339.626 37.608 2880.902
+  angleY 103.977
+ }
+}
+$grp GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_wreck.et" {
+ {
+  coords 1564.958 38.638 2840.141
+  angleY -34.779
+ }
+ {
+  coords 1386.013 38.585 2761.572
+  angleY 38.763
+ }
+ {
+  coords 1392.007 38.704 2816.024
+  angleY -84.263
+ }
+ {
+  coords 1430.677 38.606 2766.471
+  angleY 13.846
+ }
+ {
+  coords 1339.844 37.724 2845.854
+  angleY -10.036
+ }
+}
+$grp GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck.et" {
+ {
+  coords 1537.887 38.451 2801.9
+  angleY -95.081
+ }
+ {
+  coords 1484.992 38 2910.719
+  angleY -81.605
+ }
+ {
+  coords 1471.932 38 2896.443
+  angleY 29.12
+ }
+ {
+  coords 1365.578 38.406 2835.413
+  angleY 33.759
+ }
+ {
+  coords 1368.081 38.744 2791.949
+  angleY -35.411
+ }
+ {
+  coords 1370.449 37.767 2943.323
+  angleY -131.71
+ }
+}
+$grp GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.et" {
+ {
+  coords 1422.97 38 2930.22
+  angleY -168.593
+ }
+ {
+  coords 1471.043 38 2938.761
+  angleY -168.593
+ }
+}
+$grp Turret : "{887DB60486A18575}Prefabs/Weapons/Tripods/Tripod_M122_MG_M60.et" {
+ {
+  coords 1374.001 38.758 2907.284
+  angleX 0.678
+  angleY 166.569
+ }
+ {
+  coords 1346.133 38.712 2900.178
+  angleX 5.751
+  angleY 163.076
+  angleZ -0.35
+ }
+}
+GenericEntity : "{90B7CEB4C665B1E2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.et" {
+ coords 1359.187 46.603 2956.546
+}
+$grp StaticModelEntity : "{918E6FC14B162369}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood.et" {
+ {
+  coords 1326.979 -0.331 2896.57
+  angleY -14.466
+ }
+ {
+  coords 1333.652 -0.301 2898.291
+  angleY -14.466
+ }
+ {
+  coords 1339.513 -0.322 2899.803
+  angleY -14.466
+ }
+ {
+  coords 1346.137 -0.397 2901.512
+  angleY -14.466
+ }
+ {
+  coords 1352.81 -0.421 2903.233
+  angleY -14.466
+ }
+ {
+  coords 1358.513 -0.3 2904.705
+  angleY -14.466
+ }
+ {
+  coords 1365.137 -0.3 2906.414
+  angleY -14.466
+ }
+ {
+  coords 1371.81 -0.301 2908.135
+  angleY -14.466
+ }
+ {
+  coords 1378.327 -0.312 2909.816
+  angleY -14.466
+ }
+ {
+  coords 1384.297 -0.515 2911.356
+  angleY -14.466
+ }
+}
+$grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ {
+  coords 1387.525 -0.07 2907.708
+  angleY 9.325
+ }
+ {
+  coords 1383.443 -0.108 2905.417
+  angleY -44.785
+ }
+ {
+  coords 1378.469 -0.242 2905.125
+  angleY -65.968
+ }
+ {
+  coords 1371.015 0.003 2902.825
+  angleY -1.604
+ }
+ {
+  coords 1365.665 -0.188 2900.95
+  angleX -16.4
+  angleY -44.018
+ }
+ {
+  coords 1352.702 -0.177 2898.319
+  angleX -12.78
+  angleY -4.433
+  angleZ -10.365
+ }
+ {
+  coords 1343.923 -0.078 2895.768
+  angleX -14.811
+  angleY -70.066
+  angleZ 7.122
+ }
+ {
+  coords 1338.902 -0.052 2894.661
+  angleX -0.753
+  angleY -24.722
+  angleZ -5.535
+ }
+ {
+  coords 1328.252 -0.24 2891.337
+  angleX 3.778
+  angleY 25.462
+  angleZ -4.118
+ }
+ {
+  coords 1324.041 0.065 2890.07
+  angleX -4.526
+  angleY -71.024
+  angleZ -3.278
+ }
+ {
+  coords 1392.936 -0 2908.881
+  angleX 3.778
+  angleY 25.462
+  angleZ -4.118
+ }
+ {
+  coords 1397.523 -0.172 2910.176
+  angleX 5.561
+  angleY 78.477
+  angleZ 0.532
+ }
+ {
+  coords 1320.212 0 2889.988
+  angleX 3.778
+  angleY 25.462
+  angleZ -4.118
+ }
+ {
+  coords 1315.914 0 2888.653
+  angleX 3.778
+  angleY 25.462
+  angleZ -4.118
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 1329.634 38.895 2760.847
+ }
+ BTR2 {
+  coords 1488.105 38.829 2783.323
+  angleY -77.954
+ }
+}
+GenericEntity : "{CBAA7CFCDFCC6897}Particles/Logistics/Prefabs/2s1_Turret_Wreck.et" {
+ coords 1531.609 36.364 2859.344
+}
+GenericEntity : "{D215BC98417FA3CB}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76USSR_Open.et" {
+ coords 1690.466 39 2849.012
+ angleY 66.812
+}
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ coords 1285.189 39.011 2688.23
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 1315.239 37.644 2865.768
+  angleY 136.219
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 1433.004 37.746 2898.974
+  angleY -168.183
+ }
+}
+$grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ {
+  coords 1323.441 38.085 2893.168
+  angleX -5.071
+  angleY -89.827
+  angleZ -16.448
+ }
+ {
+  coords 1326.735 38.264 2893.789
+  angleX -2.02
+  angleY -108.096
+  angleZ -14.156
+ }
+ {
+  coords 1337.202 38.229 2896.431
+  angleX 0.547
+  angleY -97.995
+  angleZ -14.286
+ }
+ {
+  coords 1340.083 38.26 2897.071
+  angleX -1.067
+  angleY -104.333
+  angleZ -14.257
+ }
+ {
+  coords 1343.005 38.344 2897.703
+  angleX 6.372
+  angleY -105.94
+  angleZ -14.313
+ }
+ {
+  coords 1349.945 38.346 2899.544
+  angleX -0.359
+  angleY -115.997
+  angleZ -15.443
+ }
+ {
+  coords 1352.913 38.253 2900.535
+  angleX 2.297
+  angleY -106.351
+  angleZ -15.279
+ }
+ {
+  coords 1361.866 38.191 2903.063
+  angleX -1.337
+  angleY -119.544
+  angleZ -15.39
+ }
+ {
+  coords 1365.006 38.309 2903.848
+  angleX 3.129
+  angleY -103.287
+  angleZ -25.44
+ }
+ {
+  coords 1367.895 38.31 2904.893
+  angleX -0.279
+  angleY -110.416
+  angleZ -16.372
+ }
+ {
+  coords 1370.793 38.21 2905.558
+  angleX 5.154
+  angleY -91.591
+  angleZ -15.563
+ }
+ {
+  coords 1377.926 38.45 2907.1
+  angleX -3.129
+  angleY -120.189
+  angleZ -16.081
+ }
+ {
+  coords 1380.87 38.409 2907.992
+  angleX 1.8
+  angleY -103.328
+  angleZ -16.278
+ }
+}

@@ -1,0 +1,189 @@
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 3101.13 16.889 2670.289
+  angleX 3.222
+  angleY -143.993
+  angleZ 0.13
+ }
+ Ural4320_transport_camo2 {
+  coords 3108.464 16.256 2681.154
+  angleX 3.222
+  angleY -146.993
+  angleZ 0.13
+ }
+ Ural4320_transport_camo3 {
+  coords 3115.923 15.82 2692.559
+  angleX 3.198
+  angleY -147.036
+  angleZ 0.408
+ }
+ Ural4320_transport_camo4 {
+  coords 3123.129 15.02 2704.138
+  angleX 3.222
+  angleY -142.993
+  angleZ 0.13
+ }
+ Ural4320_transport_camo5 {
+  coords 3129.822 14.328 2714.452
+  angleX 3.222
+  angleY -147.679
+  angleZ -0.133
+ }
+}
+$grp Vehicle : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ APC_K17_unarmed1 {
+  coords 3078.032 20.461 2637.733
+  angleX 6.36
+  angleY -144.896
+  angleZ 0.939
+ }
+ APC_K17_unarmed2 {
+  coords 3088.926 18.635 2652.645
+  angleX 4.464
+  angleY -141.987
+  angleZ 0.167
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 3059.604 23.703 2612.918
+ angleX 5.711
+ angleY -143.017
+ angleZ -0.167
+}
+SCR_AIGroup RHS_RF_MSV_G_001_4 : "{F40CDA3D5A7B1CDF}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_LightFireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{610EE617170BB110}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3062.102 23.896 2608.847
+ angleY -58
+}
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_002_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE617185E13F7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3069.61 22.627 2619.235
+  angleY -50
+ }
+ RHS_RF_MSV_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171977AC0B}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3079.692 23.696 2633.21
+  angleY -50
+ }
+ RHS_RF_MSV_G_011_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171A1FE163}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3091.04 19.958 2648.001
+  angleY -52
+ }
+ RHS_RF_MSV_G_012_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171BD6768E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3103.639 18.143 2666.01
+  angleY -56
+ }
+ RHS_RF_MSV_G_020_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171C97B53D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3110.779 17.436 2676.875
+  angleY -56
+ }
+ RHS_RF_MSV_G_021_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171D870A14}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3118.083 16.983 2688.746
+  angleY -60
+ }
+ RHS_RF_MSV_G_022_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171D870A14}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3124.788 16.282 2700.011
+  angleY -53.648
+ }
+ RHS_RF_MSV_G_100_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610EE6171D870A14}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3131.917 16.282 2710.251
+  angleY -59.089
+  m_aUnitPrefabSlots {
+   "{F0F0A8C16C9901B8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL.et" "{CF6F87C43052B748}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.et" "{E0E062BD23185D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AMG.et" "{8DE84439090A3D21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SR.et"
+  }
+ }
+}
+Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ coords 3067.973 22.307 2624.414
+ angleX 6.389
+ angleY -141.921
+ angleZ 0.714
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A48B7328672CC23}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Assistant_Anti_Tank.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

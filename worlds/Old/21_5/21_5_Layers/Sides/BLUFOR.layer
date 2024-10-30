@@ -1,0 +1,18 @@
+Vehicle M998_MERDC1 : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
+ coords 1017.601 38.027 2908.691
+ angleY 66.242
+}
+SCR_AIGroup US_G_001_9 : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FCFC13F90DEEEB}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1018.335 38.027 2903.836
+ angleY -19.142
+}

@@ -1,0 +1,18 @@
+SCR_AIGroup RHS_RF_MSV_G_001_6 : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+ }
+ coords 1866.045 54.465 3094.91
+ angleY 113.034
+ m_aUnitPrefabSlots {
+  "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{DDDB871AE55B2644}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "1-1"
+}

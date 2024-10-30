@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{305A3EFE57117AB9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

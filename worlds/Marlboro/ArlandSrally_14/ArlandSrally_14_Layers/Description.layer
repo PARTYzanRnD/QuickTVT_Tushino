@@ -1,0 +1,100 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description_All_1 {
+  coords 2767.733 20.392 1173.956
+  m_sTitle "Информация к размышлению"
+  m_sTextData "Гонки по бездорожью"
+  m_aVisibleForFactions {
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ Description_All_2 {
+  coords 2766.954 20.692 1178.432
+  m_sTitle "Лехенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Фриз зона Красных  - Красная  зона"\
+  "Старт синих- синия зона"\
+  "Старт зеленых-зеленая"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Desription_FIA_1 {
+  coords 2758.92 22.511 1204.419
+  m_sTitle "Задачи"
+  m_sTextData "Финишировать"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Desription_FIA_2 {
+  coords 2755.147 22.984 1212.669
+  m_sTitle "Подробное описание"
+  m_sTextData "Сегодня после работы снова собираемся под маяком. Будем катать трассу, баки полные, шины лысые. Едем то до пирса."\
+  "Надеюсь никто не вмажется в дерево, как в тот раз. Жалко конешно, хорошая яблоня была у Максимовны."
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Desription_FIA_3 {
+  coords 2751.821 23.254 1221.408
+  m_sTitle "Правила и условности"
+  m_sTextData "RUN Фриз зоны нет"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Description_USSR_1 {
+  coords 2747.951 24.034 1233.56
+  m_sTitle "Задачи"
+  m_sTextData "Остановить все автомобили"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_USSR_2 {
+  coords 2747.299 24.328 1241.292
+  m_sTitle "Подробное описание"
+  m_sTextData "Одна старушка пожаловалась нам на шум. Лиза Максимовна уже в который раз звонит нам в участок, и жалуется на каких то подростков. Говорит '\"Они шумят по вечарам, носятся на своих мокиках и тарантасах по горам.''"\
+  ""\
+  "Мы не должны допустить звонка отставной майорши начальству постарше."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_USSR_3 {
+  coords 2746.545 24.387 1248.673
+  m_sTitle "Правила и условности"
+  m_sTextData "Где то тут носятся эти хулиганы. Надо их найти, ДО того как они смоются. Желательно не кемперя финиш."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_US_1 {
+  coords 2734.684 26.504 1249.749
+  m_sTitle "Правила и условности"
+  m_sTextData "Фриз зоны нет"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 2
+ }
+ Description_US_3 {
+  coords 2735.438 26.445 1242.368
+  m_sTitle "Подробное описание"
+  m_sTextData "Чёт мы совсем забыли, что нужно довести бидон Максимовне. Она живёт на своей пенсионерской даче, к северу от маяка."\
+  ""\
+  "Ох только бы не отругала она нас."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 1
+ }
+ Description_US_2 {
+  coords 2736.09 26.151 1234.636
+  m_sTitle "Задачи"
+  m_sTextData "Довести молоко Лизе Максимовне"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

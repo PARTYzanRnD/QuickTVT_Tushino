@@ -1,0 +1,14 @@
+GenericEntity : "{FB4C5D429348F1A2}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E9087C1DD34883E}" {
+     AttachmentSlot InventoryStorageSlot RIS {
+      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+     }
+    }
+   }
+  }
+ }
+}

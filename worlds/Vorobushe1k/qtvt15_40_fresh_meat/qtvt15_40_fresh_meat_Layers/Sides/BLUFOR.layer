@@ -1,0 +1,22 @@
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 1359.664 37.828 2973.004
+ angleY -108.962
+}
+SCR_AIGroup RHS_US_USMC_G_000_9 : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+ }
+ coords 1358.141 38.293 2978.45
+ angleY 164.876
+ m_aUnitPrefabSlots {
+  "{4778794C76E28828}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{D40A009A57C1A18E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman_NOROCKET.et" "{D40A009A57C1A18E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman_NOROCKET.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{D40A009A57C1A18E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman_NOROCKET.et" "{D40A009A57C1A18E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman_NOROCKET.et" "{EA0F77B974CE8CDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{77F2B5CF728E176E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{D40A009A57C1A18E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman_NOROCKET.et" "{D40A009A57C1A18E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman_NOROCKET.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "1-1"
+}

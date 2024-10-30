@@ -1,0 +1,92 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{6102F2CF500C83D1}" {
+  }
+ }
+ coords 2352.775 148.301 4193.202
+ Points {
+  ShapePoint "{6102B7BEFD44D4C7}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6102B7BEFD44F5C1}" {
+   Position 11.381 -0.575 -6.188
+  }
+  ShapePoint "{6102B7BEED3DD873}" {
+   Position 26.224 -4.128 -0.348
+  }
+  ShapePoint "{6102B7BEDCD9E8E6}" {
+   Position 26.596 -4.22 15.87
+  }
+  ShapePoint "{6102B7BEDC2D573C}" {
+   Position 22.596 -3.418 31.449
+  }
+  ShapePoint "{6102B7BEDE268D85}" {
+   Position 22.479 -1.775 45.732
+  }
+  ShapePoint "{6102B7BEDBC0D448}" {
+   Position 27.334 -2.639 61.181
+  }
+  ShapePoint "{6102B7BED7155031}" {
+   Position 21.101 -0.911 63.681
+  }
+  ShapePoint "{6102B7BED11811F9}" {
+   Position 14.063 -0.544 57.197
+  }
+  ShapePoint "{6102B7BECCFAC675}" {
+   Position 8.438 -1.102 56.464
+  }
+  ShapePoint "{6102B7BECE8106BC}" {
+   Position -4.651 -0.829 26.771
+  }
+ }
+ IsClosed 1
+ {
+  $grp PS_Objective {
+   {
+    components {
+     RplComponent "{6102F80BAA45EEDC}" {
+     }
+     Hierarchy "{6102F80A7DDE3F73}" {
+     }
+    }
+    m_sTitle "Объект удержан."
+    m_sTextData ""
+    m_iScore 100
+    m_sFactionKey "USSR"
+   }
+   {
+    components {
+     RplComponent "{6102F80BA6503D06}" {
+     }
+     Hierarchy "{6102F80A792BDE01}" {
+     }
+    }
+    m_sTitle "Объект зачищен."
+    m_sTextData ""
+    m_iScore 100
+    m_sFactionKey "US"
+   }
+  }
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   components {
+    RplComponent "{6102F80BAF33C2A4}" {
+    }
+    Hierarchy "{6102F80986703D6F}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 15
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "USSR"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+ }
+}

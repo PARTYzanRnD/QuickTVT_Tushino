@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{63C62C0BD5A9FFA4}Prefabs/Weapons/Rifles/AK74M/Rifle1_AK74M_npz_rail.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

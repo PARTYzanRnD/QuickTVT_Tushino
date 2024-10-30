@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8DCCD1BF086D2BCD}Worlds/qtvt8_55_attcak_on_mil_base/qtvt8_55_attcak_on_mil_base.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

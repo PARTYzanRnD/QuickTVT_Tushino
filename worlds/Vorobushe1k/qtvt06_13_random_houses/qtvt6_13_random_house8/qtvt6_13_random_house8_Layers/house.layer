@@ -1,0 +1,4 @@
+SCR_DestructibleBuildingEntity : "{56073EA03FCF2043}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_white.et" {
+ coords 1189.14 0 2712.164
+ angleY 164.068
+}

@@ -1,0 +1,28 @@
+SCR_AIGroup RHS_US_USMC_G_001_4 : "{AA9FEAD8E691A5F7}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_FireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{6105079014A13F91}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3559.174 45.137 2648.288
+ angleY -127.536
+}
+SCR_AIGroup RHS_US_USMC_G_002_2 : "{D6FB9565176AB04B}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_SentryTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{61050790159B5486}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 3558.697 45.214 2641.066
+ angleY -28.479
+}

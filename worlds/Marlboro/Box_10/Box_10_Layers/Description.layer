@@ -1,0 +1,46 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description_All_1 {
+  m_sTitle "Информация к размышлению"
+  m_sTextData "Драка за пляж"
+  m_bEmptyFactionVisibility 1
+ }
+ Description_All_2 {
+  m_sTitle "Лехенда"
+  m_sTextData "Скип миссии-Белый триггер"\
+  ""\
+  "Можете буквально решать свои пылкие вопросы даже с тк."
+  m_aVisibleForFactions {
+   "US" "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Desription_USSR_1 {
+  m_sTitle "Задачи"
+  m_sTextData "Набить морды синих"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Desription_USSR_3 {
+  m_sTitle "Правила и условности"
+  m_sTextData "С гранатой можно боксировать"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_US_1 {
+  m_sTitle "Задачи"
+  m_sTextData "Побить всех красных"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Description_US_3 {
+  m_sTitle "Правила и условности"
+  m_sTextData "С гранатой в руке можно боксировать"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

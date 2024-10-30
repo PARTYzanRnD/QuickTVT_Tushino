@@ -1,0 +1,99 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+   }
+  }
+  coords 1676.082 45.428 3149.03
+  angleY 136
+  m_aUnitPrefabSlots {
+   "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{D49FE4FE2EF41978}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank_Assistant.et" "{71AFD9ED7B86694D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{A0170A59C1CDE86A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_GrenadeLauncher.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+  }
+  m_sCustomNameSet "1-1"
+ }
+ RHS_RF_MSV_G_001_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1664.563 45.428 3137.73
+  angleY 139.421
+  m_aUnitPrefabSlots {
+   "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{71AFD9ED7B86694D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{D49FE4FE2EF41978}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank_Assistant.et" "{A0170A59C1CDE86A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_GrenadeLauncher.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+  }
+  m_sCustomNameSet "1-2"
+ }
+}
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61036549D4F18514}" {
+      SlotTemplate InventoryStorageSlot mine {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 1660.307 45.344 3128.899
+  angleY -129.508
+ }
+ UAZ469_Camo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61036549D4F18514}" {
+      SlotTemplate InventoryStorageSlot mine {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 1665.68 45.344 3133.577
+  angleY -129.508
+ }
+ UAZ469_Camo3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61036549D4F18514}" {
+      SlotTemplate InventoryStorageSlot mine {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 1673.333 45.344 3140.752
+  angleY -129.508
+ }
+ UAZ469_Camo4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61036549D4F18514}" {
+      SlotTemplate InventoryStorageSlot mine {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 1679.13 45.344 3146.606
+  angleY -139.675
+ }
+}

@@ -1,0 +1,22 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 2665.873 75.736 1645.178
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2664.718 74.996 1638.958
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 17
+   m_iStartingMinutes 35
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 1
+  }
+ }
+ coords 2666.222 75.973 1647.795
+ m_iFreezeTime 10000
+ m_iGameTime 600000
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 2664.504 75.208 1641.116
+}

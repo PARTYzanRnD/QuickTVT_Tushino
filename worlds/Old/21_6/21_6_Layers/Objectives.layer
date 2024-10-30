@@ -1,0 +1,55 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 2313.68 89.774 1248.384
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 1.852 -0.089 -0.818
+  }
+  ShapePoint "{60FCFC14F686981F}" {
+   Position 3.198 0.05 1.731
+  }
+  ShapePoint "{60FD0508328884C4}" {
+   Position 1.586 0.141 2.574
+  }
+  ShapePoint "{60FCFC14FC6FD808}" {
+   Position 0.153 0.007 0.11
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   DrawShape 1
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD40495510EFAF}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "USSR"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить деревенский толчек"
+   m_sTextData "Задачи США:"\
+   ""\
+   "Удержать электро домик"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать деревенский толчек"
+   m_sTextData "Задачи СССР:"\
+   ""\
+   "Захватить электро домик"
+  }
+ }
+}

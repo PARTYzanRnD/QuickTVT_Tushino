@@ -1,0 +1,14 @@
+$grp GenericEntity : "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_FIA.et" {
+ {
+  coords 3174.361 19.685 2834.828
+ }
+ {
+  coords 3180.805 20.006 2840.945
+ }
+ {
+  coords 3188.645 19.988 2833.141
+ }
+ {
+  coords 3184.786 19.627 2828.625
+ }
+}

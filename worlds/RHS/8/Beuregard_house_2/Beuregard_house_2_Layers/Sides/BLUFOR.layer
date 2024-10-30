@@ -1,0 +1,14 @@
+SCR_AIGroup RHS_US_USMC_G_001_4 : "{E9440D20789703B0}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_LightFireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{6105079579486DBF}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3042.303 16.459 2712.885
+ angleY 132.371
+}

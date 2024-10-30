@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6197C722AAF8A08B}Prefabs/Vorobushe1k/Prefabs/anythings/PM_bodygold.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F0B6B305D04D02A}Worlds/qtvt10_28_fight_to_death/qtvt10_28_fight_to_death.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

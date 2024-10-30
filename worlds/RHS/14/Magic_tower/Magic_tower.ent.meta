@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{90AEA9A50B21FCE6}Worlds/RHS/12/Magic_tower/Magic_tower.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

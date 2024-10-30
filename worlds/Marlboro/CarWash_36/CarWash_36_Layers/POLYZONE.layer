@@ -1,0 +1,316 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0.071 0.561 0.192 1
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "" "FIA" "USSR"
+    }
+   }
+  }
+  coords 2839.282 62.31 1502.241
+  Points {
+   ShapePoint "{6112B0D32EB4EF12}" {
+    Position -65.585 0 -48.484
+   }
+   ShapePoint "{6112B0D2D01F591C}" {
+    Position -104.714 0 -11.079
+   }
+   ShapePoint "{6112B0D2D161C988}" {
+    Position -20.117 0 45.453
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0.561 0.071 0.071 1
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "" "FIA" "USSR"
+    }
+   }
+  }
+  coords 2885.145 58.215 2032.114
+  Points {
+   ShapePoint "{6112B0D2A7F13ACA}" {
+    Position 8.644 0 -29.45
+   }
+   ShapePoint "{6112B0D2A80C2122}" {
+    Position 30.142 0 -43.906
+   }
+   ShapePoint "{6112B0D2A893B713}" {
+    Position 43.19 0 -45.812
+   }
+   ShapePoint "{6112B0D2A9752F1C}" {
+    Position 60.36 0 -37.298
+   }
+   ShapePoint "{6112B0D2A9CA658B}" {
+    Position 70.884 0 -33.87
+   }
+   ShapePoint "{6112B0D2AA7529E5}" {
+    Position 81.123 0 -24.533
+   }
+   ShapePoint "{6112B0D2AB112495}" {
+    Position 95.411 0 -18.085
+   }
+   ShapePoint "{6112B0D2ABFC3F81}" {
+    Position 107.253 0 -16.271
+   }
+   ShapePoint "{6112B0D2AC51C935}" {
+    Position 120.694 0 -15.762
+   }
+   ShapePoint "{6112B0D2AC1DA02D}" {
+    Position 126.971 0 -6.154
+   }
+   ShapePoint "{6112B0D2AD456B89}" {
+    Position 132.576 0 10.604
+   }
+   ShapePoint "{6112B0D2AD16C25A}" {
+    Position 130.496 0 21.682
+   }
+   ShapePoint "{6112B0D2ADDED87E}" {
+    Position 124.153 0 28.896
+   }
+   ShapePoint "{6112B0D2AE5338C1}" {
+    Position 117.072 0 32.906
+   }
+   ShapePoint "{6112B0D2AF79E8B9}" {
+    Position 107.851 0 35.643
+   }
+   ShapePoint "{6112B0D2AFC8C0C6}" {
+    Position 92.199 0 37.347
+   }
+   ShapePoint "{6112B0D2AF991993}" {
+    Position 75.934 0 36.354
+   }
+   ShapePoint "{6112B0D2506578A4}" {
+    Position 58.634 0 32.29
+   }
+   ShapePoint "{6112B0D25024DDA8}" {
+    Position 49.025 0 27.976
+   }
+   ShapePoint "{6112B0D250F03451}" {
+    Position 30.716 0 19.195
+   }
+   ShapePoint "{6112B0D251406D30}" {
+    Position 13.822 0 9.738
+   }
+   ShapePoint "{6112B0D251238441}" {
+    Position 4.967 0 6.042
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "FIA" "USSR"
+   }
+  }
+ }
+ coords 2337.437 60.093 1644.664
+ Points {
+  ShapePoint "{6112B0D55D907577}" {
+   Position -26.656 0 50.429
+  }
+  ShapePoint "{6112B0D55F72336B}" {
+   Position 6.001 0 119.761
+  }
+  ShapePoint "{6112B0D540B75006}" {
+   Position 185.554 0 320.964
+  }
+  ShapePoint "{6112B0D542B05050}" {
+   Position 323.544 0 368.14
+  }
+  ShapePoint "{6112B0D545361F73}" {
+   Position 447.005 0 441.419
+  }
+  ShapePoint "{6112B0D546E1D7B1}" {
+   Position 547.38 0 492.047
+  }
+  ShapePoint "{6112B0D547B1A5E1}" {
+   Position 685.237 0 495.839
+  }
+  ShapePoint "{6112B0D549201A3F}" {
+   Position 757.33 0 453.789
+  }
+  ShapePoint "{6112B0D54B492C48}" {
+   Position 891.519 0 306.036
+  }
+  ShapePoint "{6112B0D54D485FF7}" {
+   Position 951.323 0 155.759
+  }
+  ShapePoint "{6112B0D54ECED98E}" {
+   Position 922.163 0 -46.877
+  }
+  ShapePoint "{6112B0D57391162B}" {
+   Position 768.901 0 -161.71
+  }
+  ShapePoint "{6112B0D575891307}" {
+   Position 569.753 0 -233.421
+  }
+  ShapePoint "{6112B0D57A4BA9DD}" {
+   Position 432.495 0 -264.868
+  }
+  ShapePoint "{6112B0D57D33186D}" {
+   Position 128.877 0 -116.124
+  }
+ }
+}
+$grp PolylineShapeEntity : "{DCA90362FBC25FB4}Prefabs/PolyZone/PolyZone_Presence.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "USSR"
+    }
+   }
+  }
+  coords 2321.279 66 1714.199
+  Points {
+   ShapePoint "{6112B0DB54BB07C0}" {
+    Position 24.341 0 34.592
+   }
+   ShapePoint "{6112B0DB588AC3BB}" {
+    Position 56.075 0 9.512
+   }
+   ShapePoint "{6112B0DB5E665AF0}" {
+    Position 28.992 0 -20.582
+   }
+  }
+  {
+   PS_Objective {
+    ID "60E9062D2F15A7F1"
+    m_sTitle "Вернуть УАЗик"
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+   PS_PolyZoneObjectivePresence {
+    components {
+     Hierarchy "{6112B0D9EEA057BC}" {
+     }
+    }
+    coords 7.322 0 1.204
+    TriggerShapeType Polyline
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    PrefabsFilter {
+     PrefabFilter "{6112B0D983B0CA64}" {
+      Prefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 0 0 0
+  Points {
+   ShapePoint "{6112B0D1DAC92A3A}" {
+    Position 4097.512 0 0.397
+   }
+   ShapePoint "{6112B0D1DD4B1D0C}" {
+    Position 4095.588 0 4095.98
+   }
+   ShapePoint "{6112B0D1DF5C7E14}" {
+    Position -2.048 0 4096.051
+   }
+   ShapePoint "{6112B0D1CB12572D}" {
+    Position 178.716 0 1629.907
+   }
+   ShapePoint "{6112B0D1CC378536}" {
+    Position 862.145 0 1263.383
+   }
+   ShapePoint "{6112B0D1F77AF6B5}" {
+    Position 1477.669 0 1293.251
+   }
+   ShapePoint "{6112B0D1F7E23CAB}" {
+    Position 1708.479 0 1410.386
+   }
+   ShapePoint "{6112B0D1F7BA1983}" {
+    Position 1924.426 0 1656.926
+   }
+   ShapePoint "{6112B0D1F8C96931}" {
+    Position 1958.204 0 1771.977
+   }
+   ShapePoint "{6112B0D1FA5C0F1A}" {
+    Position 1799.16 0 1722.258
+   }
+   ShapePoint "{6112B0D1FA2445E3}" {
+    Position 1645.164 0 1781.523
+   }
+   ShapePoint "{6112B0D1FAAE0F1C}" {
+    Position 1610.451 0 1850.509
+   }
+   ShapePoint "{6112B0D1FC6358AA}" {
+    Position 1691.381 0 1894.266
+   }
+   ShapePoint "{6112B0D1FE8B4173}" {
+    Position 1826.429 0 1766.48
+   }
+   ShapePoint "{6112B0D1E13E0EC7}" {
+    Position 2053.269 0 1811.344
+   }
+   ShapePoint "{6112B0D1E922E025}" {
+    Position 2353.344 66.272 1767.21
+   }
+   ShapePoint "{6112B0D198304EED}" {
+    Position 2390.172 67.786 1720.046
+   }
+   ShapePoint "{6112B0D19C5CE759}" {
+    Position 2359.709 62.215 1674.231
+   }
+   ShapePoint "{6112B0D1872EC95C}" {
+    Position 2312.078 67.042 1706.962
+   }
+   ShapePoint "{6112B0D188F58F23}" {
+    Position 2161.245 0 1752.338
+   }
+   ShapePoint "{6112B0D1B2530391}" {
+    Position 1949.354 0 1642.756
+   }
+   ShapePoint "{6112B0D1B352C71C}" {
+    Position 1711.931 0 1364.076
+   }
+   ShapePoint "{6112B0D1B38598FA}" {
+    Position 1505.131 0 1245.628
+   }
+   ShapePoint "{6112B0D1B48B1F3B}" {
+    Position 1272.185 0 1218.441
+   }
+   ShapePoint "{6112B0D1B6CBE9D0}" {
+    Position 578.896 0 709.752
+   }
+   ShapePoint "{6112B0D1B79679DA}" {
+    Position 192.577 0 249.879
+   }
+  }
+  {
+   PS_Objective {
+    ID "60E9062D2F15A7F1"
+    m_sTitle "Удержать Уаз"
+    m_sFactionKey "FIA"
+   }
+   PS_PolyZoneObjectivePresence {
+    components {
+     Hierarchy "{6112B0D9EEA057BC}" {
+     }
+    }
+    coords 2270.843 55.788 1686.727
+    TriggerShapeType Polyline
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    PrefabsFilter {
+     PrefabFilter "{6112B0D983B0CA64}" {
+      Prefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+     }
+    }
+   }
+  }
+ }
+}

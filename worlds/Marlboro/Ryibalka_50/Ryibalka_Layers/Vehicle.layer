@@ -1,0 +1,6 @@
+Vehicle M923A1_transport_covered_MERDC1 : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et" {
+ coords 2765.69 45.024 1402.465
+ angleX 0.625
+ angleY -86.665
+ angleZ -10.601
+}

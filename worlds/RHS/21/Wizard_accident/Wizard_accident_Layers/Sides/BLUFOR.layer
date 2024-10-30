@@ -1,0 +1,36 @@
+SCR_AIGroup RHS_US_USMC_G_001_9 : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FED22F85402472}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 2449.108 87.773 1473.261
+ angleY -172.301
+}
+Vehicle M997_maxi_ambulance1 : "{95DADCB2F2BB115B}PrefabLibrary/Vehicles/M997_maxi_ambulance.et" {
+ coords 2445.85 88.312 1466.536
+ angleY -93.303
+}
+SCR_AIGroup RHS_US_USMC_G_002_4 : "{AA9FEAD8E691A5F7}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_FireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FED22F879D46CF}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 2435.027 87.879 1460.155
+ angleY 28.845
+}
+Vehicle M1025_armed_M2HB1 : "{BE5B12703B058750}PrefabLibrary/Vehicles/M1025_armed_M2HB.et" {
+ coords 2438.262 88.344 1465.079
+ angleY -100.758
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4A796CA20B4BF7E7}Worlds/RHS/90/Beauregard_Massacre/Beauregard_Massacre.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

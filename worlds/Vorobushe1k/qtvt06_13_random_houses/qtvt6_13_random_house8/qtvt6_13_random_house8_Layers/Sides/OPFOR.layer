@@ -1,0 +1,14 @@
+SCR_AIGroup : "{73F1EA286A84C07C}Prefabs/Groups/OPFOR/Group_USSR_Team_AT_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ coords 1189.229 39.139 2712.315
+ angleY -105.885
+ m_aUnitPrefabSlots {
+  "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "1-1"
+}

@@ -1,0 +1,16 @@
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 2550.144 30.71 3014.698
+  angleY -92.628
+  angleZ 6.921
+ }
+ UAZ2 {
+  coords 2531.516 143.714 2265.015
+  angleY 177.669
+ }
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 2548.636 31.238 3010.557
+ angleY 89.761
+ angleZ -11.754
+}

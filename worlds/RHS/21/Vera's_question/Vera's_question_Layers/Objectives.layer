@@ -1,0 +1,100 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 3066.275 72.844 1578.124
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.364 -0.5 0.425
+  }
+  ShapePoint "{60FCFC14F686981F}" {
+   Position 3.786 -0.025 1.042
+  }
+  ShapePoint "{60FED22C44AD154C}" {
+   Position 4.395 0.071 -1.416
+  }
+  ShapePoint "{60FED22C46E1B7C0}" {
+   Position 17.092 0.028 0.599
+  }
+  ShapePoint "{60FED22C466B7B39}" {
+   Position 17.05 -0.014 1.497
+  }
+  ShapePoint "{60FED22C47175753}" {
+   Position 18.765 -0.003 2.139
+  }
+  ShapePoint "{60FED22C488B95EB}" {
+   Position 20.178 -0.011 3.869
+  }
+  ShapePoint "{60FED22C4AB8BB19}" {
+   Position 20.577 0.013 6.412
+  }
+  ShapePoint "{60FED22C4BA57D7C}" {
+   Position 19.429 -0.014 8.676
+  }
+  ShapePoint "{60FED22C4B2196D2}" {
+   Position 17.141 -0.114 9.974
+  }
+  ShapePoint "{60FED22C4CDB7B19}" {
+   Position 15.496 -0.168 10.014
+  }
+  ShapePoint "{60FED22C4C4A32A2}" {
+   Position 15.324 -0.189 10.721
+  }
+  ShapePoint "{60FED22C4EF3D698}" {
+   Position 9.906 -0.279 9.888
+  }
+  ShapePoint "{60FED22C4E4FF41C}" {
+   Position 8.112 -0.297 9.548
+  }
+  ShapePoint "{60FED22C54B988BE}" {
+   Position 2.866 -0.278 8.752
+  }
+  ShapePoint "{60FED22C54D5AED1}" {
+   Position 2.969 -0.265 8.356
+  }
+  ShapePoint "{60FED22C559F220D}" {
+   Position 0.067 -0.229 7.962
+  }
+  ShapePoint "{60FED22C555E3DCF}" {
+   Position -0.783 -0.161 6.948
+  }
+  ShapePoint "{60FED22C56C43314}" {
+   Position -0.447 -0.086 5.383
+  }
+  ShapePoint "{60FED22C567AADB3}" {
+   Position -0.888 -0.085 5.273
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "RHS_AFRF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить церковь"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать церковь"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+  }
+ }
+}

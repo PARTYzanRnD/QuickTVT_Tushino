@@ -1,0 +1,162 @@
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 3072.912 21.449 2630.727
+  angleX 5.698
+  angleY -137.113
+  angleZ 0.42
+ }
+ Ural4320_transport_camo2 {
+  coords 3084.175 19.388 2645.733
+  angleX 5.171
+  angleY -142.404
+  angleZ 0.6
+ }
+ Ural4320_transport_camo3 {
+  coords 3093.898 17.882 2660.364
+  angleX 5.199
+  angleY -145.992
+  angleZ 0.276
+ }
+ Ural4320_transport_camo4 {
+  coords 3103.783 16.587 2674.712
+  angleX 3.921
+  angleY -142.253
+  angleZ 0.775
+ }
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 3043.273 26.835 2589.34
+  angleX 5.206
+  angleY -149.405
+  angleZ -0.034
+ }
+ BTR70_AFRF2 {
+  coords 3051.868 25.079 2602.305
+  angleX 5.712
+  angleY -142.485
+  angleZ -0.114
+ }
+ BTR70_AFRF3 {
+  coords 3062.606 23.196 2617.128
+  angleX 5.172
+  angleY -142.49
+  angleZ 0.593
+ }
+}
+$grp SCR_AIGroup : "{F40CDA3D5A7B1CDF}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_LightFireTeam.et" {
+ RHS_RF_MSV_G_001_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE68227E028D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3045.698 26.955 2586.363
+  angleY -58.975
+ }
+ RHS_RF_MSV_G_002_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE6824B8F290}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3041.292 26.622 2592.835
+  angleY 121.025
+ }
+}
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE6825A58695}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3052.985 25.335 2598.768
+  angleY -48.462
+ }
+ RHS_RF_MSV_G_011_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE6826AF4A3B}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3064.601 25.225 2612.819
+  angleY -51.198
+ }
+ RHS_RF_MSV_G_012_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE682641F07C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3073.823 23.587 2626.401
+  angleY -48.029
+ }
+ RHS_RF_MSV_G_020_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE6828B92AB5}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3085.934 21.42 2642.048
+  angleY -53.157
+ }
+ RHS_RF_MSV_G_021_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE6828465EBF}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3095.923 19.859 2656.538
+  angleY -53.157
+ }
+ RHS_RF_MSV_G_022_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{610CEE68295F4E1A}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3105.269 18.578 2670.463
+  angleY -54.451
+ }
+}

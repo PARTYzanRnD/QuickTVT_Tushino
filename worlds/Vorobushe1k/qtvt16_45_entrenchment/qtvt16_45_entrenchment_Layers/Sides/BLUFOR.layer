@@ -1,0 +1,88 @@
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 1724.926 17.467 3402.35
+  angleY -109.556
+ }
+ M1025_armed_M2HB2 {
+  coords 1709.591 17.856 3395.584
+  angleY -109.556
+ }
+ M1025_armed_M2HB3 {
+  coords 1693.602 18.194 3388.831
+  angleY -109.556
+ }
+}
+$grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ M2 {
+  coords 1699.721 18.079 3391.183
+  angleY -112.892
+ }
+ M4 {
+  coords 1715.77 17.724 3397.878
+  angleY -112.892
+ }
+ M6 {
+  coords 1732.52 17.342 3405.07
+  angleX 1.997
+  angleY -112.88
+  angleZ 0.129
+ }
+}
+$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ RHS_US_USMC_G_000_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+   }
+  }
+  coords 1698.9 17.939 3385.711
+  angleY -20.811
+  m_aUnitPrefabSlots {
+   "{DABB09645984A9FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Squad_Leader.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{16D579CF1B797208}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Machinegunner.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{39FA8C0F2B11AAA9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Grenade_Launcher.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-1"
+ }
+ RHS_US_USMC_G_000_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1714 17.939 3392.56
+  angleY -22.258
+  m_aUnitPrefabSlots {
+   "{DABB09645984A9FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Squad_Leader.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{16D579CF1B797208}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Machinegunner.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{39FA8C0F2B11AAA9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Grenade_Launcher.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-2"
+ }
+ RHS_US_USMC_G_000_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1731.29 17.939 3399.476
+  angleY -20.811
+  m_aUnitPrefabSlots {
+   "{DABB09645984A9FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Squad_Leader.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{16D579CF1B797208}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Machinegunner.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{39FA8C0F2B11AAA9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Grenade_Launcher.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-3"
+ }
+}

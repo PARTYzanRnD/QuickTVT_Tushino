@@ -1,0 +1,58 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions + {
+    "RHS_USAF" "RHS_AFRF" "PS_CheeseRaiders"
+   }
+  }
+ }
+ coords 2198.854 44.704 944.472
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -8.566 -77.96 -3.625
+  }
+  ShapePoint "{611B21973D0029A6}" {
+   Position -141.389 0 102.707
+  }
+  ShapePoint "{611B21973EA278A2}" {
+   Position -218.246 0 276.978
+  }
+  ShapePoint "{611B21973ECFD405}" {
+   Position -156.069 0 465.125
+  }
+  ShapePoint "{611B21973F257272}" {
+   Position 13.541 0 637.044
+  }
+  ShapePoint "{611B2194C0AF8290}" {
+   Position 221.958 0 893.44
+  }
+  ShapePoint "{611B2194C0D5E67E}" {
+   Position 519.023 0 1050.385
+  }
+  ShapePoint "{611B2194C07BC4D6}" {
+   Position 903.057 0 993.374
+  }
+  ShapePoint "{611B2194C1E10689}" {
+   Position 1044.505 0 811.933
+  }
+  ShapePoint "{611B2194C2364994}" {
+   Position 1201.171 0 580.038
+  }
+  ShapePoint "{611B2194C25AAF6E}" {
+   Position 1060.542 0 329.82
+  }
+  ShapePoint "{611B2194C35E02DB}" {
+   Position 599.251 0 14.014
+  }
+  ShapePoint "{611B2194C4FFFC0A}" {
+   Position 252.344 0 -47.664
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{60FD050E0DC2A2AB}" {
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR" "RHS_USAF" "RHS_AFRF" "PS_CheeseRaiders"
+   }
+  }
+ }
+ coords 3124.271 4.871 2996.12
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.005 -0.841 -0.414
+  }
+  ShapePoint "{611B33942F522FFE}" {
+   Position -4.642 -0.84 -6
+  }
+  ShapePoint "{611B3394317B368A}" {
+   Position -21.809 -0.84 7.917
+  }
+  ShapePoint "{611B339433396F51}" {
+   Position -17.15 -0.84 13.514
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 90
+   m_sCurrentFaction "PS_CheeseRaiders"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить электростанцию"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать электростанцию"
+   m_sTextData ""
+   m_sFactionKey "PS_CheeseRaiders"
+  }
+ }
+}

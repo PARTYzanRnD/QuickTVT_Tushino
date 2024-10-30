@@ -1,0 +1,16 @@
+GameEntity : "{34F02C0FF60D4053}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2-1.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{244A6A1121439AAC}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_base.et"
+    }
+   }
+  }
+ }
+ coords 0.692 2.247 5.686
+}

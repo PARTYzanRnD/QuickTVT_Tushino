@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BD79B100CA2FE760}Worlds/qtvt1_28_signal_hill/qtvt1_28_signal_hill.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

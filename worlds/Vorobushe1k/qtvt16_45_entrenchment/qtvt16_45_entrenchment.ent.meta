@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{758B82CCF6C15A8B}Worlds/qtvt16_45_entrenchment/qtvt16_45_entrenchment.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

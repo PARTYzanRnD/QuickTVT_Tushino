@@ -1,0 +1,18 @@
+SCR_AIGroup RHS_US_USMC_G_001_9 : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60FEC7DB60355E31}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 2888.675 58.357 2218.444
+ angleY 117.029
+}
+Vehicle M1025_armed_M2HB1 : "{BE5B12703B058750}PrefabLibrary/Vehicles/M1025_armed_M2HB.et" {
+ coords 2893.5 58.729 2216.889
+ angleY 38.734
+}

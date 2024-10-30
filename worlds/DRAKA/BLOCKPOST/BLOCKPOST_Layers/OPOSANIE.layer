@@ -1,0 +1,29 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 2354.193 67.031 2868.491
+  m_sTitle "Описание миссии"
+  m_sTextData "Разведка предупредила: советская армия готовит нападение на военный блокпост США."
+  m_aVisibleForFactions {
+   "" "US" "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 2362.822 65.32 2875.21
+  m_sTitle "Задача"
+  m_sTextData "Удержать блокпост до прибытия подкрепления, не дать захватить укрепление с флагом!"
+  m_aVisibleForFactions {
+   "" "US"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 2367.968 64.092 2869.338
+  m_sTitle "Задача"
+  m_sTextData "Захватить блокпост, пленных советую не брать."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}

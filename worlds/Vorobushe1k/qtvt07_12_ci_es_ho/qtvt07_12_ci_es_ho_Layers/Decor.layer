@@ -1,0 +1,283 @@
+$grp SCR_DestructibleBuildingEntity : "{1FDD5F0D46F29CF5}Prefabs/Structures/Industrial/Houses/Workshop_01/Workshop_01_Side_base.et" {
+ {
+  coords 1180.085 0 2699.905
+  angleY -104.66
+ }
+ {
+  coords 1209.266 0 2728.881
+  angleY 75.348
+ }
+}
+$grp GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+ {
+  coords 1181.02 39 2728.879
+ }
+ {
+  coords 1207.538 39 2700.022
+  angleY 140.992
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{525700C0EC3BA75B}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_base.et" {
+ {
+  coords 1233.099 0.512 2724.921
+  angleY -105.062
+ }
+ {
+  coords 1152.848 0.512 2703.324
+  angleY -105.062
+ }
+}
+$grp StaticModelEntity : "{52ADECE22F634F08}Prefabs/Structures/Cultural/Statues/StatueAnchor_01.et" {
+ {
+  coords 1180.769 3.469 2699.949
+ }
+ {
+  coords 1208.542 3.469 2728.712
+  angleY -173.832
+ }
+}
+$grp StaticModelEntity : "{5F482D30CB2BB4D0}Prefabs/Structures/Cultural/Statues/StatueStPeter_01_pedestal.et" {
+ {
+  coords 1159.013 0 2705.604
+  angleY 73.571
+ }
+ {
+  coords 1226.474 0 2722.958
+  angleY -103.535
+ }
+}
+$grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFloodlight_USSR_01.et" {
+ {
+  coords 1176.684 39 2715.687
+  angleY -79.652
+ }
+ {
+  coords 1207.524 39 2711.514
+  angleY 100.957
+ }
+}
+$grp GenericEntity : "{63CBCCD35D82066C}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_US_supplies.et" {
+ {
+  coords 1164.964 39 2717.03
+ }
+ {
+  coords 1169.339 39 2719.579
+  angleY -130.008
+ }
+ {
+  coords 1212.281 39 2707.78
+  angleY 40.508
+ }
+ {
+  coords 1216.176 39 2711.015
+  angleY 170.516
+ }
+}
+$grp GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck.et" {
+ {
+  coords 1182.04 38.57 2695.292
+ }
+ {
+  coords 1209.278 39 2733.556
+  angleY 15.072
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
+ {
+  coords 1155.436 0 2712.518
+  angleY 74.109
+ }
+ {
+  coords 1224.558 0 2731.406
+  angleY 74.109
+ }
+}
+$grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+ {
+  coords 1190.406 39 2689.691
+  angleY 91.002
+ }
+ {
+  coords 1197.176 39 2738.956
+  angleY 50.384
+ }
+}
+$grp GenericEntity : "{7A04C0C85BEC7916}Prefabs/Structures/Civilian/Latrine_01.et" {
+ {
+  coords 1156.131 39 2677.42
+  angleY 25.903
+ }
+ {
+  coords 1143.352 39 2726.204
+  angleY 117.79
+ }
+ {
+  coords 1229.679 39 2749.715
+  angleY -147.68
+ }
+ {
+  coords 1242.689 39 2700.948
+  angleY -64.036
+ }
+}
+$grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {
+ {
+  coords 1221.987 45.51 2692.798
+  angleY 165.502
+ }
+ {
+  coords 1208.297 45.51 2689.23
+  angleY 162.715
+ }
+ {
+  coords 1193.378 45.51 2685.122
+  angleY 162.715
+ }
+ {
+  coords 1178.389 45.51 2681.052
+  angleY 165.843
+ }
+ {
+  coords 1163.334 45.51 2676.87
+  angleY 161.605
+ }
+ {
+  coords 1237.244 45.51 2696.925
+  angleY 165.502
+ }
+ {
+  coords 1148.903 45.51 2730.423
+  angleY -17.081
+ }
+ {
+  coords 1164.176 45.51 2734.556
+  angleY -12.085
+ }
+ {
+  coords 1179.084 45.51 2738.633
+  angleY -14.872
+ }
+ {
+  coords 1194.013 45.51 2742.88
+  angleY -14.872
+ }
+ {
+  coords 1208.975 45.51 2746.766
+  angleY -15.689
+ }
+ {
+  coords 1222.832 45.51 2750.421
+  angleY -15.982
+ }
+}
+$grp GenericEntity : "{84D9030883610D2F}Prefabs/Props/Military/CargoContainers/CargoContainer_01_10ft_USSR_supplies.et" {
+ {
+  coords 1166.72 41.544 2717.821
+  angleY 37.172
+ }
+ {
+  coords 1214.574 41.544 2709.946
+  angleY -152.312
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{85D22B7ED8C8024C}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_Small_02.et" {
+ {
+  coords 1178.598 0 2707.535
+  angleY 54.677
+ }
+ {
+  coords 1210.752 0 2721.251
+  angleY -125.314
+ }
+}
+SCR_DestructibleBuildingEntity : "{B5963E922C972A4A}Prefabs/Structures/Infrastructure/Landlines/PhoneBooth_E/PhoneBooth_E_01.et" {
+ coords 1176.409 0 2702.554
+}
+$grp GenericEntity : "{B81851623E779431}Prefabs/Structures/Forest/Anthill_01.et" {
+ {
+  coords 1171.233 39 2695.073
+ }
+ {
+  coords 1199.431 38.999 2697.84
+ }
+ {
+  coords 1169.694 39 2726.81
+ }
+ {
+  coords 1202.576 39 2732.844
+ }
+ {
+  coords 1221.444 39 2719.529
+ }
+}
+$grp StaticModelEntity : "{D4177594212A056F}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic_foundation.et" {
+ {
+  coords 1170.684 39 2685.656
+  angleY 75.141
+ }
+ {
+  coords 1160.319 39 2724.721
+  angleY 75.141
+ }
+ {
+  coords 1218.687 39 2740.207
+  angleY -105.573
+ }
+ {
+  coords 1229.069 39 2702.953
+  angleY -105.573
+ }
+}
+$grp GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+ {
+  coords 1182.382 39 2711.427
+  angleY -14.566
+ }
+ {
+  coords 1203.216 39 2716.841
+  angleY -14.566
+ }
+}
+Vehicle Mi8MT1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT.et" {
+ coords 1193.479 38.8 2713.296
+ angleX 4.565
+ angleY 136.774
+}
+$grp GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_military.et" {
+ {
+  coords 1189.165 39 2704.068
+ }
+ {
+  coords 1189.839 39 2703.561
+ }
+ {
+  coords 1188.81 39.138 2703.053
+  angleX -28.897
+  angleY 16.905
+  angleZ 17.697
+ }
+ {
+  coords 1198.952 39.138 2723.056
+  angleX -28.897
+  angleY 172.509
+  angleZ 17.697
+ }
+ {
+  coords 1199.049 39 2721.984
+  angleY 155.604
+ }
+ {
+  coords 1198.225 39 2722.167
+  angleY 155.604
+ }
+}
+$grp GenericEntity : "{FEB4961C91993C22}Prefabs/Structures/Civilian/DogHouse_01.et" {
+ {
+  coords 1148.887 39 2702.687
+  angleY 77.208
+ }
+ {
+  coords 1236.651 39 2725.26
+  angleY -100.948
+ }
+}

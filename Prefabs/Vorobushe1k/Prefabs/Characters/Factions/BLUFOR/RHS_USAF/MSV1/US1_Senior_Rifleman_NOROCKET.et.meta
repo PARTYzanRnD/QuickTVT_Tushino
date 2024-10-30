@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AC5A6DC2F3872413}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman_NOROCKET.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

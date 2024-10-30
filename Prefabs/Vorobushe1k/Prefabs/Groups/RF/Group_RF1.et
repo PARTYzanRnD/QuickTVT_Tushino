@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{611EADC5FEF900A7}" {
+  }
+ }
+ m_faction "RHS_RF_MSV"
+ m_aUnitPrefabSlots {
+  "{38DBB74DC5412559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{A0170A59C1CDE86A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_GrenadeLauncher.et" "{71AFD9ED7B86694D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{D49FE4FE2EF41978}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank_Assistant.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "1-1"
+}

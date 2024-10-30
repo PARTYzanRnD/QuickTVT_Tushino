@@ -1,0 +1,14 @@
+SCR_AIGroup RHS_RF_MSV_G_001_4 : "{68FAC3D5CF55A349}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_LightFireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{610507957BA622AE}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 2829.223 72.949 1591.185
+ angleY -22.288
+}

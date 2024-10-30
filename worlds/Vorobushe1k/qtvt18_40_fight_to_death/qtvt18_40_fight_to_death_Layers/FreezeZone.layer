@@ -1,0 +1,11 @@
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 2133.87 53.431 2962.513
+  m_fZoneRadius 33.5
+  m_fZoneTeleportedRadius 35.6
+ }
+ {
+  coords 1861.232 54.545 3087.023
+  m_fZoneRadius 31.2
+ }
+}

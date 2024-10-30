@@ -1,0 +1,99 @@
+GenericEntity {
+ components {
+  MeshObject "{61113032B85AFB27}" {
+   Object "{64F49CA0326FF52A}Assets/Props/Commercial/Posters/PosterSet_04.xob"
+  }
+ }
+ coords 3167.749 15.722 2738.583
+ angleY -56.773
+}
+GenericEntity : "{265A6993697C9FE7}Prefabs/Compositions/Misc/SubCompositions/Decorations/CableReel_Radio_01.et" {
+ coords 3157.473 13.128 2715.889
+ angleY -34.896
+ angleZ 1.171
+}
+GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+ coords 3160.165 15.609 2714.92
+ angleY 73.491
+ {
+  $grp GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+   {
+    coords -0.328 -2.526 -0.236
+    angleY -42.195
+   }
+   {
+    coords 0.328 -2.543 -1.03
+    angleY -42.298
+   }
+  }
+  GenericEntity : "{A55C3B8EFC4EA33E}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_NoDecal.et" {
+   coords -0.386 -2.539 -1.876
+   angleY -122.814
+  }
+  GenericEntity : "{B2658E47B2E284C7}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_decal_02.et" {
+   coords -1.135 -2.503 -0.947
+   angleY 48.763
+  }
+ }
+}
+GenericEntity : "{5600D1ADE8A93A32}Prefabs/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Small.et" {
+ coords 3182.33 14.678 2729.183
+}
+GenericEntity : "{77CAE2EDD210D7F2}Prefabs/Props/Commercial/Posters/PostersGround_01_Eden_Single.et" {
+ coords 3167.648 15.356 2738.493
+ angleX -81.757
+ angleY -161.389
+ angleZ 97.42
+}
+StaticModelEntity : "{9B54963D09FED21F}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Table_Desk_US_02.et" {
+ coords 3172.359 17.656 2727.061
+ angleY -15.246
+ {
+  StaticModelEntity : "{AAF7091E1A5093C8}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Table_RadioStation_US_01.et" {
+   coords -1.305 0.002 -0.006
+   angleY -0.384
+  }
+  GenericEntity : "{B5A9B78EE58D9C76}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacemenUS.et" {
+   coords -0.052 0.916 -0.127
+   angleY 102.744
+   angleZ -0.378
+  }
+ }
+}
+GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ coords 3167.363 12.382 2743.348
+ angleY -3.39
+ {
+  GenericEntity {
+   components {
+    MeshObject "{6111000DB6D20996}" {
+     Object "{9C9CB201B8A8CAE8}Assets/Structures/Ruins/HouseRuin_01/HouseRuin_01_WoodPile.xob"
+    }
+   }
+   coords -3.49 -0.079 2.063
+   angleY 32.997
+  }
+  GenericEntity : "{5E99DD1E8377D27F}Prefabs/Props/Garbage/Bins/TrashBin_02.et" {
+   coords -1.543 0.019 -1.048
+   angleY -105.852
+  }
+  GenericEntity : "{72F6A52C535C8670}Prefabs/Props/Garbage/Bins/TrashBin_02_base.et" {
+   coords -1.472 -0.023 -0.251
+   angleY -99.79
+  }
+  $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+   {
+    coords 0.082 0 2.689
+    angleY 3.39
+   }
+   {
+    coords -0.843 -0.024 2.467
+    angleY 3.39
+   }
+  }
+ }
+}
+GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {
+ coords 3164.351 13.68 2724.881
+ angleY -168.293
+}

@@ -1,0 +1,18 @@
+ImageSetClass {
+ RefSize 800 400
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 800 400
+   path "{46FB2FB2C2125A3C}UI/Textures/Flags/US-flag-base-3it.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass "1" {
+   Name "1"
+   Pos 0 0
+   Size 800 400
+   Flags 0
+  }
+ }
+}

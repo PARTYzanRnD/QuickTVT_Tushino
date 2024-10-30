@@ -1,0 +1,47 @@
+GenericEntity : "{3EB02CDAD5F23C82}Prefabs/Weapons/Rifles/SVD/Rifle_SVD.et" {
+ ID "525494E72B1E90FD"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{60ACDB216BF0AC2E}" {
+     SourceMaterial "SVD_body2"
+     AssignedMaterial "{0B31D529A8D641CC}anythings/SVD_body2.emat"
+    }
+    MaterialAssignClass "{60ACDB216BF0AC30}" {
+     SourceMaterial "SVD_body4"
+     AssignedMaterial "{0B31D529A8D641CC}anythings/SVD_body2.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D211BFD78F81}" {
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      Offset -0.0101 -0.0028 -0.0989
+      ChildPivotID "snap_weapon"
+      Prefab "{39CB6FD1854B44B6}Prefabs/Weapons/Attachments/Rails/npz_valdai_rail/npz_valdai_rail.et"
+     }
+    }
+    AttachmentSlotComponent "{5F1D4AED30087578}" {
+     AttachmentSlot InventoryStorageSlot slot_akOptics {
+      PivotID "eye"
+      Offset -0.001 0.0102 0.1375
+      Prefab "{333A794F0B55C019}Prefabs/Weapons/Attachments/Optics/m8541/Optic_M8541.et"
+     }
+    }
+    AttachmentSlotComponent "{60ACDB2D25598684}" {
+     AttachmentSlot InventoryStorageSlot slot_akOptics {
+      PivotID "slot_optics"
+      Offset 0.0023 -0.0004 -0.108
+      Name "DovetailAK"
+      InspectionWidgetOffset -0.0197 0.054 0
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{60ACDB2D2559869E}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+ }
+ coords 1847.003 28.102 1963.35
+}

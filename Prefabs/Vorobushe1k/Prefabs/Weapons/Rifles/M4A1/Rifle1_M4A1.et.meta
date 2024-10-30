@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{313CF1E9C1F12FC3}Prefabs/Weapons/Rifles/M4A1/Rifle1_M4A1_kac600_PMAG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

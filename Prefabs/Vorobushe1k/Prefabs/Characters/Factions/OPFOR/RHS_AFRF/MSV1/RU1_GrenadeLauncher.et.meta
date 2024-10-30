@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A0170A59C1CDE86A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_GrenadeLauncher.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

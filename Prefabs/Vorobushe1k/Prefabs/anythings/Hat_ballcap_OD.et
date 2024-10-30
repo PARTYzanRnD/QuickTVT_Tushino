@@ -1,0 +1,29 @@
+GameEntity : "{5C7F97C0F257180B}Prefabs/Characters/HeadGear/Hat_BallCap/Hat_ballcap_MC.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_Ballcap_Name OD"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{AE42CACEF68E721B}Assets/Characters/HeadGear/BallCap/Data/ballcap_OD.emat"
+   }
+   ItemMaterialsOverride {
+    "{AE42CACEF68E721B}Assets/Characters/HeadGear/BallCap/Data/ballcap_OD.emat"
+   }
+  }
+ }
+ coords -0.643 1.905 1.763
+}

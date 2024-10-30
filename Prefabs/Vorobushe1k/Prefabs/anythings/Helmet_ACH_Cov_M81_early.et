@@ -1,0 +1,31 @@
+GameEntity : "{B561A5614889FF12}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{B8C0FEF412043F20}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov_item.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_ACH_Name (#RHS-Camo_M81 Early)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+   }
+   WornModel "{5F3653398228E069}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov.xob"
+   WornMaterialsOverride {
+    "{857322E19C51A328}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/rhs_ach_cov_m81_early.emat"
+   }
+   ItemModel "{B8C0FEF412043F20}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov_item.xob"
+   ItemMaterialsOverride {
+    "{857322E19C51A328}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/rhs_ach_cov_m81_early.emat"
+   }
+  }
+ }
+ coords 0.37 1.357 1.829
+}

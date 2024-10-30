@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{611C9DB3C08071B6}" {
+  }
+ }
+ m_faction "RHS_US_USMC"
+ m_aUnitPrefabSlots {
+  "{DABB09645984A9FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Squad_Leader.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{16D579CF1B797208}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Machinegunner.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{703F1320C8531229}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Senior_Rifleman.et" "{39FA8C0F2B11AAA9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Grenade_Launcher.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et" "{90887F68AEB429DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Rifleman.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "1-1"
+}

@@ -1,0 +1,51 @@
+GameEntity : "{17F335BF60DD2550}Prefabs/Characters/Core/Headgear_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{60ACDB346368B628}" {
+    ItemDisplayName UIInfo "{60ACDB346368B631}" {
+     Name "#RHS-Headgear_VKPO_Cap_Name"
+     Description "#RHS-Headgear_VKPO_Cap_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{60ACDB346368B636}" {
+     Weight 0.15
+     SizeSetupStrategy Volume
+     ItemVolume 250
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{60ACDB346368B63A}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{E701D111775084DC}Assets/Characters/HeadGear/Hat_VKPO_cap/Hat_VKPO_Cap_item.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   AreaType LoadoutHeadCoverArea "{60ACDB346368B63C}" {
+   }
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
+     AreaType LoadoutGooglesArea "{60ACDB3453F96071}" {
+     }
+    }
+   }
+   WornModel "{9B04E1768D88CC1E}Assets/Characters/HeadGear/Hat_VKPO_cap/Hat_VKPO_Cap.xob"
+   ItemModel "{E701D111775084DC}Assets/Characters/HeadGear/Hat_VKPO_cap/Hat_VKPO_Cap_item.xob"
+  }
+  ActionsManagerComponent "{5112706CD4157AC9}" {
+   ActionContexts {
+    UserActionContext "{5112706CD4157AF3}" {
+     Position PointInfo "{5112706CD4157AF0}" {
+      Offset 0 0.0403 0
+     }
+    }
+   }
+  }
+ }
+ coords 1850.56 27.415 1957.993
+}

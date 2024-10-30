@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.009 0.009 0.009 1
+ BCRMap "{B4E0FEFEAA6F382F}Assets/Weapons/Rifles/SVD/Data/SVD_body_2_BCR.edds"
+ NMOMap "{8C38456C73186AB1}Assets/Weapons/Rifles/SVD/Data/SVD_body_2_NMO.edds"
+}

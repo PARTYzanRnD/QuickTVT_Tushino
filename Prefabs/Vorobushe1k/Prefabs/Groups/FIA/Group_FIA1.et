@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{611EADEFEF41E45F}" {
+  }
+ }
+ m_faction "FIA"
+ m_aUnitPrefabSlots {
+  "{9435239320AC0896}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Squad_Leader.et" "{1E2A85217B924E4B}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Senior_Rifleman1.et" "{C7B4723AFD0E1258}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Senior_Rifleman2.et" "{4B54083E0351E6CE}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Anti-Tank.et" "{8BFE3EB1EE7C0961}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Grenade_Launcher.et" "{1E2A85217B924E4C}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman1.et" "{727EB1C1C756C165}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman2.et" "{1E2A85217B924E4C}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman1.et" "{727EB1C1C756C165}Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman2.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "1-1"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{99DD9E1422471C86}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ERGO_AFG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,35 @@
+$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+ RHS_US_USMC_G_000_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3529.225 134.58 6182.142
+  angleY 161.814
+  m_aUnitPrefabSlots {
+   "{4778794C76E28828}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{77F2B5CF728E176E}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+  }
+  m_sCustomNameSet "1-2"
+ }
+ RHS_US_USMC_G_000_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134AC243C123}" {
+   }
+  }
+  coords 3544.544 136.692 6180.196
+  angleX -6.616
+  angleY -172.069
+  angleZ 2.676
+  m_aUnitPrefabSlots {
+   "{4778794C76E28828}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{77F2B5CF728E176E}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+  }
+  m_sCustomNameSet "1-1"
+ }
+}

@@ -1,0 +1,15 @@
+SCR_AIGroup RHS_RF_MSV_G_001_2 : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineCompact"
+  }
+  PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+  }
+ }
+ coords 3488.243 179.797 5799.546
+ angleY 28.733
+ m_aUnitPrefabSlots {
+  "{38DBB74DC5412559}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Squad_Leader.et" "{47EBE38359C6B8B7}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Senior_Rifleman.et" "{130F85AE3BBCE512}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Machinegunner.et" "{D49FE4FE2EF41978}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank_Assistant.et" "{71AFD9ED7B86694D}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Anti_Tank.et" "{A0170A59C1CDE86A}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_GrenadeLauncher.et" "{00FB6CCA1961F80A}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et" "{00FB6CCA1961F80A}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV1/RU1_Rifleman.et"
+ }
+ m_sCustomNameSet "1-1"
+}

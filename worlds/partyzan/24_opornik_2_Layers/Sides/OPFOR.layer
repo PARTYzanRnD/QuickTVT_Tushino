@@ -1,0 +1,30 @@
+$grp SCR_AIGroup : "{10B36E8BC727C9CC}PrefabLibrary/Groups/Group_USSR_RifleSquad_p.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineCompact"
+   }
+  }
+  coords 3776.303 150.146 5674.349
+  angleX -11.98
+  angleY -69.823
+  angleZ -3.774
+  m_aUnitPrefabSlots + {
+   "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineCompact"
+   }
+  }
+  coords 3778.865 150.146 5674.349
+  angleX -11.98
+  angleY -69.823
+  angleZ -3.774
+  m_aUnitPrefabSlots + {
+   "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+  }
+ }
+}

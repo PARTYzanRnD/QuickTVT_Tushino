@@ -1,12 +1,12 @@
 SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
+   DefaultFormation "LineCompact"
   }
   PS_GroupCallsignAssigner "{62B910EEC00E28D8}" {
   }
  }
- coords 5803.576 12.828 9788.861
+ coords 5801.02 12.828 9788.86
  m_aUnitPrefabSlots {
   "{9435239320AC0896}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Squad_Leader.et" "{1C4EE5BB98A76060}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_MachineGunner.et" "{1E2A85217B924E4B}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Senior_Rifleman1.et" "{1E2A85217B924E4C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman1.et" "{727EB1C1C756C165}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman2.et" "{C7B4723AFD0E1258}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Senior_Rifleman2.et" "{8BFE3EB1EE7C0961}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Grenade_Launcher.et" "{1C4EE5BB98A76060}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_MachineGunner.et" "{727EB1C1C756C165}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/INDFOR/FIA/MSV1/FIA1_Rifleman2.et"
  }

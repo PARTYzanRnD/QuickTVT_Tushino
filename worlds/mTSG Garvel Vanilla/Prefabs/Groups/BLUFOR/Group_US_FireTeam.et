@@ -1,0 +1,14 @@
+SCR_AIGroup : "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62C242C03A7E83FB}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{922FDE221251B080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{8C582AD9D62A2B45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Grenadier.et" "{FD847697F785A08D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{AC08B1FE73D222B5}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et" "{076966149A56EFC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_AT.et" "{C0EE7CD6A89B123B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
+ }
+ m_bPlayable 1
+}

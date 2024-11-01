@@ -1,0 +1,209 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "Описание миссии"
+  m_sTextData "Встречный бой ВС СССР и Американской армии за город Ламентан"
+  m_aVisibleForFactions {
+   "" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ LEGEND {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "Легенда"
+  m_sTextData "Триггер задачи - Белая зона."\
+  "Фриз зона красных - Красная зона."\
+  "Фриз зона синих - Синяя зона."
+  m_aVisibleForFactions {
+   "" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ BLU_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0 0.074 1 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.074 1 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 1404.946 44.869 5891.218
+  angleX 0.887
+  angleY -0.083
+  angleZ -5.357
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -5.782 -0.051 -12.581
+   }
+   ShapePoint "{610507978CE183E4}" {
+    Position -20.04 -0.045 1.175
+   }
+   ShapePoint "{610507978C1F4543}" {
+    Position 4.59 -0.11 25.73
+   }
+   ShapePoint "{610507978DBA93EB}" {
+    Position 19.231 0.369 10.261
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    UpdatePeriod 0.1
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 3
+    }
+   }
+  }
+ }
+ RED_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 1 0 0 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 1198.233 33.47 6204.165
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -18.161 -0.388 7.427
+   }
+   ShapePoint "{610507919C4841C7}" {
+    Position -5.391 -1.378 -12.822
+   }
+   ShapePoint "{610507919EA9AA3F}" {
+    Position 18.043 -1.629 0.485
+   }
+   ShapePoint "{610507919ED8B896}" {
+    Position 11.257 3.407 21.19
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    UpdatePeriod 0.1
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 3
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ coords 1280.901 46.786 6030.51
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 96.026 -2.609 -238.06
+  }
+  ShapePoint "{611E9BC13CDB1D46}" {
+   Position -65.979 -32.533 -211.623
+  }
+  ShapePoint "{611E9BC13E08A7B6}" {
+   Position -154.719 -33.575 -89.392
+  }
+  ShapePoint "{611E9BC13AA8D03B}" {
+   Position -168.099 -42.256 3.347
+  }
+  ShapePoint "{611E9BC13B59FFC9}" {
+   Position -238.225 -43.33 170.46
+  }
+  ShapePoint "{611E9BC0C1F7BA76}" {
+   Position -56.199 -8.435 216.007
+  }
+  ShapePoint "{611E9BC0C31136DB}" {
+   Position -3.823 -10.489 122.165
+  }
+  ShapePoint "{611E9BC0C9120DDF}" {
+   Position 20.643 -9.114 87.474
+  }
+  ShapePoint "{611E9BC0D4FFCD97}" {
+   Position 91.79 -1.971 32.596
+  }
+  ShapePoint "{611E9BC0D22EF98A}" {
+   Position 205.747 4.236 -92.991
+  }
+ }
+}
+PS_ManualMarker ObjectiveMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 1277.289 37.44 6034.242
+ m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "Icon_Seize"
+ m_fWorldSize 50
+ m_sDescription "Objective"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "FIA" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 20
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "US" "RHS_USAF" "RHS_AFRF" "USSR" ""
+   }
+  }
+ }
+ coords 1262.531 61.167 6028.067
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 23.399 -23.656 0.391
+  }
+  ShapePoint "{6105079149720B44}" {
+   Position 19.215 -23.796 -3.265
+  }
+  ShapePoint "{6105079660565CE4}" {
+   Position 14.41 -23.408 0.046
+  }
+  ShapePoint "{6105079662CB8A85}" {
+   Position 6.066 -23.402 11.419
+  }
+  ShapePoint "{6105079662772D7E}" {
+   Position 9.94 -23.587 15.019
+  }
+  ShapePoint "{61050796634B3BD8}" {
+   Position 19.112 -23.639 8.706
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   coords 1275.641 37.44 6036.802
+   "Polyline Height" 30
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 60
+   m_iPowerBalance 1
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить центр города"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить центр города"
+   m_sTextData ""
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

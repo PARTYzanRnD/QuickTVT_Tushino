@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D07166C82453CCAA}worlds/mTSG Garvel Vanilla/Worlds/mTSG_Battle_for_Lamentin/24_Meeting Engagement.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

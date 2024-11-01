@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2A562E45F5BA33A5}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Driver.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,46 @@
+$grp PolylineShapeEntity : "{C2147F3E29B10835}PrefabLibrary/PolyZones/PolyZone_Border.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "" "US" "FIA"
+    }
+   }
+  }
+  coords 5761.895 16.88 9978.722
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "" "US" "FIA"
+    }
+    m_aHideOnGameModeStates {
+    }
+   }
+  }
+  coords 5725.109 14.46 9827.705
+ }
+}
+$grp PolylineShapeEntity : "{E064C1E1399D72D1}PrefabLibrary/PolyZones/PolyZone_Freeze.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "" "US" "FIA"
+    }
+   }
+  }
+  coords 5881.207 9.749 9878.959
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "" "US" "FIA"
+    }
+   }
+  }
+  coords 5795.241 4.857 9791.833
+ }
+}

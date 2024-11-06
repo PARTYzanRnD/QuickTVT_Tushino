@@ -3,6 +3,9 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
   PS_PolyZone "{60E90266F25533F6}" {
    m_cPolygonColor 1 0 0 0
    m_cPolygonBorderColor 1 0 0 1
+   m_aVisibleForFactions {
+    "" "US" "FIA"
+   }
   }
  }
  coords 5913.89 9.988 9878.512

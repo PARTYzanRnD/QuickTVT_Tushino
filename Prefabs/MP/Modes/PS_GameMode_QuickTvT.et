@@ -1,5 +1,11 @@
 PS_GameModeQuickTvT : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  ID "56B2B479C6B96951"
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bRandomStartingDaytime 1
+   m_bRandomStartingWeather 1
+  }
+ }
  m_iFreezeTime 45000
  m_iFactionsBalance 4
  m_iSlotsTime 60000

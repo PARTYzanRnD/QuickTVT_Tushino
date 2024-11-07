@@ -1,0 +1,102 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description_All_1 {
+  coords 2767.733 20.392 1173.956
+  m_sTitle "Информация к размышлению"
+  m_sTextData "Битва за церковный приход"
+  m_aVisibleForFactions {
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ Description_All_2 {
+  coords 2766.954 20.692 1178.432
+  m_sTitle "Лехенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Старт синих- синия зона"\
+  "Старт зеленых - зеленая"\
+  "Зона Красных  - Триггер их задачи"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Desription_FIA_1 {
+  coords 2758.92 22.511 1204.419
+  m_sTitle "Задачи"
+  m_sTextData "Защитить штаб"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Desription_FIA_2 {
+  coords 2755.147 22.984 1212.669
+  m_sTitle "Подробное описание"
+  m_sTextData "Наконец-то мы смогли вырваться на охоту. Разбили лагерь на церковном холме - за ним вроде как олени скачут."\
+  ""\
+  "На трезвую голову пока никуда не пойдём. Сначала посидим, кегу на троих раздавим, а там уже посмотрим как дальше пойдёт."
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Desription_FIA_3 {
+  coords 2751.821 23.254 1221.408
+  m_sTitle "Правила и условности"
+  m_sTextData "Стартовая зона до 2 линии обороны. в Церкви доп. оружники"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ Description_USSR_1 {
+  coords 2747.951 24.034 1233.56
+  m_sTitle "Задачи"
+  m_sTextData "Захватить Документы"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_USSR_2 {
+  coords 2747.299 24.328 1241.292
+  m_sTitle "Подробное описание"
+  m_sTextData "Лиза Максимовна пожаловалась нам, что нигде не может найти свою сберкнижку. Пенсия у неё не маленькая, и она боится что кто-то, может эти деньги украсть."\
+  ""\
+  "Последний раз она лежала в её сумке, когда Максимовна шла с почты домой, через магазин и старую церковь. отделение мотопехоты проводит \" операцию Гусь \" в городе, а мы должны заняться церковью."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_USSR_3 {
+  coords 2746.545 24.387 1248.673
+  m_sTitle "Правила и условности"
+  m_sTextData "Фриз зоны нет. Доставить и выкрасть документы из церковной башни. Гавань - триггер доставки"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Description_US_1 {
+  coords 2734.684 26.504 1249.749
+  m_sTitle "Правила и условности"
+  m_sTextData "Триггер захвата - Защищённая штабная палатка у церкви"\
+  "В стартовой палатке расположен арсенал."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 2
+ }
+ Description_US_3 {
+  coords 2735.438 26.445 1242.368
+  m_sTitle "Подробное описание"
+  m_sTextData "Согласно последним данным, в нашем округе появилась вооруженная секта. Неустановленное количество лиц, обосновалось на холме рядом с церковью, разместило в самой церкви склад оружия и демонически поёт и пляшет, в сатанинском угаре."\
+  ""\
+  "Верные католики такого не потерпят, мы должны остановить этих бесовских мужиков."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 1
+ }
+ Description_US_2 {
+  coords 2736.09 26.151 1234.636
+  m_sTitle "Задачи"
+  m_sTextData "Захватить штаб сектантов"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

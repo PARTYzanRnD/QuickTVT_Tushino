@@ -204,6 +204,7 @@ PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSS
  {
   PS_PolyZoneObjectiveTriggerCapture {
    ID "60E906126F14C7A8"
+   coords 10.232 0 -10.616
    "Polyline Height" 200000
    m_sFactionKey "US"
    m_iPowerBalance 1
@@ -211,12 +212,14 @@ PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSS
   }
   PS_Objective {
    ID "60E90618BF39F892"
+   coords 7.967 0 -6.614
    m_sTitle "НАПАДЕНИЕ ОТБИТО"
    m_sTextData ""
    m_sFactionKey "FIA"
   }
   PS_Objective {
    ID "60E90618BF26288E"
+   coords 8.48 0 -5.63
    m_sTitle "ОБЪЕКТ ЗАХВАЧЕН"
    m_sTextData ""
    m_sFactionKey "US"

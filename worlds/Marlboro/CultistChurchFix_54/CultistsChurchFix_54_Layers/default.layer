@@ -1,0 +1,9 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 3144.517 51.981 1723.365
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3144.777 51.99 1725.931
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ coords 2022.885 45.265 2082.058
+}

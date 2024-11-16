@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D2E8418F8942F9B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Base.et" {
+SCR_ChimeraCharacter : "{D2E8418F8942F9B3}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV1/US1_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{D2E8418F8942F9B3}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{99DD9E1422471C86}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ERGO_AFG.et"
+   WeaponTemplate "{DD7B5E60435E5B06}Prefabs/Vorobushe1k/Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ERGO_AFG_NT41.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"

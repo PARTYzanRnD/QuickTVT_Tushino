@@ -22,6 +22,9 @@ StaticModelEntity : "{335F55E7E294F9FC}Prefabs/Compositions/Misc/SubCompositions
  coords 3101.067 73.07 1587.325
  angleY 0
 }
+SCR_DestructibleBuildingEntity : "{4A1E3B17DB672E35}Prefabs/Structures/Military/Camps/TentFIA_01/TentFIA_01.et" {
+ coords 3103.382 -0.011 1587.897
+}
 $grp GenericEntity : "{4BAC1B025834E407}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V1_covered.et" {
  {
   coords 3418.131 8.041 1473.152

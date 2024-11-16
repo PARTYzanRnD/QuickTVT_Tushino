@@ -14,13 +14,20 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
  }
  coords 2443.625 7.882 3180.649
  m_iFreezeTime 10000
- m_iPreviewTime 10000
- m_iBriefingTime 10000
+ m_iPreviewTime 1000
+ m_iBriefingTime 1000
  m_iGameTime 720000
  {
   ItemPreviewManagerEntity "62BAC44044AEE426" {
    ID "5ED9088735FF2DD5"
    coords 5805.087 5.132 9788.434
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   m_bOverrideBaseModes 1
+   m_SkipStreamingRules {
+    2
+   }
   }
  }
 }

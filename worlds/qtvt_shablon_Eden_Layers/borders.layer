@@ -1,3 +1,9 @@
+GenericEntity : "{3982AFAAB27C7D67}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_engineer_box_sup.et" {
+ coords 5920.301 10.348 9879.789
+}
+Vehicle M923A1_engineer_sup1 : "{7AC88E33E0CC218F}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_sup.et" {
+ coords 5912.573 10.235 9881.062
+}
 $grp PolylineShapeEntity : "{C2147F3E29B10835}PrefabLibrary/PolyZones/PolyZone_Border.et" {
  {
   components {

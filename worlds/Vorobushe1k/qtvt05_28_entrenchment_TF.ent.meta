@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6A3AE227DC119297}worlds/Vorobushe1k/qtvt05_28_entrenchment_TF.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

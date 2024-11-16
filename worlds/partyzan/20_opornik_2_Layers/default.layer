@@ -9,3 +9,135 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
  m_iSlotsTime 90000
  m_iBriefingTime 120000
 }
+$grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
+ {
+  components {
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{62DCD1DD176353F9}" {
+      SlotTemplate InventoryStorageSlot eq1 {
+       Prefab "{0CD4DCC660A1D58C}Prefabs/Items/Equipment/Backpacks/ALICE_DroneJammer_USSR.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCD1DA8714461C}" {
+      SlotTemplate InventoryStorageSlot eq33 {
+       Prefab "{DCC039AA90AC577F}Prefabs/Items/FPV Item/FPVInventoryItemrus1.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62DCEAF5BF98E366}" {
+      SlotTemplate InventoryStorageSlot recon {
+       Prefab "{A3E80C83FEBEB5A5}Prefabs/Items/Equipment/DroneControllerRUS.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62DCEAF66C5B3F3B}" {
+      SlotTemplate InventoryStorageSlot nackp {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCF4B0441D6BA6}" {
+      SlotTemplate InventoryStorageSlot sbros {
+       Prefab "{E9E850CB419C2909}Prefabs/Items/FPV Item/DJIInventoryItemVOGDropperRUSdual.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCF4B03FBF9E65}" {
+      SlotTemplate InventoryStorageSlot magazin {
+       Prefab "{356C4AC895FA8732}Prefabs/Weapons/Ammo/grenade missle VOG17 dual.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    Enabled 0
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
+      PrefabsToSpawn {
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+      }
+     }
+    }
+   }
+  }
+  coords 3780.269 146.885 5679.024
+  angleX 12.994
+  angleY -75.741
+  angleZ 5.953
+ }
+ {
+  components {
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{62DCD1DD176353F9}" {
+      SlotTemplate InventoryStorageSlot eq1 {
+       Prefab "{A1D54A728A307D68}Prefabs/Items/Equipment/Backpacks/ALICE_DroneJammer_US.et"
+      }
+      NumSlots -3
+     }
+     MultiSlotConfiguration "{62DCD1DA8714461C}" {
+      SlotTemplate InventoryStorageSlot eq33 {
+       Prefab "{89A2E827AF67939D}Prefabs/Items/FPV Item/FPVInventoryItemrpg.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCEAF5BF98E366}" {
+      SlotTemplate InventoryStorageSlot recon {
+       Prefab "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62DCEAF66C5B3F3B}" {
+      SlotTemplate InventoryStorageSlot nackp {
+       Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    Enabled 0
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
+      PrefabsToSpawn {
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+      }
+     }
+    }
+   }
+  }
+  coords 3525.731 181.12 5800.454
+  angleX 3.812
+  angleY 162.896
+  angleZ -5.825
+ }
+}

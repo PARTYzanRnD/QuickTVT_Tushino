@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
+SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{3EB02CDAD5F23C83}Prefabs/anythings/Rifle_SVD.et"
+   WeaponTemplate "{3EB02CDAD5F23C83}Prefabs/Vorobushe1k/Prefabs/anythings/Rifle_SVD.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
@@ -42,6 +42,9 @@ SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_
      PrefabsToSpawn + {
       "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
+    }
+    ItemsInitConfigurationItem "{611C9DE5EC99971D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
     }
     ItemsInitConfigurationItem "{611C9DE5ECA1AB4A}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_universalpouch_mc.et"

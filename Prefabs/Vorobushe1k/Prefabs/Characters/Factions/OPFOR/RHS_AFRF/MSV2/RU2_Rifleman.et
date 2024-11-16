@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
+SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -10,7 +10,14 @@ SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{EFA9F9E8285A4062}Prefabs/Weapons/Rifles/AK74M/Rifle1_AK74M_npz_b10m_b19.et"
+   WeaponTemplate "{EFA9F9E8285A4062}Prefabs/Vorobushe1k/Prefabs/Weapons/Rifles/AK74M/Rifle1_AK74M_npz_b10m_b19.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{611C9DE5EC99971D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+    }
+   }
   }
  }
 }

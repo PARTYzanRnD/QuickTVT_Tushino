@@ -5,7 +5,7 @@ GenericEntity : "{0D5CAA86970EB321}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_
    components {
     AttachmentSlotComponent "{5D5100CE8CA5075D}" {
      AttachmentSlot InventoryStorageSlot RIS_Slot {
-      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+      Prefab "{E35250A515F71A22}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_1P90.et"
      }
     }
    }

@@ -1,6 +1,11 @@
-SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
+SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{5995414BD20D4290}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p87.et"
   }
@@ -16,6 +21,11 @@ SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{611C9DE5EC99971D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{611C9DE5ECA1AB4A}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_universalpouch_atacs.et"
      PrefabsToSpawn {

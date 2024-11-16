@@ -1,0 +1,46 @@
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134A8A3FD59F}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2503.535 148.295 2268.178
+  angleX -0.08
+  angleY -54.902
+  angleZ 3.223
+  m_aUnitPrefabSlots {
+   "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{D91D7B9A0B63C2C2}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{4C8228A28004D6DA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Anti_Tank.et" "{5A48B7328672CC23}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Assistant_Anti_Tank.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-2"
+ }
+ RHS_RF_MSV_G_010_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{60FF134A8A3FD59F}" {
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2507.81 148.33 2274.637
+  angleX -0.08
+  angleY -54.902
+  angleZ 3.223
+  m_aUnitPrefabSlots {
+   "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{D91D7B9A0B63C2C2}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{4C8228A28004D6DA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Anti_Tank.et" "{5A48B7328672CC23}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Assistant_Anti_Tank.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-1"
+ }
+}
+Vehicle UAZ452_ambulance1 : "{CE88CC81880BE24C}PrefabLibrary/Vehicles/UAZ452_ambulance.et" {
+ coords 2514.869 147.018 2296.745
+ angleX 6.037
+ angleY -19.451
+ angleZ 6.343
+}

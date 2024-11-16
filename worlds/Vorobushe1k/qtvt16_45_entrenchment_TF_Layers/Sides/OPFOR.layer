@@ -1,0 +1,201 @@
+$grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
+ {
+  components {
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{62DCD1DD4D03BA67}" {
+      SlotTemplate InventoryStorageSlot Slot1 {
+       Prefab "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{62DCD1DD176353F9}" {
+      SlotTemplate InventoryStorageSlot eq1 {
+       Prefab "{A1D54A728A307D68}Prefabs/Items/Equipment/Backpacks/ALICE_DroneJammer_US.et"
+      }
+      NumSlots -3
+     }
+     MultiSlotConfiguration "{62DCD1DD000EC0A5}" {
+      SlotTemplate InventoryStorageSlot eq2 {
+       Prefab "{9949FD4FB7F7464A}Prefabs/Items/FPV Item/DJIInventoryItem2IMDropper.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCD1DA8714461C}" {
+      SlotTemplate InventoryStorageSlot eq33 {
+       Prefab "{89A2E827AF67939D}Prefabs/Items/FPV Item/FPVInventoryItemrpg.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62DCEAF5BF98E366}" {
+      SlotTemplate InventoryStorageSlot recon {
+       Prefab "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62DCEAF66C5B3F3B}" {
+      SlotTemplate InventoryStorageSlot nackp {
+       Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    Enabled 0
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
+      PrefabsToSpawn {
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+      }
+     }
+    }
+   }
+  }
+  coords 1713.428 17.792 3393.862
+  angleY 163.285
+ }
+ {
+  components {
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{62DCD1DD176353F9}" {
+      SlotTemplate InventoryStorageSlot eq1 {
+       Prefab "{0CD4DCC660A1D58C}Prefabs/Items/Equipment/Backpacks/ALICE_DroneJammer_USSR.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCD1DA8714461C}" {
+      SlotTemplate InventoryStorageSlot eq33 {
+       Prefab "{DCC039AA90AC577F}Prefabs/Items/FPV Item/FPVInventoryItemrus1.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62DCEAF5BF98E366}" {
+      SlotTemplate InventoryStorageSlot recon {
+       Prefab "{A3E80C83FEBEB5A5}Prefabs/Items/Equipment/DroneControllerRUS.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62DCEAF66C5B3F3B}" {
+      SlotTemplate InventoryStorageSlot nackp {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    Enabled 0
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
+      PrefabsToSpawn {
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+      }
+     }
+    }
+   }
+  }
+  coords 883.631 6.871 3528.15
+  angleY -77.084
+ }
+}
+$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_RF_MSV_G_001_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 881.275 7.075 3530.888
+  angleY 95.092
+  m_aUnitPrefabSlots {
+   "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{D91D7B9A0B63C2C2}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{4C8228A28004D6DA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Anti_Tank.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-2"
+ }
+ RHS_RF_MSV_G_001_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 878.909 7.075 3521.81
+  angleY 103.629
+  m_aUnitPrefabSlots {
+   "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{D91D7B9A0B63C2C2}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{4C8228A28004D6DA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Anti_Tank.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-1"
+ }
+ RHS_RF_MSV_G_001_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60FF134A88AD616F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 869.359 5.899 3528.063
+  angleY 103.629
+  m_aUnitPrefabSlots {
+   "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{D91D7B9A0B63C2C2}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{4C8228A28004D6DA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Anti_Tank.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "1-3"
+ }
+}
+$grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ {
+  coords 901.947 7.391 3522.985
+  angleX 4.413
+  angleY 96.309
+  angleZ -0.311
+ }
+ {
+  coords 898.847 7.685 3508.979
+  angleX 4.206
+  angleY 118.421
+  angleZ 1.371
+ }
+}

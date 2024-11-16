@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D96D3FCB5539C4BA}worlds/Vorobushe1k/qtvt01_28_signal_hill_drone.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,109 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{6102F2CF500C83D1}" {
+  }
+ }
+ coords 865.345 5.85 3508.931
+ Points {
+  ShapePoint "{6102B7BEFD44D4C7}" {
+   Position 0 0 0
+  }
+  ShapePoint "{611F26C0CA64444D}" {
+   Position 14.659 0 -6.49
+  }
+  ShapePoint "{611F26C0CAE6CEBA}" {
+   Position 20.851 0 -23.813
+  }
+  ShapePoint "{611F26C0C9F81696}" {
+   Position 42.358 0 -40.125
+  }
+  ShapePoint "{611F26C0C8D7F502}" {
+   Position 69.759 0 -52.01
+  }
+  ShapePoint "{611F26C0373AC3D1}" {
+   Position 93.183 0 -51.431
+  }
+  ShapePoint "{611F26C03581CCC1}" {
+   Position 108.147 0 -36.593
+  }
+  ShapePoint "{611F26C0340E9311}" {
+   Position 122.817 0 -31.197
+  }
+  ShapePoint "{611F26C033CD454C}" {
+   Position 133.761 0 -16.079
+  }
+  ShapePoint "{611F26C032F0C96F}" {
+   Position 133.849 0 3.436
+  }
+  ShapePoint "{611F26C031C0D16E}" {
+   Position 129.391 0 19.353
+  }
+  ShapePoint "{611F26C031B3ACA4}" {
+   Position 111.665 0 25.49
+  }
+  ShapePoint "{611F26C03085CF09}" {
+   Position 91.571 0 34.369
+  }
+  ShapePoint "{611F26C03E5FB902}" {
+   Position 55.15 0 40.084
+  }
+  ShapePoint "{611F26C03D77A0C8}" {
+   Position 35.021 0 48.437
+  }
+  ShapePoint "{611F26C03DABC8C9}" {
+   Position 7.923 0 37.888
+  }
+ }
+ IsClosed 1
+ {
+  $grp PS_Objective {
+   {
+    components {
+     RplComponent "{6102F80BAA45EEDC}" {
+     }
+     Hierarchy "{6102F80A7DDE3F73}" {
+     }
+    }
+    m_sTitle "Десант ВСРФ успешно закрепился на плацдарме."
+    m_sTextData ""
+    m_iScore 100
+    m_sFactionKey "RHS_AFRF"
+   }
+   {
+    components {
+     RplComponent "{6102F80BA6503D06}" {
+     }
+     Hierarchy "{6102F80A792BDE01}" {
+     }
+    }
+    m_sTitle "Десант ВСРФ выбит с плацдарма."
+    m_sTextData ""
+    m_iScore 100
+    m_sFactionKey "RHS_USAF"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   components {
+    RplComponent "{6102F80BAF33C2A4}" {
+    }
+    Hierarchy "{6102F80986703D6F}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 15
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 45
+   m_sCurrentFaction "RHS_AFRF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+ }
+}

@@ -1,0 +1,12 @@
+Vehicle : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo EngineerBox {
+     Prefab "{3982AFAAB27C7D67}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_engineer_box_sup.et"
+    }
+   }
+  }
+ }
+}

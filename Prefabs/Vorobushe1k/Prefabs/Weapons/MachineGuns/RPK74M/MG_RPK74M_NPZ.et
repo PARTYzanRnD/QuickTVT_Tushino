@@ -5,7 +5,7 @@ GenericEntity : "{FB4C5D429348F1A2}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_
    components {
     AttachmentSlotComponent "{5E9087C1DD34883E}" {
      AttachmentSlot InventoryStorageSlot RIS {
-      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+      Prefab "{E35250A515F71A22}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_1P90.et"
      }
     }
    }

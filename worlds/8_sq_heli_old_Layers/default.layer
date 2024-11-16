@@ -28,7 +28,7 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
  m_iFreezeTime 5000
  m_iPreviewTime 10000
  m_iBriefingTime 10000
- m_iGameTime 360000
+ m_iGameTime 480000
  m_iDebriefingTime 6000
 }
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
@@ -326,7 +326,7 @@ PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSS
    m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
     m_sTriggerName "CaptureTrigger"
    }
-   m_fCaptureTime 60
+   m_fCaptureTime 150
    m_iPowerBalance 1
    m_bEasyTake 1
    m_bTimeLoss 1

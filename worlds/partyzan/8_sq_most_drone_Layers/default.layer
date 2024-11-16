@@ -1,0 +1,301 @@
+SCR_MapEntity MapEntity_Arland1 : "{66FBC1063149819B}Prefabs/World/Game/Arland/MapEntity_Arland.et" {
+ coords 756.704 31.761 2364.131
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 111.676 1 127.135
+ Formations {
+  AIFormationDefinition "{60FCFC15ACE2B7DB}" {
+   Name "LineTight"
+   Offsets {
+    0 0 0 1 0 0 -1 0 0 2 0 0 -2 0 0 3 0 0 -3 0 0 4 0 0 -4 0 0 5 0 0 -5 0 0
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 113.126 1 124.397
+}
+PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
+ components {
+  SCR_RandomTimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bRandomStartingDaytime 1
+   m_bRandomStartingWeather 1
+  }
+ }
+ coords 1986.776 51.675 3027.745
+ m_iFreezeTime 5000
+ m_iPreviewTime 10000
+ m_iBriefingTime 10000
+ m_iGameTime 360000
+ m_iDebriefingTime 6000
+}
+GenericEntity {
+ components {
+  MeshObject "{62DEAD5853E02CE2}" {
+   Object "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+  }
+ }
+ coords 2514.356 19.068 3093.42
+ angleX -0.844
+ angleY -70.472
+ angleZ -0.299
+}
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 2538.417 15.985 3079.658
+ angleX -6.089
+ angleY -118.182
+ angleZ 16.087
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "Описание миссии"
+  m_sTextData "Захват КШМ, попавшего в засаду"
+  m_aVisibleForFactions {
+   "" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ LEGEND {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "Легенда"
+  m_sTextData "Триггер задачи - Белая зона"\
+  "Фриз зона красных - Красная зона"\
+  "Фриз зона синих - Синяя зона"
+  m_aVisibleForFactions {
+   "" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ BLU_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0 0.074 1 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.074 1 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 2309.277 14.705 3102.966
+  angleX 0.887
+  angleY -0.083
+  angleZ -5.357
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -5.807 3.382 -18.559
+   }
+   ShapePoint "{610507978CE183E4}" {
+    Position -16.695 4.661 -15.186
+   }
+   ShapePoint "{610507978C1F4543}" {
+    Position -10.064 -0.106 11.073
+   }
+   ShapePoint "{610507978DBA93EB}" {
+    Position 0.572 -0.73 5.816
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    UpdatePeriod 0.1
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 3
+    }
+   }
+  }
+ }
+ RED_Freeze {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 0.502
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 1 0 0 0
+    m_aVisibleForFactions + {
+     "RHS_USAF" "RHS_AFRF"
+    }
+   }
+  }
+  coords 2797.72 34.188 3177.518
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -4.016 -1.026 6.32
+   }
+   ShapePoint "{610507919C4841C7}" {
+    Position -1.682 -0.536 -12.611
+   }
+   ShapePoint "{610507919EA9AA3F}" {
+    Position 9.486 1.418 -11.844
+   }
+   ShapePoint "{610507919ED8B896}" {
+    Position 6.826 -1.098 8.853
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    UpdatePeriod 0.1
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 3
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_bLineMode 1
+   m_aVisibleForFactions + {
+    "RHS_USAF" "RHS_AFRF"
+   }
+  }
+ }
+ coords 2797.177 28.637 3192.804
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 6.861 -3.415 1.978
+  }
+  ShapePoint "{62B957DA2F177F95}" {
+   Position -36.312 -7.81 36.429
+  }
+  ShapePoint "{610507911CDD43E8}" {
+   Position -74.635 -5.99 79.215
+  }
+  ShapePoint "{6105079645CBB3F1}" {
+   Position -220.335 -38.822 74.412
+  }
+  ShapePoint "{610507964A296F8E}" {
+   Position -463.317 -38.862 106.04
+  }
+  ShapePoint "{610507964A44F9FF}" {
+   Position -554.223 -26.834 -56.151
+  }
+  ShapePoint "{610507964B90200E}" {
+   Position -567.366 7.686 -126.671
+  }
+  ShapePoint "{610507964B358D24}" {
+   Position -511.619 19.806 -175.742
+  }
+  ShapePoint "{6105079125840357}" {
+   Position -408.918 27.012 -212.9
+  }
+  ShapePoint "{6105079125D15CEC}" {
+   Position -321.681 4.112 -259.064
+  }
+  ShapePoint "{610507912565D95E}" {
+   Position -187.842 9.187 -196.087
+  }
+  ShapePoint "{6105079126B202BF}" {
+   Position -104.374 -2.649 -138.279
+  }
+  ShapePoint "{6105079126C9FFC3}" {
+   Position -19.832 1.42 -73.605
+  }
+  ShapePoint "{610507912662D510}" {
+   Position 9.82 -3.291 -28.352
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{60FD050E0DC2A2AB}" {
+   }
+  }
+ }
+}
+SCR_AIGroup : "{A209BB62391C1475}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_FireTeam_Drone.et" {
+ coords 2301.563 14.859 3099.58
+ angleY 109.645
+}
+SCR_AIGroup : "{B62E62EAD5B2F616}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_MOX_FireGroup_DroneFPV.et" {
+ coords 2800.745 33.746 3173.421
+ angleX -3.355
+ angleY -86.037
+ angleZ 4.876
+}
+PS_ManualMarker ObjectiveMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2532.925 19.213 3087.899
+ m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "Antenna_HUD"
+ m_fWorldSize 50
+ m_sDescription "Objective"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "FIA" "US" "USSR" "RHS_AFRF" "RHS_USAF"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 20
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "RHS_USAF" "RHS_AFRF"
+   }
+  }
+ }
+ coords 2546.731 19.498 3094.354
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 1.375 -0.31 -0.564
+  }
+  ShapePoint "{6105079149720B44}" {
+   Position -4.648 -4.185 4.652
+  }
+  ShapePoint "{610507965D07098B}" {
+   Position -18.56 -3.634 4.885
+  }
+  ShapePoint "{6105079660565CE4}" {
+   Position -25.691 -0.508 0.315
+  }
+  ShapePoint "{6105079662CB8A85}" {
+   Position -25.523 -0.353 -10.864
+  }
+  ShapePoint "{6105079662772D7E}" {
+   Position -21.096 -2.418 -16.347
+  }
+  ShapePoint "{61050796634B3BD8}" {
+   Position -13.177 -3.616 -21.744
+  }
+  ShapePoint "{62DEAD582FE4A6AD}" {
+   Position -2.97 -1.925 -16.887
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 30
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 60
+   m_iPowerBalance 1
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить КШМ"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Отбить КШМ"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

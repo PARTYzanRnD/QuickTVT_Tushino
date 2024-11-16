@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{A4695288E4838927}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Drone Operator (FPV)"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Drone Operator (FPV)"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EFA9F9E8285A4062}Prefabs/Vorobushe1k/Prefabs/Weapons/Rifles/AK74M/Rifle1_AK74M_npz_b10m_b19.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{88AFEE9B371088BA}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_taktika_GM942.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{611C9DE5EC99971D}" {
+    }
+    ItemsInitConfigurationItem "{611C9DE5ECA1AB4A}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{611C9DE5EB7E693F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{611C9DE7869618B0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{62DE95960BD5D41C}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+     PrefabsToSpawn {
+      "{DCC039AA90AC577F}Prefabs/Items/FPV Item/FPVInventoryItemrus1.et" "{A3E80C83FEBEB5A5}Prefabs/Items/Equipment/DroneControllerRUS.et"
+     }
+    }
+   }
+  }
+ }
+}

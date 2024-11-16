@@ -86,7 +86,7 @@ SCR_AIGroup : "{84B0760E0C747AAC}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKP
  coords 5912.31 9.936 9876.028
  angleY -135
  m_aUnitPrefabSlots {
-  "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{305A3EFE57117AB9}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner2.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et" "{5CD213E65A8E0E72}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Grenade_Launcher .et"
+  "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{DDDB871AE55B2644}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Senior_Rifleman.et" "{305A3EFE57117AB9}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner2.et" "{93919784558D971F}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Rifleman.et" "{8DC7177DAF15F9F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_GL.et"
  }
 }
 PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {

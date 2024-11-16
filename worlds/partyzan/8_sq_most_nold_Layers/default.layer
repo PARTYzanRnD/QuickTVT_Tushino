@@ -1,0 +1,122 @@
+SCR_AIGroup : "{4241A829D0AA8984}Prefabs/Groups/OPFOR/KLMK/Group_USSR_FireGroup_KLMK_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineCompact"
+  }
+  PS_GroupCallsignAssigner "{62BA7E5FA138CFA7}" {
+  }
+ }
+ coords 2801.376 33.956 3173.776
+ angleY -95.303
+}
+SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{62BA7E5FC576CB68}" {
+  }
+ }
+ coords 2302.736 14.667 3100.214
+ angleY 110
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_USAF_G_001_M {
+  coords 2302.633 14.744 3100.026
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR" "US" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_000_M {
+  coords 2800.757 33.897 3174.097
+  angleY -71.962
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR" "US" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 2546.731 19.498 3094.354
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 1.375 -0.31 -0.564
+  }
+  ShapePoint "{6105079149720B44}" {
+   Position -4.648 -4.185 4.652
+  }
+  ShapePoint "{610507965D07098B}" {
+   Position -18.56 -3.634 4.885
+  }
+  ShapePoint "{6105079660565CE4}" {
+   Position -25.691 -0.508 0.315
+  }
+  ShapePoint "{6105079662CB8A85}" {
+   Position -25.523 -0.353 -10.864
+  }
+  ShapePoint "{6105079662772D7E}" {
+   Position -21.096 -2.418 -16.347
+  }
+  ShapePoint "{61050796634B3BD8}" {
+   Position -13.177 -3.616 -21.744
+  }
+  ShapePoint "{62DEAD582FE4A6AD}" {
+   Position -2.97 -1.925 -16.887
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 30
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_fCaptureTime 150
+   m_iPowerBalance 1
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить КШМ"
+   m_sTextData ""
+   m_sFactionKey "US"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Отбить КШМ"
+   m_sTextData ""
+   m_sFactionKey "USSR"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

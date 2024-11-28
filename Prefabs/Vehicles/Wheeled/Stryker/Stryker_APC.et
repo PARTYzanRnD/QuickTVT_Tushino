@@ -1,0 +1,19 @@
+Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_L01 {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      VisibilityRange 7
+     }
+    }
+    CargoCompartmentSlot Passenger_R01 {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      VisibilityRange 7
+     }
+    }
+   }
+  }
+ }
+}

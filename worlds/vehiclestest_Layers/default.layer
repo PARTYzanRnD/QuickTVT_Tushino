@@ -1,0 +1,95 @@
+GenericEntity : "{17089C077CD40FFE}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV.et" {
+ coords 100.022 2.172 129.796
+}
+Turret : "{18343824C9D533CA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount_M2HB.et" {
+ coords 101.688 1 126.262
+}
+GenericEntity : "{1B8A9F09C98A981B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB.et" {
+ coords 103.301 1 123.533
+}
+Vehicle Stryker_APC1 : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_R01 {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      VisibilityRange 7
+     }
+    }
+   }
+  }
+ }
+ coords 135.649 1 129.233
+}
+GenericEntity : "{303FE9DCCBE78554}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HBMDO_Shield.et" {
+ coords 103.437 1 127.697
+}
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 119.347 1 125.982
+}
+Vehicle M1025_armed_M2HB_Shield1 : "{409E007AC9FA4B68}Prefabs/Vehicles/Wheeled/M998/US/M1025_armed_M2HB_Shield.et" {
+ coords 122.999 1 126.006
+}
+Vehicle Stryker_Dragoon1 : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et" {
+ coords 135.619 1 138.418
+}
+Vehicle M1025_armed_M2HB_unarmored1 : "{47B37C7DAF78CB93}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_unarmored.et" {
+ coords 115.206 1 125.785
+}
+Vehicle M1025_armed_M2HB_scope1 : "{5B770A2C233A3073}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_scope.et" {
+ coords 110.668 1 126.003
+}
+Vehicle M1025_armed_M2HB_su231c_USAF1 : "{5E1DC2C51D589FC6}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_su231c_USAF.et" {
+ coords 92.999 1 124.479
+}
+Vehicle Stryker_CROWS_Cage1 : "{5F17F054025E8B30}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_Cage.et" {
+ coords 140.531 1 133.962
+}
+Turret : "{5FBCB8D8738061F0}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/M1025_gun_mount_M2HB_Shield.et" {
+ coords 99.746 1 126.101
+}
+GenericEntity : "{62308AFC5CCFB934}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Shield.et" {
+ coords 107.207 1 124.751
+}
+Turret : "{65713D924156B415}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/M1025_gun_mount_M2HB_Shield_MDO.et" {
+ coords 102.395 1 131.701
+}
+GenericEntity : "{752B8E204F36F0BB}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV_MDO.et" {
+ coords 98.692 1 132.044
+}
+GenericEntity : "{77CA7311ACBB223D}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo_SHIELD_D.et" {
+ coords 92.822 1 132.22
+}
+Vehicle M1025_armed_M2HB_PAS13G_USAF_D1 : "{7BC9C79CD8FD8CE7}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF_D.et" {
+ coords 95.819 1 124.453
+}
+Vehicle M1025_armed_M2HB_MDO_USAF_D1 : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
+ coords 89.134 1 124.146
+}
+GenericEntity : "{94114B73D6B6935F}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_pas13g_SHIELD.et" {
+ coords 91.141 1 132.112
+}
+Vehicle Stryker_MGS_Base1 : "{A6B0CF93E155D820}Prefabs/Vehicles/Wheeled/Stryker/Stryker_MGS_Base.et" {
+ coords 144.95 1 133.227
+}
+GenericEntity : "{ADE508A36BDED431}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV_pas13.et" {
+ coords 96.834 1 131.993
+}
+VehiclePartPanel : "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et" {
+ coords 125.375 1.278 130.807
+}
+GenericEntity : "{C97C3B2AE7DD5C86}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_pas13g_SHIELD_D.et" {
+ coords 89.095 1 132.473
+}
+Vehicle Stryker_Base1 : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
+ coords 129.477 1 132.772
+}
+GenericEntity : "{E8867CF82D50275F}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo.et" {
+ coords 93.118 1 129.169
+}
+Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ coords 122.581 1 137.829
+}
+GenericEntity : "{FD691E12102B95FF}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo_SHIELD.et" {
+ coords 94.815 1 132.066
+}

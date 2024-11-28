@@ -39,25 +39,25 @@ Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" 
   }
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
    MultiSlots {
-    MultiSlotConfiguration "{62BE44540E585280}" {
+    MultiSlotConfiguration "{62F6D5EFFC2CF2E7}" {
      SlotTemplate InventoryStorageSlot Backpack {
       Prefab "{5C5C6EE05EE2FF1A}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et"
      }
      NumSlots 1
     }
-    MultiSlotConfiguration "{62BE44540E585294}" {
+    MultiSlotConfiguration "{62F6D5EFFC2CF2D1}" {
      SlotTemplate InventoryStorageSlot ATMine {
       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
      }
      NumSlots 4
     }
-    MultiSlotConfiguration "{62BE44540E5852AF}" {
+    MultiSlotConfiguration "{62F6D5EFFC2CF2D8}" {
      SlotTemplate InventoryStorageSlot MineFlags {
       Prefab "{EC13D4E934B2ADD8}Prefabs/Items/Demining/MineFlags/MineFlag_US.et"
      }
      NumSlots 8
     }
-    MultiSlotConfiguration "{62BE44540E5852AD}" {
+    MultiSlotConfiguration "{62F6D5EFFC2CF2DA}" {
      SlotTemplate InventoryStorageSlot M2Ammo {
       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
      }
@@ -71,7 +71,7 @@ Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" 
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Roof {
-     Prefab "{62308AFC5CCFB934}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Shield.et"
+     Prefab "{1B8A9F09C98A981B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB.et"
      InheritParentSkeleton 1
      RegisterActions 1
      RegisterDamage 1

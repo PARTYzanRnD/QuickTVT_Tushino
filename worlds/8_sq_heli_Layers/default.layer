@@ -23,6 +23,7 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
   }
  }
  coords 1986.776 51.675 3027.745
+ m_bAdminMode 1
  m_iFreezeTime 5000
  m_iPreviewTime 10000
  m_iBriefingTime 10000
@@ -148,6 +149,9 @@ $grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.e
    }
   }
  }
+}
+SCR_AIGroup : "{5842F9D00A306C15}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_FireTeam.et" {
+ coords 889.803 22.956 2256.113
 }
 PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {

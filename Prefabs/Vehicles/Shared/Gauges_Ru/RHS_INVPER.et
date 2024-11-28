@@ -1,0 +1,8 @@
+VehiclePartPanel : "{4422928FB61B0DE5}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_TNPO170A.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Enabled 0
+  }
+ }
+}

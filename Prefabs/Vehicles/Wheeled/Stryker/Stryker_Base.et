@@ -1,0 +1,124 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RHS_TriplexEntitySlotInfo VP_L01 {
+     PivotID "Scene_Root"
+     Offset -0.5902 1.901 1.9823
+     Angles 0 -143.46439 0
+     Prefab "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{620D24E9827306D9}" {
+      PivotID "Scene_Root"
+      Offset -0.6421 2.0823 2.0208
+      Angles 0 -53.46441 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo VP_00 {
+     PivotID "Scene_Root"
+     Offset -0.4012 1.901 2.0714
+     Angles 0 -90 0
+     Prefab "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{620D24E9827306D9}" {
+      PivotID "Scene_Root"
+      Offset -0.4012 2.0823 2.1347
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo VP_R01 {
+     PivotID "Scene_Root"
+     Offset -0.208 1.901 1.9799
+     Angles 0 -38.1801 0
+     Prefab "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{620D24E9827306D9}" {
+      PivotID "Scene_Root"
+      Offset -0.1586 2.0823 2.0208
+      Angles 0 52.5755 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo GP_L01 {
+     PivotID "Scene_Root"
+     Offset 0.2207 2.0434 -0.6722
+     Angles 0 -90 0
+     Prefab "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{620D24E9827306D9}" {
+      PivotID "Scene_Root"
+      Offset 0.0725 2.3231 -0.6722
+      Angles 0 -90 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo GP_00 {
+     PivotID "Scene_Root"
+     Offset 0.6425 2.0434 -0.2777
+     Angles 0 -90 0
+     Prefab "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{620D24E9827306D9}" {
+      PivotID "Scene_Root"
+      Offset 0.6453 2.3231 0.0813
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+    RHS_TriplexEntitySlotInfo GP_R01 {
+     PivotID "Scene_Root"
+     Offset 1.0096 2.0434 -0.6743
+     Angles 0 90 0
+     Prefab "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{620D24E9827306D9}" {
+      PivotID "Scene_Root"
+      Offset 1.2118 2.3231 -0.6827
+      Angles 0 90 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+      m_bInstantMoveCamera 1
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5EAD79DA34CDDF41}" {
+     Position PointInfo "{5EAD79DA34CDDF40}" {
+      Offset 0.0034 0.0028 0.375
+     }
+    }
+   }
+  }
+ }
+}

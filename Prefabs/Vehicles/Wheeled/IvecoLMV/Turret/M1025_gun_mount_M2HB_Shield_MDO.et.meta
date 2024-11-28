@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{65713D924156B415}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/M1025_gun_mount_M2HB_Shield_MDO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

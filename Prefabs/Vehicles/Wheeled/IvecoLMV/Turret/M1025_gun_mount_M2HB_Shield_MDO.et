@@ -1,0 +1,8 @@
+Turret : "{5FBCB8D8738061F0}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/M1025_gun_mount_M2HB_Shield.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{FD691E12102B95FF}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo_SHIELD.et"
+  }
+ }
+}

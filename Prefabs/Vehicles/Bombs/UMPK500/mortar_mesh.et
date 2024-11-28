@@ -1,0 +1,8 @@
+GenericEntity : "{37F35A3E5BB2099B}Prefabs/Vehicles/Bombs/UMPK500/umpk500_mesh.et" {
+ ID "6251170675E7BF16"
+ components {
+  MeshObject "{6251170675E7BEDC}" {
+   Object "{5FAE8C23FD72D6DA}Assets/Weapons/Magazines/M72/Rocket_M72.xob"
+  }
+ }
+}

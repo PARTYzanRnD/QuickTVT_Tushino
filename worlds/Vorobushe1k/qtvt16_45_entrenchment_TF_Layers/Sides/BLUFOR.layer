@@ -1,8 +1,4 @@
 $grp Vehicle : "{409E007AC9FA4B68}Prefabs/Vehicles/Wheeled/M998/US/M1025_armed_M2HB_Shield.et" {
- M1025_armed_M2HB_Shield1 {
-  coords 1693.276 18.197 3388.468
-  angleY -112.894
- }
  M1025_armed_M2HB_Shield2 {
   coords 1709.238 17.864 3395.443
   angleY -112.894
@@ -27,6 +23,12 @@ $grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
   angleY -112.88
   angleZ 0.129
  }
+}
+Vehicle M1025_armed_M2HB_scope1 : "{5B770A2C233A3073}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_scope.et" {
+ coords 1692.61 18.21 3388.359
+ angleX 0.816
+ angleY -114.347
+ angleZ -0.369
 }
 $grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
  RHS_US_USMC_G_000_9 {

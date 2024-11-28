@@ -18,8 +18,9 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/PS_GameMode_QuickTvT.et" {
  coords 1986.776 51.675 3027.745
  m_iPreviewTime 20000
- m_iSlotsTime 60000
- m_iGameTime 360000
+ m_iSlotsTime 90000
+ m_iBriefingTime 360000
+ m_iGameTime 1800000
  m_iDebriefingTime 15000
 }
 GenericEntity : "{0EF7AE88A95C661A}Prefabs/Vorobushe1k/Prefabs/Weapons/Rifles/M4A1/Rifle5_M4A1.et" {

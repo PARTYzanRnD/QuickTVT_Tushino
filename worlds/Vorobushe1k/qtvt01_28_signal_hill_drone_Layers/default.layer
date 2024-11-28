@@ -19,7 +19,7 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
  coords 1986.776 51.675 3027.745
  m_iPreviewTime 20000
  m_iSlotsTime 60000
- m_iGameTime 300000
+ m_iBriefingTime 180000
  m_iDebriefingTime 15000
 }
 GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {

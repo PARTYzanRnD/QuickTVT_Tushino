@@ -1,0 +1,12 @@
+GenericEntity : "{68BD07D82148AC54}Prefabs/Vehicles/Bombs/UMPK500/CAS_Spawner_UMPK500.et" {
+ ID "6205264A53BC08DC"
+ components {
+  BaseTriggerComponent "{6205264B8772DC49}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6205264B8772DC5D}" {
+     EffectPrefab "{729D7EE679AD97E7}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_VOG25.et"
+    }
+   }
+  }
+ }
+}

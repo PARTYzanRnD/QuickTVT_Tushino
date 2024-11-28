@@ -6,6 +6,7 @@ PS_GameModeQuickTvT : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" 
    m_bRandomStartingWeather 1
   }
  }
+ m_bAdminMode 1
  m_iFreezeTime 45000
  m_iFactionsBalance 4
  m_iSlotsTime 60000

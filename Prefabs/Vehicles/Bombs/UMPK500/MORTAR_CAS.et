@@ -1,0 +1,18 @@
+GenericEntity : "{B881CA7B63D4EDF5}Prefabs/Vehicles/Bombs/UMPK500/UMPK500_CAS.et" {
+ ID "625117060F7F9C90"
+ components {
+  MeshObject "{625117060F7F9CFA}" {
+   Object "{5FAE8C23FD72D6DA}Assets/Weapons/Magazines/M72/Rocket_M72.xob"
+  }
+  SlotManagerComponent "{625117060F7F9CD3}" {
+   Slots {
+    EntitySlotInfo Warhead {
+     Prefab "{85C54514DE0B0E76}Prefabs/Vehicles/Bombs/UMPK500/CAS_Spawner_mortar.et"
+    }
+    EntitySlotInfo Payload {
+     Prefab "{053B88FAB47D4C71}Prefabs/Vehicles/Bombs/UMPK500/mortar_mesh.et"
+    }
+   }
+  }
+ }
+}

@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{10B36E8BC727C9CC}PrefabLibrary/Groups/Group_USSR_RifleSquad_p.et" {
+$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {

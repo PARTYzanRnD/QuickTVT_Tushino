@@ -1,5 +1,16 @@
-GenericEntity : "{17089C077CD40FFE}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV.et" {
- coords 100.022 2.172 129.796
+GenericEntity {
+ coords 107.207 1 124.751
+}
+Vehicle M1025_armed_M2HB_Shield1 {
+ coords 122.999 1 126.006
+}
+$grp GenericEntity : "{17089C077CD40FFE}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV.et" {
+ {
+  coords 100.022 2.172 129.796
+ }
+ {
+  coords 107.96 1 131.858
+ }
 }
 Turret : "{18343824C9D533CA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount_M2HB.et" {
  coords 101.688 1 126.262
@@ -27,13 +38,13 @@ GenericEntity : "{303FE9DCCBE78554}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_
 GameEntity : "{349DE19C84303C7B}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_new.et" {
  coords 125.902 1 128.184
 }
+GenericEntity : "{385A6B3CC7DE5C59}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_unarmored.et" {
+ coords 106.321 1 123.742
+}
 Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  coords 119.347 1 125.982
 }
-Vehicle M1025_armed_M2HB_Shield1 : "{409E007AC9FA4B68}Prefabs/Vehicles/Wheeled/M998/US/M1025_armed_M2HB_Shield.et" {
- coords 122.999 1 126.006
-}
-Vehicle Stryker_Dragoon1 : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et" {
+Vehicle Stryker_Dragoon1 : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/M1296/Stryker_Dragoon.et" {
  coords 135.619 1 138.418
 }
 Vehicle M1025_armed_M2HB_unarmored1 : "{47B37C7DAF78CB93}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_unarmored.et" {
@@ -48,14 +59,11 @@ Vehicle M1025_armed_M2HB_scope1 : "{5B770A2C233A3073}Prefabs/Vehicles/Wheeled/M9
 Vehicle M1025_armed_M2HB_su231c_USAF1 : "{5E1DC2C51D589FC6}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_su231c_USAF.et" {
  coords 92.999 1 124.479
 }
-Vehicle Stryker_CROWS_Cage1 : "{5F17F054025E8B30}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_Cage.et" {
+Vehicle Stryker_CROWS_Cage1 : "{5F17F054025E8B30}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS_Cage.et" {
  coords 140.531 1 133.962
 }
-Turret : "{5FBCB8D8738061F0}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/M1025_gun_mount_M2HB_Shield.et" {
+Turret : "{5FBCB8D8738061F0}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_M2HB_Shield.et" {
  coords 99.746 1 126.101
-}
-GenericEntity : "{62308AFC5CCFB934}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Shield.et" {
- coords 107.207 1 124.751
 }
 Turret : "{65713D924156B415}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/M1025_gun_mount_M2HB_Shield_MDO.et" {
  coords 102.395 1 131.701
@@ -78,6 +86,9 @@ GenericEntity : "{94114B73D6B6935F}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pi
 Vehicle Stryker_MGS_Base1 : "{A6B0CF93E155D820}Prefabs/Vehicles/Wheeled/Stryker/Stryker_MGS_Base.et" {
  coords 144.95 1 133.227
 }
+Turret : "{AC152FEBB52EB9A4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_gun_mount_M2HB_Shield.et" {
+ coords 109.662 1 132.836
+}
 GenericEntity : "{ADE508A36BDED431}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV_pas13.et" {
  coords 96.834 1 131.993
 }
@@ -90,11 +101,17 @@ GameEntity : "{C4B57488909B3B63}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P
 GenericEntity : "{C97C3B2AE7DD5C86}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_pas13g_SHIELD_D.et" {
  coords 89.095 1 132.473
 }
+Turret : "{CF954B3C3561EB85}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_gun_mount_M2HB_Shield_MDO.et" {
+ coords 113.636 1 132.111
+}
 Vehicle Stryker_Base1 : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
  coords 129.477 1 132.772
 }
 GenericEntity : "{E8867CF82D50275F}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo.et" {
  coords 93.118 1 129.169
+}
+GenericEntity : "{F69D001509996DD4}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_mdo.et" {
+ coords 105.711 1 127.326
 }
 Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
  coords 122.581 1 137.829

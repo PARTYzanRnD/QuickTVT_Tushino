@@ -1,4 +1,4 @@
-SCR_AIGroup : "{18EBD3CA220AD95B}PrefabLibrary/Groups/Group_US_FireTeam_P.et" {
+SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineCompact"
@@ -7,7 +7,7 @@ SCR_AIGroup : "{18EBD3CA220AD95B}PrefabLibrary/Groups/Group_US_FireTeam_P.et" {
  coords 3530.454 134.95 6187.721
  angleY 173.784
 }
-SCR_AIGroup : "{A2BA42782687556D}PrefabLibrary/Groups/Group_US_SniperTeam_P.et" {
+SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineCompact"
@@ -16,7 +16,7 @@ SCR_AIGroup : "{A2BA42782687556D}PrefabLibrary/Groups/Group_US_SniperTeam_P.et" 
  coords 3536.72 135.294 6187.042
  angleY -168.231
 }
-SCR_AIGroup : "{B523F93FFA86ABF8}PrefabLibrary/Groups/Group_US_RifleSquad_p.et" {
+SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineCompact"
@@ -27,7 +27,7 @@ SCR_AIGroup : "{B523F93FFA86ABF8}PrefabLibrary/Groups/Group_US_RifleSquad_p.et" 
  angleY -168.212
  angleZ 0.295
 }
-SCR_AIGroup : "{C4BA057DF4077043}PrefabLibrary/Groups/Group_US_MachineGunTeam_P.et" {
+SCR_AIGroup : "{90955B4A4EAC6CD0}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam_P.et" {
  coords 3530.391 134.808 6189.193
  angleY -173.272
 }

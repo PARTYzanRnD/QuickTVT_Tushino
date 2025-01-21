@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
  RHS_RF_MSV_G_010_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -64,7 +64,7 @@ Vehicle BTR70_AFRF1 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AF
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 2611.121 90.261 2017.806
 }
-Vehicle UAZ452_ambulance1 : "{CE88CC81880BE24C}PrefabLibrary/Vehicles/UAZ452_ambulance.et" {
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
  coords 2514.869 147.018 2296.745
  angleX 6.037
  angleY -19.451

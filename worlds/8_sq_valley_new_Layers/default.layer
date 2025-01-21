@@ -181,7 +181,7 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
   }
  }
 }
-SCR_AIGroup : "{84B0760E0C747AAC}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et" {
+SCR_AIGroup : "{0ACD74AD27EEEE7D}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et" {
  coords 1970.541 1.54 1679.062
  angleY 110
  m_aUnitPrefabSlots {

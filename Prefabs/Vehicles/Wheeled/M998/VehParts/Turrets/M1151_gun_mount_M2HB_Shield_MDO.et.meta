@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CF954B3C3561EB85}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_gun_mount_M2HB_Shield_MDO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

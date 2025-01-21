@@ -5,8 +5,8 @@ GenericEntity : "{E8867CF82D50275F}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pi
    Slots {
     EntitySlotInfo shield {
      PivotID "w_turret_vertical"
-     Offset -0.0024 -2.62 -0.1121
-     Prefab "{56B53243D7F72F68}Prefabs/Vehicles/Wheeled/IvecoLMV/Turret/Gun_Shield_IvecoLMV.et"
+     Offset -0.0024 -2.593 -0.1121
+     Prefab "{56B53243D7F72F68}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/Gun_Shield_IvecoLMV.et"
     }
    }
   }

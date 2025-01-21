@@ -1,5 +1,11 @@
 /*modded class SCR_AIGroup
 {
+	[Attribute()]
+	ref array<ref PointInfo> m_aSpawnPosition;
+	
+	[Attribute()]
+	ref array<ref PS_MoveToVehicle> m_aSpawnVehicle;
+	
 	override bool SpawnGroupMember(bool snapToTerrain, int index, ResourceName res, bool editMode, bool isLast)
 	{
 		
@@ -20,6 +26,8 @@
 		EntitySpawnParams spawnParams = new EntitySpawnParams;
 		spawnParams.TransformMode = ETransformMode.WORLD;
 		GetWorldTransform(spawnParams.Transform);
+		float quat[4];
+		Math3D.MatrixToQuat(spawnParams.Transform, quat);
 		vector pos = spawnParams.Transform[3];
 		
 		if (m_aSpawnPosition.Count() <= index)
@@ -71,6 +79,9 @@
 										break;
 									string offsetString = offsetsStrings[index];
 									vector offset = offsetString.ToVector();
+									
+									offset = SCR_Math3D.QuatMultiply(quat, offset);
+									pos = CoordToParent(Vector(0, 0, 0));
 									pos += offset;
 								}
 							}
@@ -173,23 +184,21 @@
 			Event_OnInit.Invoke(this);
 		return true;
 	}
+	
+	void PS_MoveToVehicle(Vehicle vehicle, PS_MoveToVehicle moveToVehicle, CompartmentAccessComponent compartmentAccessComponent)
+	{
+		BaseCompartmentManagerComponent compartmentManagerComponent = BaseCompartmentManagerComponent.Cast(vehicle.FindComponent(BaseCompartmentManagerComponent));
+		array<BaseCompartmentSlot> outCompartments = {};
+		compartmentManagerComponent.GetCompartments(outCompartments);
+		compartmentAccessComponent.GetInVehicle(vehicle, outCompartments[moveToVehicle.m_iCompartmentIndex], true, -1, ECloseDoorAfterActions.INVALID, true);
+	}
+}
+
+[BaseContainerProps()]
+class PS_MoveToVehicle
+{
+	[Attribute()]
+	string m_sVehicleName;
+	[Attribute()]
+	int m_iCompartmentIndex;
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

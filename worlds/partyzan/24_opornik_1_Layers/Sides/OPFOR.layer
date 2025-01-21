@@ -1,4 +1,4 @@
-SCR_AIGroup : "{10B36E8BC727C9CC}PrefabLibrary/Groups/Group_USSR_RifleSquad_p.et" {
+SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineCompact"
@@ -9,6 +9,6 @@ SCR_AIGroup : "{10B36E8BC727C9CC}PrefabLibrary/Groups/Group_USSR_RifleSquad_p.et
   "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
  }
 }
-SCR_AIGroup : "{D8E5F2EB454B7946}PrefabLibrary/Groups/Group_USSR_MachineGunTeam_P.et" {
+SCR_AIGroup : "{E98CEB8BE757C8A5}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam_P.et" {
  coords 3497.505 180.102 5800.383
 }

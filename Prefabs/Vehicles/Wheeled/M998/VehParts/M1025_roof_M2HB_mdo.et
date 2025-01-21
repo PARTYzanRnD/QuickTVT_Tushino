@@ -1,0 +1,12 @@
+GenericEntity : "{1B8A9F09C98A981B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{CF954B3C3561EB85}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_gun_mount_M2HB_Shield_MDO.et"
+    }
+   }
+  }
+ }
+}

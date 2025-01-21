@@ -71,7 +71,7 @@ Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" 
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Roof {
-     Prefab "{1B8A9F09C98A981B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB.et"
+     Prefab "{385A6B3CC7DE5C59}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_unarmored.et"
      InheritParentSkeleton 1
      RegisterActions 1
      RegisterDamage 1

@@ -1,4 +1,4 @@
-modded class PS_GameModeQuickTvT : PS_GameModeCoop
+/*modded class PS_GameModeQuickTvT : PS_GameModeCoop
 {
 	override void EOnFrame(IEntity owner, float timeSlice)
 	{
@@ -23,38 +23,7 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 		}
 	}
 	
-	/*
-	override void OnGameStateChanged()
-	{
-		super.OnGameStateChanged();
-		
-		SCR_EGameModeState state = GetState();
-		switch (state) 
-		{
-			case SCR_EGameModeState.PREGAME:
-				m_iStepTime = m_iPreviewTime;
-				break;
-			case SCR_EGameModeState.SLOTSELECTION:
-				m_iStepTime = m_iSlotsTime;
-				break;
-			case SCR_EGameModeState.CUTSCENE:
-				break;
-			case SCR_EGameModeState.BRIEFING:
-				m_iStepTime = m_iBriefingTime;
-				break;
-			case SCR_EGameModeState.GAME:
-				if (Replication.IsServer())
-					GetGame().GetCallqueue().CallLater(CheckAlive, 3000, true);
-				m_iStepTime = m_iGameTime;
-				break;
-			case SCR_EGameModeState.DEBRIEFING:
-				GetGame().GetCallqueue().Remove(CheckAlive);
-				m_iStepTime = m_iDebriefingTime;
-				break;
-			case SCR_EGameModeState.POSTGAME:
-				ChangeToNextMission();
-				break;
-		}
-	}*/
+	
 	
 };
+*/

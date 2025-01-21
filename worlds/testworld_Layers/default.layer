@@ -247,7 +247,7 @@ Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
  angleX -59.39
  angleZ 100.752
 }
-SCR_AIGroup RHS_US_USMC_G_001_4 : "{AA9FEAD8E691A5F7}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_FireTeam.et" {
+SCR_AIGroup RHS_US_USMC_G_001_4 : "{19843E954790DF28}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_FireTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineTight"

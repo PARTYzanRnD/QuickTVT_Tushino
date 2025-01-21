@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{238285EE8DBF835A}PrefabLibrary/GroupsRHS_RF/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
  RHS_RF_MSV_G_001_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {

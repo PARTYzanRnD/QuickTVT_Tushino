@@ -30,7 +30,7 @@ Vehicle M1025_armed_M2HB_scope1 : "{5B770A2C233A3073}Prefabs/Vehicles/Wheeled/M9
  angleY -114.347
  angleZ -0.369
 }
-$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
  RHS_US_USMC_G_000_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {

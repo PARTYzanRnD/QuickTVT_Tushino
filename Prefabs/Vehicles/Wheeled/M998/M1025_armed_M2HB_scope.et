@@ -4,7 +4,7 @@ Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" 
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Roof {
-     Prefab "{303FE9DCCBE78554}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HBMDO_Shield.et"
+     Prefab "{F69D001509996DD4}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_mdo.et"
     }
    }
   }

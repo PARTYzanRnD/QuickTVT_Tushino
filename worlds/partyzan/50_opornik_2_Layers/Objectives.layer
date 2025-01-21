@@ -1,0 +1,87 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_aVisibleForFactions {
+    "" "US" "RHS_ARFR"
+   }
+  }
+ }
+ coords 3437.703 179.053 5869.885
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 56.363 2.805 -42.313
+  }
+  ShapePoint "{62BEA89EFDAD47D4}" {
+   Position 40.519 0.833 -78.99
+  }
+  ShapePoint "{62F8C23013E08845}" {
+   Position -20.009 -10.219 -98.806
+  }
+  ShapePoint "{62F8C2301C091C40}" {
+   Position -16.004 -10.966 -116.692
+  }
+  ShapePoint "{62F8C2301F2B04CE}" {
+   Position 8.302 -8.291 -137.83
+  }
+  ShapePoint "{62F8C2301937FD1D}" {
+   Position 29.871 -7.671 -142.035
+  }
+  ShapePoint "{611E9BC58BDD6615}" {
+   Position 54.558 -6.868 -142.473
+  }
+  ShapePoint "{62BEA89D27202C45}" {
+   Position 87.626 -6.969 -141.844
+  }
+  ShapePoint "{62BEA89D20C685C8}" {
+   Position 101.293 -7.277 -131.939
+  }
+  ShapePoint "{62B910E1D631A252}" {
+   Position 115.863 -4.363 -101.441
+  }
+  ShapePoint "{62BEA89EEDA96237}" {
+   Position 142.126 -5.275 -71.03
+  }
+  ShapePoint "{62B910E1DE6D1BC7}" {
+   Position 145.362 -6.217 -45.313
+  }
+  ShapePoint "{62BEA89D09BA249E}" {
+   Position 134.903 -5.007 -23.781
+  }
+  ShapePoint "{62BEA89EE11EDC68}" {
+   Position 127.898 -4.508 -18.694
+  }
+  ShapePoint "{611E9BC59DAC9EA7}" {
+   Position 104.929 -0.6 -20.138
+  }
+  ShapePoint "{62BEA89EF62C5F4A}" {
+   Position 96.343 -2.033 -14.218
+  }
+  ShapePoint "{611E9BC5997AFC90}" {
+   Position 86.336 1.925 -32.556
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 200000
+   m_sFactionKey "USSR"
+   m_iPowerBalance 3
+   m_sCurrentFaction "US"
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "НАПАДЕНИЕ ОТБИТО"
+   m_sTextData ""
+   m_sFactionKey "US"
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "ОБЪЕКТ ЗАХВАЧЕН"
+   m_sTextData ""
+   m_sFactionKey "USSR"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

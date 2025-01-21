@@ -1,0 +1,40 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ DESCRIPTION {
+  coords 1684.17 38.082 2998.94
+  m_sTitle "ОПИСАНИЕ"
+  m_sTextData "После артподготовки штурмовая группа Советской Армии начинает штурм укрепрайона под контролем Армии США."
+  m_aVisibleForFactions {
+   "" "USSR" "US"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ DESCRIPTION2 {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "УСЛОВНОСТИ"
+  m_sTextData "Американцам запрещено пересекать синий маркер."\
+  "Всем запрещено пересекать желтую границу."\
+  ""
+  m_aVisibleForFactions {
+   "" "USSR" "US"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ DESCRIPTION3 {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "ЗАДАЧИ ВСРФ"
+  m_sTextData "Взять под контроль сектор ОП."\
+  ""
+  m_aVisibleForFactions {
+   "" "" "USSR"
+  }
+ }
+ DESCRIPTION4 {
+  coords 1660.408 39.022 3027.457
+  m_sTitle "ЗАДАЧИ НАТО"
+  m_sTextData "Удержать ввереный участок опорного пункта."\
+  ""
+  m_aVisibleForFactions {
+   "" "US" ""
+  }
+ }
+}

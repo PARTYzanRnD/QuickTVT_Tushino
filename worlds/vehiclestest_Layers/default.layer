@@ -24,6 +24,9 @@ Vehicle Stryker_APC1 : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryk
 GenericEntity : "{303FE9DCCBE78554}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HBMDO_Shield.et" {
  coords 103.437 1 127.697
 }
+GameEntity : "{349DE19C84303C7B}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_new.et" {
+ coords 125.902 1 128.184
+}
 Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  coords 119.347 1 125.982
 }
@@ -35,6 +38,9 @@ Vehicle Stryker_Dragoon1 : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/S
 }
 Vehicle M1025_armed_M2HB_unarmored1 : "{47B37C7DAF78CB93}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_unarmored.et" {
  coords 115.206 1 125.785
+}
+GenericEntity : "{5995414BD20D4290}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p87.et" {
+ coords 125.226 1 128.692
 }
 Vehicle M1025_armed_M2HB_scope1 : "{5B770A2C233A3073}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_scope.et" {
  coords 110.668 1 126.003
@@ -77,6 +83,9 @@ GenericEntity : "{ADE508A36BDED431}Prefabs/Weapons/HeavyWeapons/M2/HMG_M2HB_pint
 }
 VehiclePartPanel : "{B734D6F6ECD7A65D}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_INVPER.et" {
  coords 125.375 1.278 130.807
+}
+GameEntity : "{C4B57488909B3B63}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87.et" {
+ coords 126.551 1 127.868
 }
 GenericEntity : "{C97C3B2AE7DD5C86}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_pas13g_SHIELD_D.et" {
  coords 89.095 1 132.473

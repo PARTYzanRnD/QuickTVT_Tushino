@@ -15,6 +15,7 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 				m_iStepTime -= timeSlice * 1000;
 			
 			if (m_iStepTime <= 0)
+				Print("playersCount: " + playersCount);
 				if (!(gameModeCoop.IsAdminMode() && (playersCount > 10) && ((GetState() == SCR_EGameModeState.SLOTSELECTION) || (GetState() == SCR_EGameModeState.BRIEFING))))
 					AdvanceGameState(GetState());
 			

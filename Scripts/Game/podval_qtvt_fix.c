@@ -2,20 +2,20 @@
 {
 	[Attribute()]
 	ref array<ref PointInfo> m_aSpawnPosition;
-	
+
 	[Attribute()]
 	ref array<ref PS_MoveToVehicle> m_aSpawnVehicle;
-	
+
 	override bool SpawnGroupMember(bool snapToTerrain, int index, ResourceName res, bool editMode, bool isLast)
 	{
-		
+
 		if (!GetGame().GetAIWorld().CanLimitedAIBeAdded() && GetGame().InPlayMode())
 		{
 			if (isLast)
 				Event_OnInit.Invoke(this);
-			
+
 			//Event_OnLastGroupMemberSpawned.Invoke(this);
-			
+
 			return true;
 		}
 		BaseWorld world = GetWorld();
@@ -29,7 +29,7 @@
 		float quat[4];
 		Math3D.MatrixToQuat(spawnParams.Transform, quat);
 		vector pos = spawnParams.Transform[3];
-		
+
 		if (m_aSpawnPosition.Count() <= index)
 		{
 			if (formationDefinition)
@@ -98,17 +98,17 @@
 			pos = CoordToParent(mat[3]);
 			Math3D.MatrixMultiply4(spawnParams.Transform, mat, spawnParams.Transform);
 		}
-		
+
 		if (snapToTerrain)
 		{
 			float surfaceY = world.GetSurfaceY(pos[0], pos[2]);
 			pos[1] = surfaceY;
 		}
-		
-		
+
+
 		//Snap to the nearest navmesh point
 		AIPathfindingComponent pathFindindingComponent = AIPathfindingComponent.Cast(this.FindComponent(AIPathfindingComponent));
-		
+
 		if (!editMode && GetGame().InPlayMode())
 		{
 			NavmeshWorldComponent navmesh = pathFindindingComponent.GetNavmeshComponent();
@@ -125,7 +125,7 @@
 				}
 			}
 		}
-		
+
 		if (pathFindindingComponent && pathFindindingComponent.GetClosestPositionOnNavmesh(pos, "10 10 10", pos) && GetGame().InPlayMode() && m_aSpawnPosition.Count() <= index)
 		{
 			float groundHeight = world.GetSurfaceY(pos[0], pos[2]);
@@ -140,24 +140,24 @@
 				pos = outWaterSurfacePoint;
 			}
 		}
-		
+
 		spawnParams.Transform[3] = pos;
-		
+
 		IEntity member = GetGame().SpawnEntityPrefabEx(res, true, world, spawnParams);
 		if (!member)
 			return true;
-		
+
 		// Move in to vehicle 
 		SCR_EditableEntityComponent editableEntity = SCR_EditableEntityComponent.Cast(member.FindComponent(SCR_EditableEntityComponent));
-		
-		
+
+
 		if (editMode)
 			m_aSceneGroupUnitInstances.Insert(member);
-		
+
 		// Even same null-check is above, in some situations, member can get deleted and it would result in VME
 		if (!member)
 			return true;
-		
+
 		if (m_aSpawnVehicle && m_aSpawnVehicle.Count() > index)
 		{
 			PS_MoveToVehicle moveToVehicle = m_aSpawnVehicle[index];
@@ -172,19 +172,19 @@
 				}
 			}
 		}
-		
+
 		AddAIEntityToGroup(member);
-		
+
 		FactionAffiliationComponent factionAffiliation = FactionAffiliationComponent.Cast(member.FindComponent(FactionAffiliationComponent));
-		
+
 		if (factionAffiliation)
 			factionAffiliation.SetAffiliatedFactionByKey(m_faction);
-	
+
 		if (isLast)
 			Event_OnInit.Invoke(this);
 		return true;
 	}
-	
+
 	void PS_MoveToVehicle(Vehicle vehicle, PS_MoveToVehicle moveToVehicle, CompartmentAccessComponent compartmentAccessComponent)
 	{
 		BaseCompartmentManagerComponent compartmentManagerComponent = BaseCompartmentManagerComponent.Cast(vehicle.FindComponent(BaseCompartmentManagerComponent));
@@ -193,12 +193,4 @@
 		compartmentAccessComponent.GetInVehicle(vehicle, outCompartments[moveToVehicle.m_iCompartmentIndex], true, -1, ECloseDoorAfterActions.INVALID, true);
 	}
 }
-
-[BaseContainerProps()]
-class PS_MoveToVehicle
-{
-	[Attribute()]
-	string m_sVehicleName;
-	[Attribute()]
-	int m_iCompartmentIndex;
-}*/
+*/

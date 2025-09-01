@@ -47,7 +47,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
     InitialInventoryItems {
      ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
       PrefabsToSpawn {
-       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Drones/DJI/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
       }
      }
     }
@@ -70,21 +70,9 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{62DCD1DD4D03BA67}" {
-      SlotTemplate InventoryStorageSlot Slot1 {
-       Prefab "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
-      }
-      NumSlots 5
-     }
      MultiSlotConfiguration "{62DCD1DD176353F9}" {
       SlotTemplate InventoryStorageSlot eq1 {
        Prefab "{A1D54A728A307D68}Prefabs/Items/Equipment/Backpacks/ALICE_DroneJammer_US.et"
-      }
-      NumSlots -3
-     }
-     MultiSlotConfiguration "{62DCD1DD000EC0A5}" {
-      SlotTemplate InventoryStorageSlot eq2 {
-       Prefab "{9949FD4FB7F7464A}Prefabs/Items/FPV Item/DJIInventoryItem2IMDropper.et"
       }
       NumSlots 1
      }
@@ -92,7 +80,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
       SlotTemplate InventoryStorageSlot eq33 {
        Prefab "{89A2E827AF67939D}Prefabs/Items/FPV Item/FPVInventoryItemrpg.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{62DCEAF5BF98E366}" {
       SlotTemplate InventoryStorageSlot recon {
@@ -116,7 +104,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
     InitialInventoryItems {
      ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
       PrefabsToSpawn {
-       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Drones/DJI/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
       }
      }
     }
@@ -128,7 +116,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
   angleZ -5.825
  }
 }
-$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+$grp SCR_AIGroup : "{76C8674380F85C9F}PrefabLibrary/GroupsRHS_US/Group_USAF_USMC_MEF_RifleSquad.et" {
  RHS_US_USMC_G_000_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -141,7 +129,7 @@ $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_US
   coords 3529.225 134.58 6182.142
   angleY 161.814
   m_aUnitPrefabSlots {
-   "{4778794C76E28828}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{77F2B5CF728E176E}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+   "{4778794C76E28828}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{CB51469DF605C96E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC_MC/Character_RHS_USMC_MARSOC_MC_MG2.et" "{77F2B5CF728E176E}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
   }
   m_sCustomNameSet "1-2"
  }
@@ -158,7 +146,7 @@ $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_US
   angleY -172.069
   angleZ 2.676
   m_aUnitPrefabSlots {
-   "{4778794C76E28828}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{504F2CAF1F64EBB0}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Machinegunner.et" "{77F2B5CF728E176E}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
+   "{4778794C76E28828}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Squad_Leader.et" "{EA0F77B974CE8CDA}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Senior_Rifleman.et" "{CB51469DF605C96E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC_MC/Character_RHS_USMC_MARSOC_MC_MG2.et" "{77F2B5CF728E176E}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Grenade_Launcher.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et" "{03E28426E25846CF}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MSV2/US2_Rifleman.et"
   }
   m_sCustomNameSet "1-1"
  }

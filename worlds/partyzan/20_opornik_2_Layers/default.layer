@@ -34,7 +34,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
       SlotTemplate InventoryStorageSlot eq33 {
        Prefab "{DCC039AA90AC577F}Prefabs/Items/FPV Item/FPVInventoryItemrus1.et"
       }
-      NumSlots 2
+      NumSlots 3
      }
      MultiSlotConfiguration "{62DCEAF5BF98E366}" {
       SlotTemplate InventoryStorageSlot recon {
@@ -70,7 +70,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
     InitialInventoryItems {
      ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
       PrefabsToSpawn {
-       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Drones/DJI/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
       }
      }
     }
@@ -99,7 +99,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
       SlotTemplate InventoryStorageSlot eq1 {
        Prefab "{A1D54A728A307D68}Prefabs/Items/Equipment/Backpacks/ALICE_DroneJammer_US.et"
       }
-      NumSlots -3
+      NumSlots 1
      }
      MultiSlotConfiguration "{62DCD1DA8714461C}" {
       SlotTemplate InventoryStorageSlot eq33 {
@@ -129,7 +129,7 @@ $grp GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes
     InitialInventoryItems {
      ItemsInitConfigurationItem "{62DCD1DFC6B65432}" {
       PrefabsToSpawn {
-       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Helicopters/UH1H/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
+       "{4C85BC56F916F9A6}Prefabs/Items/Equipment/DroneController.et" "{37CAFA3DC0777428}Prefabs/Vehicles/Drones/DJI/drop drone mortar.et" "{02E7D1329E28C0CB}Prefabs/Weapons/Ammo/Ammo_Missile_BGM71_TOWdrone2.et"
       }
      }
     }

@@ -13,6 +13,7 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
   }
  }
  coords -3105.808 133.578 899.24
+ m_bAdminMode 0
  m_iFreezeTime 10000
  m_iPreviewTime 10000
  m_iBriefingTime 10000

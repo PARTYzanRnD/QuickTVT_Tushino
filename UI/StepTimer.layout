@@ -1,0 +1,53 @@
+OverlayWidgetClass "{60FB0D629D4169EC}" {
+ Name "Overlay"
+ Slot FrameWidgetSlot "{60FB0D629D416921}" {
+  Anchor 0 1 1 1
+  PositionX 962
+  OffsetLeft 0
+  PositionY 20
+  OffsetTop 20
+  SizeX -1820
+  OffsetRight 0
+  SizeY 96
+  OffsetBottom -116
+ }
+ {
+  PanelWidgetClass "{60FB0D62A796DF2F}" {
+   Name "Panel"
+   Slot OverlayWidgetSlot "{60FB0D62A796DF17}" {
+   }
+   Color 0.008 0.012 0.016 1
+   style full
+   {
+    OverlayWidgetClass "{60FB0D624405968F}" {
+     Name "Overlay"
+     Slot FrameWidgetSlot "{60FB0D62440596FD}" {
+      Anchor 0 0 0 0
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 100
+      OffsetRight -100
+      SizeY 30
+      OffsetBottom -30
+      SizeToContent 1
+     }
+     {
+      TextWidgetClass "{60FB0D6346D50372}" {
+       Name "StepTimerText"
+       Slot OverlayWidgetSlot "{60FB0D6D6A2E001A}" {
+        Padding 5 5 5 5
+       }
+       Text "00:00"
+       "Font Size" 64
+       "Min Font Size" 64
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+   }
+  }
+ }
+}

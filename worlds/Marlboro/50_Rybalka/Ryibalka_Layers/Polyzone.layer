@@ -1,0 +1,221 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0.157 0.275 0.624 1
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "" "US" "FIA"
+    }
+   }
+  }
+  coords 2902.059 35.844 1394.386
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -20.707 -1.131 -10.873
+   }
+   ShapePoint "{6110C23A69C4A9B8}" {
+    Position 5.81 2.06 -33.865
+   }
+   ShapePoint "{6110C23A6A2E8490}" {
+    Position 43.088 3.694 -44.015
+   }
+   ShapePoint "{6110C23A6B057AD8}" {
+    Position 88.581 0 0.948
+   }
+   ShapePoint "{6110C23A6D554EB8}" {
+    Position 106.417 0 49.223
+   }
+   ShapePoint "{6110C23A1107DFD7}" {
+    Position 77.843 0 77.738
+   }
+   ShapePoint "{6110C23A11B1E0E1}" {
+    Position 40.102 0 84.407
+   }
+   ShapePoint "{6110C23A12E7682E}" {
+    Position 4.746 0 72.358
+   }
+   ShapePoint "{6110C23A130C517A}" {
+    Position -24.121 0 55.06
+   }
+   ShapePoint "{6110C23A144B339C}" {
+    Position -29.546 0 16.966
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0 0.502 0.125 1
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "" "US" "FIA"
+    }
+   }
+  }
+  coords 3284.23 0 1016.845
+  Points {
+   ShapePoint "{6110C23BC9451BD2}" {
+    Position 98.191 0 143.658
+   }
+   ShapePoint "{6110C23BCC16FBAE}" {
+    Position 57.146 0 253.055
+   }
+   ShapePoint "{6110C23BCD870B02}" {
+    Position 9.708 0 320.697
+   }
+   ShapePoint "{6110C23BCF433076}" {
+    Position -90.538 0 289.103
+   }
+   ShapePoint "{6110C23BF0A2B0B2}" {
+    Position -156.964 0 253.925
+   }
+   ShapePoint "{6110C23BF97BB7D4}" {
+    Position -273.745 0 194.286
+   }
+   ShapePoint "{6110C23BFA88FFFB}" {
+    Position -327.79 0 159.706
+   }
+   ShapePoint "{6110C23BFB0DD32A}" {
+    Position -332.302 0 116.343
+   }
+   ShapePoint "{6110C23BFB8B3FA7}" {
+    Position -328.443 0 54.786
+   }
+   ShapePoint "{6110C23BFD06BF8C}" {
+    Position -283.217 0 -9.473
+   }
+   ShapePoint "{6110C23BFD8FBCF3}" {
+    Position -179.561 0 -16.889
+   }
+   ShapePoint "{6110C23BFE78C5C2}" {
+    Position -80.553 0 -31.376
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "FIA"
+   }
+  }
+ }
+ coords 2689.876 42.221 1412.493
+ Points {
+  ShapePoint "{6110C239F7F8BE61}" {
+   Position 44.816 0 46.513
+  }
+  ShapePoint "{6110C239F830CB85}" {
+   Position 97.755 0 90.917
+  }
+  ShapePoint "{6110C239F9752909}" {
+   Position 166.842 0 128.113
+  }
+  ShapePoint "{6110C239FD298579}" {
+   Position 201.106 0 131.701
+  }
+  ShapePoint "{6110C239FEE39B96}" {
+   Position 251.355 0 160.276
+  }
+  ShapePoint "{6110C239FF02B5E5}" {
+   Position 280.874 0 182.773
+  }
+  ShapePoint "{6110C239E25027AF}" {
+   Position 355.745 0 225.024
+  }
+  ShapePoint "{6110C239E3E1515F}" {
+   Position 495.936 0 266.306
+  }
+  ShapePoint "{6110C239E4248545}" {
+   Position 581.082 0 267.974
+  }
+  ShapePoint "{6110C239E74E0053}" {
+   Position 653.08 0 228.1
+  }
+  ShapePoint "{6110C239E7FAAED4}" {
+   Position 721.263 0 193.546
+  }
+  ShapePoint "{6110C239EB7E0EFC}" {
+   Position 810.912 0 121.206
+  }
+  ShapePoint "{6110C239ECC99E7D}" {
+   Position 956.836 0 -27.365
+  }
+  ShapePoint "{6110C239EE0DF275}" {
+   Position 1150.552 0 -363.728
+  }
+  ShapePoint "{6110C239EEBCE9FB}" {
+   Position 985.24 0 -711.833
+  }
+  ShapePoint "{6110C239910A334D}" {
+   Position 573.959 0 -929.951
+  }
+  ShapePoint "{6110C239930A9280}" {
+   Position 266.879 0 -838.789
+  }
+  ShapePoint "{6110C23993A80F8E}" {
+   Position -47.663 0 -675.611
+  }
+  ShapePoint "{6110C23999686DC9}" {
+   Position -177.498 0 -623.435
+  }
+  ShapePoint "{6110C23999A6D980}" {
+   Position -238.698 0 -528.526
+  }
+  ShapePoint "{6110C2399CCF2494}" {
+   Position -261.265 0 -296.479
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 1 1 1 0.394
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "FIA"
+   }
+  }
+ }
+ coords 3196.662 4.239 1191.666
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.113 0 -0.637
+  }
+  ShapePoint "{6110C23B50D433F8}" {
+   Position 7.655 0 4.182
+  }
+  ShapePoint "{6110C23B51945F95}" {
+   Position 3.453 0 11.33
+  }
+  ShapePoint "{6110C23B53DFFCDE}" {
+   Position -3.241 0 6.023
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   m_sCurrentFaction "FIA"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Захватить завод"
+   m_sTextData "Захватить Завод"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Удержать Завод"
+   m_sTextData "Удержать Завод"
+   m_sFactionKey "FIA"
+  }
+ }
+}

@@ -1,0 +1,10 @@
+FrameWidgetClass {
+ Clipping False
+ {
+  OverlayWidgetClass "{60FB0D68B4DB6E5C}" : "{87B2D101836B57E9}UI/StepTimer.layout" {
+   Name "Overlay"
+   Slot FrameWidgetSlot "{60FB0D629D416921}" {
+   }
+  }
+ }
+}

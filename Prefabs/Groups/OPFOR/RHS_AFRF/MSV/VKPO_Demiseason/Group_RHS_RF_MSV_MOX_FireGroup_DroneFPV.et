@@ -94,4 +94,5 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  m_aUnitPrefabSlots {
   "{A518C765EA27048C}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Squad_Leader.et" "{5CD213E65A8E0E72}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_Grenade_Launcher .et" "{D91D7B9A0B63C2C2}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_MachineGunner.et" "{6AA9DB385EFE5B25}Prefabs/Vorobushe1k/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV2/RU2_DroneOperatorFPV.et"
  }
+ m_bSetPlayable 1
 }

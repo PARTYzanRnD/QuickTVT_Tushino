@@ -1,0 +1,30 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords -3195.24 192.727 587.083
+  m_sTitle "Описание миссии"
+  m_sTextData "Отряд ВС США атакует захваченную FIA электростанцию."\
+  ""\
+  "Зеленым запрещено покидать территорию электростанции."\
+  "Всем запрещено надевать форму и снаряжение противника."
+  m_aVisibleForFactions {
+   "" "FIA" "US"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords -3186.611 191.016 593.801
+  m_sTitle "Задача"
+  m_sTextData "Удержать главное здание от атаки американцев."
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ {
+  coords -3181.465 189.788 587.929
+  m_sTitle "Задача"
+  m_sTextData "Взять под контроль главное здание электростанции."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

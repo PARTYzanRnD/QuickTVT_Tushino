@@ -29,6 +29,19 @@ PS_GameModeQuickTvT PS_GameMode_QuickTvT1 : "{FF0F19DC6E834F3D}Prefabs/MP/Modes/
  m_iBriefingTime 10000
  m_iGameTime 480000
  m_iDebriefingTime 6000
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
 }
 GenericEntity {
  components {

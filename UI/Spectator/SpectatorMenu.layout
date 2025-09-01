@@ -1,0 +1,18 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{60FB0D68406887B8}" : "{87B2D101836B57E9}UI/StepTimer.layout" {
+   Name "Overlay0"
+   Slot FrameWidgetSlot "{60FB0D629D416921}" {
+    Anchor 0 0 1 0
+    PositionX 0
+    OffsetLeft 0
+    PositionY 30
+    OffsetTop 30
+    SizeX 0
+    OffsetRight 0
+    SizeY 96
+    OffsetBottom -126
+   }
+  }
+ }
+}

@@ -7,13 +7,24 @@ PS_GameModeQuickTvT : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" 
   }
  }
  m_bAdminMode 1
- m_bRemoveRedundantUnits 1
- m_bRemoveSquadMarkers 1
  m_iFreezeTime 45000
- m_bFriendliesSpectatorOnly 1
  m_iFactionsBalance 4
  m_iSlotsTime 60000
  m_iBriefingTime 90000
  m_iGameTime 1200000
  m_iDebriefingTime 24000
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+    }
+    SCR_Faction "{623962205CE2B89C}" {
+    }
+   }
+  }
+ }
 }

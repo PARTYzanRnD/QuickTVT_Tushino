@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0F469749818A90B1}Worlds/QuickTvT_MPTest_2/QuickTvT_MPTest_2.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

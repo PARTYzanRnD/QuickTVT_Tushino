@@ -1,0 +1,58 @@
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "" "US" "USSR" "RHS_USAF" "RHS_AFRF"
+   }
+  }
+ }
+ coords 2303.879 90.216 1249.512
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.064 -0.258 -0.231
+  }
+  ShapePoint "{60FEFEA232B44B52}" {
+   Position 6.334 -0.566 -4.238
+  }
+  ShapePoint "{60FEFEA235FD6321}" {
+   Position -4.251 -1.138 -20.645
+  }
+  ShapePoint "{60FEFEA238C80FA5}" {
+   Position -16.787 -0.332 -12.892
+  }
+  ShapePoint "{60FEFEA23A64BAE8}" {
+   Position -13.083 -0.184 -7.075
+  }
+  ShapePoint "{60FEFEA23FA7747F}" {
+   Position -6.723 -0.534 -11.297
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture CaptureTrigger {
+   ID "60E906126F14C7A8"
+   "Polyline Height" 15
+   m_polyZoneEffect PS_PolyZoneEffectTriggerCapture "{60FD404BA423B7C5}" {
+    m_sTriggerName "CaptureTrigger"
+   }
+   m_sCurrentFaction "RHS_USAF"
+   m_bEasyTake 1
+   m_bTimeLoss 1
+  }
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Удержать дачу чиновника"
+   m_sTextData ""
+   m_sFactionKey "RHS_USAF"
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить дачу чиновника"
+   m_sTextData ""
+   m_sFactionKey "RHS_AFRF"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

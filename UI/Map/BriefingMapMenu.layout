@@ -1,0 +1,8 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5EE8EEC3453BB107}" {
+   Prefab "{5EE8EEC3453BB107}"
+   "Is Visible" 0
+  }
+ }
+}

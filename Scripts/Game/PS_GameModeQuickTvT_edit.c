@@ -1,6 +1,6 @@
 modded class PS_GameModeQuickTvT : PS_GameModeCoop
 {
-	/*override void EOnFrame(IEntity owner, float timeSlice)
+	override void EOnFrame(IEntity owner, float timeSlice)
 	{
 		
 		PS_GameModeQuickTvT gameModeCoop = PS_GameModeQuickTvT.Cast(GetGame().GetGameMode());
@@ -21,6 +21,40 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 			
 			Replication.BumpMe();
 		}
+	}
+	
+	/*
+	override void OnGameStateChanged()
+	{
+		super.OnGameStateChanged();
+		
+		SCR_EGameModeState state = GetState();
+		switch (state) 
+		{
+			case SCR_EGameModeState.PREGAME:
+				m_iStepTime = m_iPreviewTime;
+				break;
+			case SCR_EGameModeState.SLOTSELECTION:
+				m_iStepTime = m_iSlotsTime;
+				break;
+			case SCR_EGameModeState.CUTSCENE:
+				break;
+			case SCR_EGameModeState.BRIEFING:
+				m_iStepTime = m_iBriefingTime;
+				break;
+			case SCR_EGameModeState.GAME:
+				if (Replication.IsServer())
+					GetGame().GetCallqueue().CallLater(CheckAlive, 3000, true);
+				m_iStepTime = m_iGameTime;
+				break;
+			case SCR_EGameModeState.DEBRIEFING:
+				GetGame().GetCallqueue().Remove(CheckAlive);
+				m_iStepTime = m_iDebriefingTime;
+				break;
+			case SCR_EGameModeState.POSTGAME:
+				ChangeToNextMission();
+				break;
+		}
 	}*/
 	override bool CanJoinFaction(FactionKey factionKeyPlayer, FactionKey currentFaction)
 	{
@@ -36,7 +70,7 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 		array<PS_PlayableContainer> playableComponents = m_playableManager.GetPlayablesSorted();
 		
 		int playablesammount = 0;
-		int factionplayers = 0;
+		//int factionplayers = 0;
 		foreach (PS_PlayableContainer playable : playableComponents)
 		{
 			playablesammount = playablesammount + 1;
@@ -52,7 +86,7 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 			{
 				players[factionKey] = players[factionKey] + 1;
 				Print("----players[factionKey]: " + players[factionKey]);
-				factionplayers = factionplayers + 1;
+				//factionplayers = factionplayers + 1;
 			}
 			
 		}
@@ -65,11 +99,19 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 			Print("----playablesammount: " + playablesammount + " count: " + count);
 			desiredratio[factionKey] = count / playablesammount; 
 		}
-		int adjfactionsbalance = Math.Clamp(m_iFactionsBalance,0,(playersCount / 2));
+		//int adjfactionsbalance = Math.Clamp(m_iFactionsBalance,1,(1 + playersCount / 10));
+		int adjfactionsbalance = Math.Clamp(m_iFactionsBalance,1,(playersCount / 10));
 		Print("----clamp: " + adjfactionsbalance + " (playersCount / 10): " + (playersCount / 10));
 		
-		float ratio = players[factionKeyPlayer] / (factionplayers + 1 + adjfactionsbalance);
-		Print("----ratio " + ratio + " desiredratio[factionKeyPlayer] " + desiredratio[factionKeyPlayer] + " factionplayers: " + factionplayers + " players[factionKeyPlayer]: " + players[factionKeyPlayer]);
+		if (players[factionKeyPlayer] < 1)
+		{
+			Print("----players[factionKeyPlayer] < 1" + players[factionKeyPlayer]);
+			return true;
+		}
+		//float ratio = (players[factionKeyPlayer] + 1 - adjfactionsbalance) / Math.Max(factionplayers,3);
+		float ratio = (players[factionKeyPlayer] + 1 - adjfactionsbalance) / playersCount;
+		//float ratio = players[factionKeyPlayer] / (factionplayers + 1 + adjfactionsbalance);
+		Print("----ratio " + ratio + " desiredratio[factionKeyPlayer] " + desiredratio[factionKeyPlayer] + " playersCount: " + playersCount + " players[factionKeyPlayer]: " + players[factionKeyPlayer]);
 		return ratio <= desiredratio[factionKeyPlayer];
 		// Scale
 		/*int minFaction = 999;
@@ -87,7 +129,38 @@ modded class PS_GameModeQuickTvT : PS_GameModeCoop
 			
 		return diff <= m_iFactionsBalance;*/
 	}
-	
+	/*
+	void ChangeToNextMission()
+	{
+		int playersCount = m_PlayerManager.GetPlayerCount();
+		
+		// Get next mission
+		m_iMissionNum++;
+		if (m_iMissionNum >= m_QuickTvTMissionsConfig.Missions.Count())
+		{
+			m_iMissionNum = 0;
+			m_QuickTvTMissionsConfig.SortRandom();
+		}
+		PS_QuickTvTMission mission = m_QuickTvTMissionsConfig.Missions[m_iMissionNum];
+		
+		// skip to next valide
+		int i = 0;
+		while (mission.MinPlayers > playersCount || mission.MaxPlayers < playersCount)
+		{
+			i++;
+			if (i > 100) break;
+			
+			m_iMissionNum++;
+			if (m_iMissionNum >= m_QuickTvTMissionsConfig.Missions.Count())
+			{
+				m_iMissionNum = 0;
+				m_QuickTvTMissionsConfig.SortRandom();
+			}
+			
+			mission = m_QuickTvTMissionsConfig.Missions[m_iMissionNum];
+		}
+		GameStateTransitions.RequestScenarioChangeTransition(mission.MissionConfig, "");
+	}*/
 	
 };
 
@@ -176,7 +249,7 @@ modded class PS_CharacterSelector : SCR_ButtonComponent
 		PS_GameModeCoop gameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
 		if (m_PlayableContainer)
 		{
-			if (!gameModeCoop.CanJoinFaction(m_sFactionKey, m_PlayableManager.GetPlayerFactionKey(m_iCurrentPlayerId)))
+			if (!PS_PlayersHelper.IsAdminOrServer() && !gameModeCoop.CanJoinFaction(m_sFactionKey, m_PlayableManager.GetPlayerFactionKey(m_iCurrentPlayerId)))
 				return false;
 		}
 		return true;
